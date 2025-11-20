@@ -49,6 +49,10 @@ jobs:
           cache: 'pip'
           cache-dependency-path: requirements.txt
 
+      - name: Dar permissão a todos os scripts
+        run: 
+          chmod +x .github/scripts/*
+
       # 2- Install dependencies
 
       - name: Install Transifex CLI tool
