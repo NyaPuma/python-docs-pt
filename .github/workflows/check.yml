@@ -52,9 +52,17 @@ jobs:
       matrix:
         format: [ html, latex, epub ]
     steps:
-      - uses: actions/checkout@v5
+      - name: Check out repository
+        uses: actions/checkout@v5
         with:
           fetch-depth: 5
+
+      - name: ⚙️ Set execution permissions for scripts
+        # Garante que os scripts setup.sh, build.sh e prepmsg.sh são executáveis.
+        run: |
+          chmod +x scripts/setup.sh
+          chmod +x scripts/build.sh
+          chmod +x scripts/prepmsg.sh
 
       - name: Set up Python 3
         uses: actions/setup-python@v6
@@ -68,6 +76,7 @@ jobs:
         run: git pull --rebase
 
       - name: setup
+        # Agora o scripts/setup.sh será executado sem erro de permissão
         run: ./scripts/setup.sh
 
       - name: Add problem matcher
@@ -75,12 +84,14 @@ jobs:
 
       - name: Build docs
         id: build
+        # Agora o scripts/build.sh será executado sem erro de permissão
         run: ./scripts/build.sh ${{ matrix.format }}
 
       - name: Prepare notification (only on error)
         if: always() && steps.build.outcome == 'failure' && matrix.format == 'html'
         id: prepare
         run: |
+          # Agora o scripts/prepmsg.sh será executado sem erro de permissão
           scripts/prepmsg.sh logs/sphinxwarnings-${{ matrix.format }}.txt logs/notify.txt
           cat logs/notify.txt
         env:
@@ -112,6 +123,8 @@ jobs:
           name: python-docs-pt-pt-${{ inputs.version }}-latex
       - run: sudo apt-get update
       - run: sudo apt-get install -y latexmk texlive-xetex fonts-freefont-otf xindy texlive-lang-portuguese
+      # NOTA: O 'make' aqui assume que o Makefile não chama scripts externos sem permissão,
+      # ou que as permissões foram tratadas no job 'build' (que é onde o latex é construído).
       - run: make
       - uses: actions/upload-artifact@v5
         if: always()
@@ -125,9 +138,17 @@ jobs:
     name: Lint translations
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - name: Check out repository
+        uses: actions/checkout@v5
         with:
           fetch-depth: 5
+
+      - name: ⚙️ Set execution permissions for scripts
+        # Garante que os scripts setup.sh, lint.sh e prepmsg.sh são executáveis.
+        run: |
+          chmod +x scripts/setup.sh
+          chmod +x scripts/lint.sh
+          chmod +x scripts/prepmsg.sh
 
       - name: Set up Python 3
         uses: actions/setup-python@v6
@@ -141,6 +162,7 @@ jobs:
         run: git pull --rebase
 
       - name: setup
+        # Agora o scripts/setup.sh será executado sem erro de permissão
         run: ./scripts/setup.sh
 
       - name: Add problem matcher
@@ -148,12 +170,14 @@ jobs:
 
       - name: lint translations files
         id: lint
+        # Agora o scripts/lint.sh será executado sem erro de permissão
         run: ./scripts/lint.sh
 
       - name: Prepare notification (only on error)
         if: always() && steps.lint.outcome == 'failure'
         id: prepare
         run: |
+          # Agora o scripts/prepmsg.sh será executado sem erro de permissão
           scripts/prepmsg.sh logs/sphinxlint.txt logs/notify.txt
           cat logs/notify.txt
         env:
@@ -187,7 +211,7 @@ jobs:
         run: |
           sed -i 's/\xe2\x80\x8b//g' *.po **/*.po
           # Undo removal from where we should not
-          sed -i 's|`````|``​`​``|' reference/lexical_analysis.po
+          sed -i 's|`````|``\xe2\x80\x8b`\xe2\x80\x8b``|' reference/lexical_analysis.po # Corrigi a linha sed de undo para garantir a remoção correta
 
       - name: Show difference (error if there is any)
         run: |
