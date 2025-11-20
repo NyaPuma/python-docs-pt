@@ -1,6 +1,6 @@
 # python-docs-pt-pt
 
-Olá! Este é o repositório da tradução pt-pt da documentação Python.
+Olá! Este é o repositório da tradução pt-pt 🇵🇹 da documentação Python.
 
 **You can refer to the following resources throughout this journey:**
 
