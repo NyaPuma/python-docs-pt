@@ -63,19 +63,16 @@ jobs:
 
       # 2.1 - Garantir permissão de execução aos scripts
       - name: Dar permissão a todos os scripts
-        run: chmod +x .github/scripts/*.sh
+        run: chmod +x $GITHUB_WORKSPACE/scripts/*.sh
 
       # 3- Pull translations
 
-      - name: Run prepare.sh safely
-        run: |
-          cp $GITHUB_WORKSPACE/.github/scripts/prepare.sh /tmp/prepare.sh
-          chmod +x /tmp/prepare.sh
-          /tmp/prepare.sh
-          
+      - name: Run prepare.sh
+        run: bash $GITHUB_WORKSPACE/scripts/prepare.sh
+
       - name: Generate updated .tx/config
         if: ${{ contains(fromJSON('["schedule", "workflow_dispatch"]'), github.event_name) }}
-        run: python scripts/generate_txconfig.py -p ./${{ env.PYDOC_LANG_DIR }} ${{ env.PYDOC_TX_PROJECT }}
+        run: python $GITHUB_WORKSPACE/scripts/generate_txconfig.py -p ./${{ env.PYDOC_LANG_DIR }} ${{ env.PYDOC_TX_PROJECT }}
         env:
           TX_TOKEN: ${{ secrets.TX_TOKEN }}
 
@@ -85,7 +82,7 @@ jobs:
         run: |
           # Clean up obsolete files
           find ./${{ env.PYDOC_LANG_DIR }} -name '*.po' -exec rm {} \;
-          bash ./scripts/pull_translations.sh
+          bash $GITHUB_WORKSPACE/scripts/pull_translations.sh
         env:
           TX_TOKEN: ${{ secrets.TX_TOKEN }}
 
