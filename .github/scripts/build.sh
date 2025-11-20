@@ -1,18 +1,35 @@
-#!/bin/bash
+#!/bin/sh
+# Build translated docs
+# Expects input like 'html' and 'latex', defaults to 'html'.
+#
+# SPDX-License-Identifier: CC0-1.0
 
-set -e
-set -u
-set -o pipefail
+set -xeu
 
-error() {
-  while read -r line; do
-    echo
-    echo ::error::"$line"
-  done
-}
+if [ -z "$1" ]; then
+  format=html
+else
+  format="$1"
+fi
 
-cd cpython/Doc || exit 1
-mkdir -p locales/"$LOCALE"/
-ln -sfn "$(realpath ../../docs)" locales/"$LOCALE"/LC_MESSAGES
-pip3 install -q -r requirements.txt
-sphinx-build -b dummy -d build/doctrees  -j auto -D language=$LOCALE -D gettext_compact=0 -E --keep-going -W . build/html 2> >(error)
+# Fail earlier if required variables are not set
+test -n ${PYDOC_LANGUAGE+x}
+
+cd "$(dirname $0)/.."
+mkdir -p logs
+
+# If version is 3.12 or older, set gettext_compact.
+# This confval is not needed since 3.12.
+# In 3.13, its presence messes 3.13's syntax checking (?)
+opts="-D language=${PYDOC_LANGUAGE} --keep-going -w ../../logs/sphinxwarnings-${format}.txt"
+minor_version=$(git -C cpython/Doc branch --show-current | sed 's|^3\.||')
+if [ $minor_version -lt 12 ]; then
+  opts="$opts -D gettext_compact=False"
+fi
+
+make -C cpython/Doc "${format}" SPHINXOPTS="${opts}"
+
+# Remove empty file
+if [ ! -s "logs/sphinxwarnings-${format}.txt" ]; then
+  rm "logs/sphinxwarnings-${format}.txt"
+fi
