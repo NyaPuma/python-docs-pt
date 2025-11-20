@@ -25,4 +25,4 @@ jobs:
         with:
           ref: ${{ matrix.version }}
       - uses: rffontenelle/sphinx-lint-problem-matcher@v1.0.0
-      - run: sphinx-lint
+      - run: sphinx-lint --ignore=**/*.po
