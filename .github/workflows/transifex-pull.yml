@@ -94,7 +94,7 @@ jobs:
                      -I'^"Language-Team: ' \
                      -I'^# ' -I'^"Last-Translator: ' \
                      --exit-code \
-              && echo "SIGNIFICANT_CHANGES=1" >> $GITHUB_ENV || exit 0
+              && echo "SIGNIFICANT_CHANGES=1" >> "$GITHUB_ENV" || exit 0
 
       - run: git add . ':!transifex-util.py'
 
