@@ -47,6 +47,13 @@ jobs:
           pwd
           ls -l python-docs-pt-pt/scripts
 
+      # Garantir que o arquivo .github/versions.txt exista e seja gravável
+      - name: Ensure .github/versions.txt exists and writable
+        run: |
+          mkdir -p .github
+          touch .github/versions.txt
+          chmod 666 .github/versions.txt
+
       # Executar manage_versions.py via python3
       - name: Update versions file
         run: |
