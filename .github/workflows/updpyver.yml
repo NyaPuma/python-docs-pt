@@ -45,7 +45,7 @@ jobs:
           pip3 install --upgrade pip
           pip3 install -r requirements.txt
 
-      # 🚀 FIX: Execução correta SEM ERRRO 126
+      # FIX: Execução correta SEM ERRRO 126
       - name: Update versions.txt file
         run: |
           python3 scripts/manage_versions.py update_versions_file
