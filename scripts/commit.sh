@@ -33,6 +33,15 @@ if [ -n "${untracked_files+x}" ]; then
   git add -v $untracked_files
 fi
 
+# Ensure .tx directory and config exist
+mkdir -p .tx
+[ -e .tx/config ] || touch .tx/config
+
+# Add extra files safely
+for f in $extra_files; do
+    [ -e "$f" ] && git add -v "$f"
+done
+
 # Debug in GitHub Actions
 set +u
 if [ -n "${CI+x}" ]; then
@@ -47,6 +56,5 @@ set -u
 
 # Commit only if there is any cached file
 if ! git diff-index --cached --quiet HEAD; then
-  git add -v $extra_files
   git commit -vm "$($rootdir/scripts/generate_commit_msg.py)"
 fi
