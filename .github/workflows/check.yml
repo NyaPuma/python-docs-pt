@@ -25,9 +25,6 @@ on:
         type: string
     # Segredos relacionados ao Telegram foram removidos
 
-permissions:
-  contents: read
-
 env:
   PYDOC_LANGUAGE: pt_PT
   PYDOC_REPO: ${{ github.server_url }}/${{ github.repository }}
