@@ -45,13 +45,9 @@ jobs:
       - name: Check scripts folder
         run: ls -l python-docs-pt-pt/scripts
 
-      # Ensure manage_versions.py is readable
-      - name: Ensure manage_versions.py is readable
-        run: chmod +r python-docs-pt-pt/scripts/manage_versions.py
-
-      # Update versions file using Python
+      # Update versions file using Python3 (prevents Permission denied)
       - name: Update versions file
-        run: python python-docs-pt-pt/scripts/manage_versions.py update_versions_file
+        run: python3 python-docs-pt-pt/scripts/manage_versions.py update_versions_file
 
       # Download Transifex helper script
       - run: curl -O https://raw.githubusercontent.com/python-docs-translations/transifex-automations/master/sample-workflows/transifex-util.py
