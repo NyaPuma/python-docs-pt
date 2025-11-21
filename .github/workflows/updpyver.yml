@@ -67,5 +67,5 @@ jobs:
           target_branch: main
           title: Update versions.txt
           body: "Changes have been detected to watched Python versions. Please review."
-          assignee: rffontenelle
+          assignee: NyaPuma
           get_diff: true
