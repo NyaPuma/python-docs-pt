@@ -82,8 +82,27 @@ def _clone_cpython_repo(version: str):
 
 
 def _build_gettext():
-    _call("make -C cpython/Doc/ gettext")
+    doc_dir = "cpython/Doc"
 
+    # Makefile location
+    makefile = Path(doc_dir) / "Makefile"
+
+    # Lê o Makefile da versão do CPython
+    with open(makefile) as f:
+        contents = f.read()
+
+    # Se o target 'gettext:' existir, usamos a build nova (3.12+)
+    if "gettext:" in contents:
+        _call(f"make -C {doc_dir} gettext")
+        return
+
+    # Para versões mais antigas: criar gettext via Sphinx diretamente
+    build_dir = Path(doc_dir) / "build"
+    build_dir.mkdir(parents=True, exist_ok=True)
+
+    _call(
+        f"sphinx-build -b gettext {doc_dir} {build_dir}/gettext"
+    )
 
 def _create_txconfig():
     _call("sphinx-intl create-txconfig")
