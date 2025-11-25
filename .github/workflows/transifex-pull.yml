@@ -27,9 +27,7 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          sudo apt-get update
-          sudo apt-get install -y gettext make
-          pip install requests cogapp polib transifex-python sphinx-intl blurb six sphinx
+          pip install requests cogapp polib transifex-python sphinx-intl blurb six
           curl -o- https://raw.githubusercontent.com/transifex/cli/master/install.sh | bash
         working-directory: /usr/local/bin
 
@@ -44,22 +42,7 @@ jobs:
       - run: chmod +x transifex-util.py
 
       # ---------------------------------------------------
-      #  CREATE GETTEXT BUILD FOR OLD VERSIONS (3.11 / 3.10)
-      # ---------------------------------------------------
-      - name: Ensure gettext directory exists for old branches
-        run: |
-          cd Doc
-          if [ ! -f Makefile ] || ! grep -q "^gettext:" Makefile; then
-              echo "Makefile has no gettext rule. Using sphinx-build directly."
-              mkdir -p build/gettext
-              sphinx-build -b gettext . build/gettext
-          else
-              echo "Makefile has gettext rule. Using make."
-              make gettext
-          fi
-
-      # ---------------------------------------------------
-      #  RUN THE TRANSIFEX SCRIPT
+      #  RUN TRANSIFEX SCRIPT (no Doc/, no make, no gettext)
       # ---------------------------------------------------
       - name: Recreate TX config
         run: ./transifex-util.py recreate_tx_config --language pt_PT --project-slug python-newest --version ${{ matrix.version }}
