@@ -24,7 +24,7 @@ msgstr ""
 "1000000 == 0 ? 1 : 2;\n"
 
 msgid "Data Types"
-msgstr "Tipos de Dados"
+msgstr ""
 
 msgid ""
 "The modules described in this chapter provide a variety of specialized data "

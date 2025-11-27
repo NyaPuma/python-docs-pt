@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# André Moreira <afrmscb@gmail.com>, 2025
+# NyaPuma <afrmscb@gmail.com>, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-13 14:15+0000\n"
+"POT-Creation-Date: 2025-11-25 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
-"Last-Translator: André Moreira <afrmscb@gmail.com>, 2025\n"
+"Last-Translator: NyaPuma <afrmscb@gmail.com>, 2025\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
 "teams/5390/pt_PT/)\n"
 "MIME-Version: 1.0\n"
@@ -75,13 +75,9 @@ msgid ""
 "provided Python to you). If you are the distributor, see :ref:`optional-"
 "module-requirements`."
 msgstr ""
-"Este é um :term:`módulo opcional`. Se estiver em falta na sua cópia do "
-"CPython, procure documentação junto do seu distribuidor (ou seja, quem lhe "
-"forneceu o Python). Se for o distribuidor, veja :ref:`optional-module-"
-"requirements`."
 
 msgid "Exceptions"
-msgstr "Exceções"
+msgstr ""
 
 msgid ""
 "This exception is raised when an error occurs during compression or "
@@ -517,7 +513,7 @@ msgid ""
 msgstr ""
 
 msgid "None"
-msgstr "Nenhum"
+msgstr ""
 
 msgid ":class:`!ZstdDict` internally caches the dictionary"
 msgstr ""
@@ -873,7 +869,7 @@ msgid "The following strategies are available:"
 msgstr ""
 
 msgid "Miscellaneous"
-msgstr "Diversos"
+msgstr ""
 
 msgid ""
 "Retrieve a :class:`FrameInfo` object containing metadata about a Zstandard "
@@ -902,7 +898,7 @@ msgid ""
 msgstr ""
 
 msgid "Examples"
-msgstr "Exemplos"
+msgstr ""
 
 msgid "Reading in a compressed file:"
 msgstr ""

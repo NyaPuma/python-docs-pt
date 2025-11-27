@@ -40,19 +40,19 @@ msgid "Constant Identifier"
 msgstr ""
 
 msgid "Value"
-msgstr "Valor"
+msgstr ""
 
 msgid "Returned object"
 msgstr ""
 
 msgid "``0``"
-msgstr "``0``"
+msgstr ""
 
 msgid ":py:data:`None`"
 msgstr ""
 
 msgid "``1``"
-msgstr "``1``"
+msgstr ""
 
 msgid ":py:data:`False`"
 msgstr ""
@@ -64,13 +64,13 @@ msgid ":py:data:`True`"
 msgstr ""
 
 msgid "``3``"
-msgstr "``3``"
+msgstr ""
 
 msgid ":py:data:`Ellipsis`"
 msgstr ""
 
 msgid "``4``"
-msgstr "``4``"
+msgstr ""
 
 msgid ":py:data:`NotImplemented`"
 msgstr ""
@@ -88,7 +88,7 @@ msgid "``''``"
 msgstr ""
 
 msgid "``8``"
-msgstr "``8``"
+msgstr ""
 
 msgid "``b''``"
 msgstr ""
@@ -522,9 +522,6 @@ msgid ""
 "c:expr:`const char*` UTF-8 encoded bytes string, rather than a :c:expr:"
 "`PyObject*`."
 msgstr ""
-"É o mesmo que :c:func:`PyObject_DelItem`, mas *key* é especificado como uma "
-"string de bytes codificada em UTF-8 :c:expr:`const char*`, em vez de :c:expr:"
-"`PyObject*`."
 
 msgid ""
 "This is equivalent to the Python expression ``dir(o)``, returning a "
@@ -566,7 +563,7 @@ msgid ""
 msgstr ""
 
 msgid "On error, set an exception and return ``NULL``."
-msgstr "Em caso de erro, define uma exceção e retorna ``NULL``."
+msgstr ""
 
 msgid ""
 "Return the size of the instance memory space reserved for *cls*, i.e. the "
@@ -801,28 +798,28 @@ msgid ""
 msgstr ""
 
 msgid "built-in function"
-msgstr "função incorporada"
+msgstr ""
 
 msgid "repr"
-msgstr "repr"
+msgstr ""
 
 msgid "ascii"
-msgstr "ascii"
+msgstr ""
 
 msgid "string"
-msgstr "string"
+msgstr ""
 
 msgid "PyObject_Str (C function)"
 msgstr ""
 
 msgid "bytes"
-msgstr "bytes"
+msgstr ""
 
 msgid "hash"
-msgstr "hash"
+msgstr ""
 
 msgid "type"
-msgstr "tipo"
+msgstr ""
 
 msgid "len"
-msgstr "len"
+msgstr ""

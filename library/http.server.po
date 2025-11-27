@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-21 14:14+0000\n"
+"POT-Creation-Date: 2025-11-25 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: NyaPuma <afrmscb@gmail.com>, 2025\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
@@ -39,14 +39,12 @@ msgid ""
 msgstr ""
 
 msgid "Availability"
-msgstr "Disponibilidade"
+msgstr ""
 
 msgid ""
 "This module does not work or is not available on WebAssembly. See :ref:`wasm-"
 "availability` for more information."
 msgstr ""
-"Este módulo não funciona ou não está disponível em WebAssembly. Consulte :"
-"ref:`wasm-availability` para mais informações."
 
 msgid ""
 "One class, :class:`HTTPServer`, is a :class:`socketserver.TCPServer` "
@@ -552,7 +550,7 @@ msgid ""
 msgstr ""
 
 msgid "Command-line interface"
-msgstr "Interface de linha de comandos"
+msgstr ""
 
 msgid ""
 ":mod:`http.server` can also be invoked directly using the :option:`-m` "
@@ -564,7 +562,7 @@ msgid "python -m http.server [OPTIONS] [port]"
 msgstr ""
 
 msgid "The following options are accepted:"
-msgstr "As seguintes opções são aceites:"
+msgstr ""
 
 msgid ""
 "The server listens to port 8000 by default. The default can be overridden by "
@@ -650,7 +648,7 @@ msgid "This option requires `--tls-cert`` to be specified."
 msgstr ""
 
 msgid "Security considerations"
-msgstr "Considerações de segurança"
+msgstr ""
 
 msgid ""
 ":class:`SimpleHTTPRequestHandler` will follow symbolic links when handling "
@@ -676,10 +674,10 @@ msgid "server"
 msgstr ""
 
 msgid "HTTP"
-msgstr "HTTP"
+msgstr ""
 
 msgid "protocol"
-msgstr "protocolo"
+msgstr ""
 
 msgid "URL"
 msgstr ""
@@ -688,7 +686,7 @@ msgid "httpd"
 msgstr ""
 
 msgid "http.server"
-msgstr "http.server"
+msgstr ""
 
 msgid "security"
 msgstr ""

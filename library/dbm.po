@@ -82,7 +82,7 @@ msgid "Open a database and return the corresponding database object."
 msgstr ""
 
 msgid "Parameters"
-msgstr "Parâmetros"
+msgstr ""
 
 msgid ""
 "The database file to open.  If the database file already exists, the :func:"
@@ -193,7 +193,7 @@ msgid ""
 msgstr ""
 
 msgid "Module :mod:`shelve`"
-msgstr "Módulo :mod:`shelve`"
+msgstr ""
 
 msgid "Persistence module which stores non-string data."
 msgstr ""
@@ -215,14 +215,12 @@ msgid ""
 msgstr ""
 
 msgid "Availability"
-msgstr "Disponibilidade"
+msgstr ""
 
 msgid ""
 "This module does not work or is not available on WebAssembly. See :ref:`wasm-"
 "availability` for more information."
 msgstr ""
-"Este módulo não funciona ou não está disponível em WebAssembly. Consulte :"
-"ref:`wasm-availability` para mais informações."
 
 msgid "Open an SQLite database."
 msgstr ""
@@ -269,8 +267,6 @@ msgid ""
 "This module is not supported on :ref:`mobile platforms <mobile-"
 "availability>` or :ref:`WebAssembly platforms <wasm-availability>`."
 msgstr ""
-"Este módulo não é suportado em :ref:`plataformas móveis <mobile-"
-"availability>` ou :ref:`plataformas WebAssembly <wasm-availability>`."
 
 msgid ""
 "Raised on :mod:`dbm.gnu`-specific errors, such as I/O errors. :exc:"
@@ -321,7 +317,7 @@ msgid ""
 msgstr ""
 
 msgid "Raises"
-msgstr "Lança"
+msgstr ""
 
 msgid "If an invalid *flag* argument is passed."
 msgstr ""

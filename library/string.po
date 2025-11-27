@@ -5,16 +5,16 @@
 #
 # Translators:
 # python-doc bot, 2025
-# André Moreira <afrmscb@gmail.com>, 2025
+# NyaPuma <afrmscb@gmail.com>, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-17 14:14+0000\n"
+"POT-Creation-Date: 2025-11-25 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
-"Last-Translator: André Moreira <afrmscb@gmail.com>, 2025\n"
+"Last-Translator: NyaPuma <afrmscb@gmail.com>, 2025\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
 "teams/5390/pt_PT/)\n"
 "MIME-Version: 1.0\n"
@@ -31,10 +31,10 @@ msgid "**Source code:** :source:`Lib/string/__init__.py`"
 msgstr ""
 
 msgid ":ref:`textseq`"
-msgstr ":ref:`textseq`"
+msgstr ""
 
 msgid ":ref:`string-methods`"
-msgstr ":ref:`string-methods`"
+msgstr ""
 
 msgid "String constants"
 msgstr ""
@@ -299,7 +299,7 @@ msgid ""
 msgstr ""
 
 msgid "Some examples::"
-msgstr "Alguns exemplos::"
+msgstr ""
 
 msgid ""
 "\"Harold's a clever {0!s}\"        # Calls str() on the argument first\n"
@@ -372,10 +372,10 @@ msgid "The meaning of the various alignment options is as follows:"
 msgstr ""
 
 msgid "Option"
-msgstr "Opção"
+msgstr ""
 
 msgid "Meaning"
-msgstr "Significado"
+msgstr ""
 
 msgid "``'<'``"
 msgstr ""
@@ -422,7 +422,7 @@ msgid ""
 msgstr ""
 
 msgid "``'+'``"
-msgstr "``'+'``"
+msgstr ""
 
 msgid ""
 "Indicates that a sign should be used for both positive as well as negative "
@@ -430,7 +430,7 @@ msgid ""
 msgstr ""
 
 msgid "``'-'``"
-msgstr "``'-'``"
+msgstr ""
 
 msgid ""
 "Indicates that a sign should be used only for negative numbers (this is the "
@@ -438,7 +438,7 @@ msgid ""
 msgstr ""
 
 msgid "space"
-msgstr "espaço"
+msgstr ""
 
 msgid ""
 "Indicates that a leading space should be used on positive numbers, and a "
@@ -541,16 +541,16 @@ msgid "The available string presentation types are:"
 msgstr ""
 
 msgid "Type"
-msgstr "Tipo"
+msgstr ""
 
 msgid "``'s'``"
-msgstr "``'s'``"
+msgstr ""
 
 msgid "String format. This is the default type for strings and may be omitted."
 msgstr ""
 
 msgid "None"
-msgstr "Nenhum"
+msgstr ""
 
 msgid "The same as ``'s'``."
 msgstr ""
@@ -559,13 +559,13 @@ msgid "The available integer presentation types are:"
 msgstr ""
 
 msgid "``'b'``"
-msgstr "``'b'``"
+msgstr ""
 
 msgid "Binary format. Outputs the number in base 2."
 msgstr ""
 
 msgid "``'c'``"
-msgstr "``'c'``"
+msgstr ""
 
 msgid ""
 "Character. Converts the integer to the corresponding unicode character "
@@ -573,29 +573,27 @@ msgid ""
 msgstr ""
 
 msgid "``'d'``"
-msgstr "``'d'``"
+msgstr ""
 
 msgid "Decimal Integer. Outputs the number in base 10."
-msgstr "Inteiro Decimal. Mostra o número em base 10."
+msgstr ""
 
 msgid "``'o'``"
-msgstr "``'o'``"
+msgstr ""
 
 msgid "Octal format. Outputs the number in base 8."
-msgstr "Formato octal. Mostra o número em base 8."
+msgstr ""
 
 msgid "``'x'``"
-msgstr "``'x'``"
+msgstr ""
 
 msgid ""
 "Hex format. Outputs the number in base 16, using lower-case letters for the "
 "digits above 9."
 msgstr ""
-"Formato hexadecimal. Mostra o número em base 16, usando letras minúsculas "
-"para os dígitos acima de 9."
 
 msgid "``'X'``"
-msgstr "``'X'``"
+msgstr ""
 
 msgid ""
 "Hex format. Outputs the number in base 16, using upper-case letters for the "
@@ -627,7 +625,7 @@ msgid ""
 msgstr ""
 
 msgid "``'e'``"
-msgstr "``'e'``"
+msgstr ""
 
 msgid ""
 "Scientific notation. For a given precision ``p``, formats the number in "
@@ -641,7 +639,7 @@ msgid ""
 msgstr ""
 
 msgid "``'E'``"
-msgstr "``'E'``"
+msgstr ""
 
 msgid ""
 "Scientific notation. Same as ``'e'`` except it uses an upper case 'E' as the "
@@ -649,7 +647,7 @@ msgid ""
 msgstr ""
 
 msgid "``'f'``"
-msgstr "``'f'``"
+msgstr ""
 
 msgid ""
 "Fixed-point notation. For a given precision ``p``, formats the number as a "
@@ -661,7 +659,7 @@ msgid ""
 msgstr ""
 
 msgid "``'F'``"
-msgstr "``'F'``"
+msgstr ""
 
 msgid ""
 "Fixed-point notation. Same as ``'f'``, but converts ``nan`` to  ``NAN`` and "
@@ -669,7 +667,7 @@ msgid ""
 msgstr ""
 
 msgid "``'g'``"
-msgstr "``'g'``"
+msgstr ""
 
 msgid ""
 "General format.  For a given precision ``p >= 1``, this rounds the number to "
@@ -706,7 +704,7 @@ msgid ""
 msgstr ""
 
 msgid "``'G'``"
-msgstr "``'G'``"
+msgstr ""
 
 msgid ""
 "General format. Same as ``'g'`` except switches to ``'E'`` if the number "
@@ -720,7 +718,7 @@ msgid ""
 msgstr ""
 
 msgid "``'%'``"
-msgstr "``'%'``"
+msgstr ""
 
 msgid ""
 "Percentage. Multiplies the number by 100 and displays in fixed (``'f'``) "
@@ -1182,52 +1180,52 @@ msgid ""
 msgstr ""
 
 msgid "{} (curly brackets)"
-msgstr "{} (chavetas)"
+msgstr ""
 
 msgid "in string formatting"
 msgstr ""
 
 msgid ". (dot)"
-msgstr ". (ponto)"
+msgstr ""
 
 msgid "[] (square brackets)"
-msgstr "[] (parênteses retos)"
+msgstr ""
 
 msgid "! (exclamation)"
-msgstr "! (ponto de exclamação)"
+msgstr ""
 
 msgid ": (colon)"
-msgstr ": (dois pontos)"
+msgstr ""
 
 msgid "< (less)"
-msgstr "< (menor)"
+msgstr ""
 
 msgid "> (greater)"
-msgstr "> (maior)"
+msgstr ""
 
 msgid "= (equals)"
-msgstr "= (igual)"
+msgstr ""
 
 msgid "^ (caret)"
-msgstr "^ (acento circunflexo)"
+msgstr ""
 
 msgid "+ (plus)"
-msgstr "+ (mais)"
+msgstr ""
 
 msgid "- (minus)"
-msgstr "- (menos)"
+msgstr ""
 
 msgid "z"
 msgstr ""
 
 msgid "# (hash)"
-msgstr "# (cerquilha)"
+msgstr ""
 
 msgid ", (comma)"
-msgstr ", (vírgula)"
+msgstr ""
 
 msgid "_ (underscore)"
-msgstr "_ (sublinhado)"
+msgstr ""
 
 msgid "$ (dollar)"
 msgstr ""

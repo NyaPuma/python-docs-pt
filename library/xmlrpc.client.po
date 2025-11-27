@@ -50,14 +50,12 @@ msgid ""
 msgstr ""
 
 msgid "Availability"
-msgstr "Disponibilidade"
+msgstr ""
 
 msgid ""
 "This module does not work or is not available on WebAssembly. See :ref:`wasm-"
 "availability` for more information."
 msgstr ""
-"Este módulo não funciona ou não está disponível em WebAssembly. Consulte :"
-"ref:`wasm-availability` para mais informações."
 
 msgid ""
 "A :class:`ServerProxy` instance is an object that manages communication with "
@@ -124,13 +122,13 @@ msgid "XML-RPC type"
 msgstr ""
 
 msgid "Python type"
-msgstr "tipo Python"
+msgstr ""
 
 msgid "``boolean``"
-msgstr "``boolean``"
+msgstr ""
 
 msgid ":class:`bool`"
-msgstr ":class:`bool`"
+msgstr ""
 
 msgid "``int``, ``i1``, ``i2``,  ``i4``, ``i8`` or ``biginteger``"
 msgstr ""
@@ -150,7 +148,7 @@ msgid "``string``"
 msgstr ""
 
 msgid ":class:`str`"
-msgstr ":class:`str`"
+msgstr ""
 
 msgid "``array``"
 msgstr ""
@@ -343,7 +341,7 @@ msgid ""
 msgstr ""
 
 msgid "DateTime Objects"
-msgstr "Objetos DateTime"
+msgstr ""
 
 msgid ""
 "This class may be initialized with seconds since the epoch, a time tuple, an "
@@ -696,7 +694,7 @@ msgid "See :ref:`simplexmlrpcserver-example`."
 msgstr ""
 
 msgid "Footnotes"
-msgstr "Notas de rodapé"
+msgstr ""
 
 msgid ""
 "This approach has been first presented in `a discussion on xmlrpc.com "

@@ -25,28 +25,28 @@ msgstr ""
 "1000000 == 0 ? 1 : 2;\n"
 
 msgid "Stable"
-msgstr "Estável"
+msgstr ""
 
 msgid "In development"
-msgstr "Em desenvolvimento"
+msgstr ""
 
 msgid "This page"
-msgstr "Esta página"
+msgstr ""
 
 msgid "Report a bug"
-msgstr "Reportar um *bug*"
+msgstr ""
 
 msgid "Show source"
-msgstr "Mostrar código-fonte"
+msgstr ""
 
 msgid "Download"
-msgstr "Transferir"
+msgstr ""
 
 msgid "Download Python %(dl_version)s documentation"
-msgstr "Transferir a documentação do Python %(dl_version)s"
+msgstr ""
 
 msgid "Last updated on: %(last_updated)s."
-msgstr "Última atualização: %(last_updated)s."
+msgstr ""
 
 msgid ""
 "Download an archive containing all the documentation for this version of "
@@ -54,60 +54,53 @@ msgid ""
 msgstr ""
 
 msgid "Format"
-msgstr "Formato"
+msgstr ""
 
 msgid "Packed as .zip"
-msgstr "Comprimido como .zip"
+msgstr ""
 
 msgid "Packed as .tar.bz2"
-msgstr "Comprimido como .tar.bz2"
+msgstr ""
 
 msgid "HTML"
-msgstr "HTML"
+msgstr ""
 
 msgid ""
 "<a href=\"%(dl_base)s/python-%(dl_version)s-docs-html.zip\">Download</a>"
 msgstr ""
-"<a href=\"%(dl_base)s/python-%(dl_version)s-docs-html.zip\">Download</a>"
 
 msgid ""
 "<a href=\"%(dl_base)s/python-%(dl_version)s-docs-html.tar.bz2\">Download</a>"
 msgstr ""
-"<a href=\"%(dl_base)s/python-%(dl_version)s-docs-html.tar.bz2\">Download</a>"
 
 msgid "Plain text"
-msgstr "Texto simples"
+msgstr ""
 
 msgid ""
 "<a href=\"%(dl_base)s/python-%(dl_version)s-docs-text.zip\">Download</a>"
 msgstr ""
-"<a href=\"%(dl_base)s/python-%(dl_version)s-docs-text.zip\">Download</a>"
 
 msgid ""
 "<a href=\"%(dl_base)s/python-%(dl_version)s-docs-text.tar.bz2\">Download</a>"
 msgstr ""
-"<a href=\"%(dl_base)s/python-%(dl_version)s-docs-text.tar.bz2\">Download</a>"
 
 msgid "Texinfo"
-msgstr "Texinfo"
+msgstr ""
 
 msgid ""
 "<a href=\"%(dl_base)s/python-%(dl_version)s-docs-texinfo.zip\">Download</a>"
 msgstr ""
-"<a href=\"%(dl_base)s/python-%(dl_version)s-docs-texinfo.zip\">Download</a>"
 
 msgid ""
 "<a href=\"%(dl_base)s/python-%(dl_version)s-docs-texinfo.tar.bz2\">Download</"
 "a>"
 msgstr ""
-"<a href=\"%(dl_base)s/python-%(dl_version)s-docs-texinfo.tar.bz2\">Download</"
-"a>"
 
 msgid "EPUB"
-msgstr "EPUB"
+msgstr ""
 
 msgid "<a href=\"%(dl_base)s/python-%(dl_version)s-docs.epub\">Download</a>"
-msgstr "<a href=\"%(dl_base)s/python-%(dl_version)s-docs.epub\">Download</a>"
+msgstr ""
 
 msgid ""
 "\n"
@@ -118,13 +111,6 @@ msgid ""
 "and run <code>make dist-pdf</code> in the <code>Doc/</code> directory of a "
 "copy of the CPython repository.\n"
 msgstr ""
-"\n"
-"Não fornecemos mais PDFs pré-construídos da documentação.\n"
-"Para construir um ficheiro PDF, siga as instruções no\n"
-"<a href=\"https://devguide.python.org/documentation/start-documenting/"
-"#building-the-documentation\">Guia do Desenvolvedor</a>\n"
-"e execute <code>make dist-pdf</code> no diretório <code>Doc/</code> de uma "
-"cópia do repositório CPython.\n"
 
 msgid ""
 "\n"
@@ -132,65 +118,59 @@ msgid ""
 "listing</a>\n"
 "for file sizes."
 msgstr ""
-"\n"
-"Consulte <a href=\"https://docs.python.org/%(version)s/archives/\">directory "
-"listing</a>\n"
-"para tamanhos de ficheiros."
 
 msgid "Problems"
-msgstr "Problemas"
+msgstr ""
 
 msgid ""
 "<a href=\"%(bugs)s\">Open an issue</a>\n"
 "if you have comments or suggestions for the Python documentation."
 msgstr ""
-"<a href=\"%(bugs)s\">Open an issue</a>\n"
-"se tiver comentários ou sugestões para a documentação Python."
 
 msgid "Availability"
-msgstr "Disponibilidade"
+msgstr ""
 
 msgid "Part of the"
-msgstr "Parte da"
+msgstr ""
 
 msgid "Limited API"
-msgstr "API Limitada"
+msgstr ""
 
 msgid "Stable ABI"
-msgstr "ABI Estável"
+msgstr ""
 
 msgid "(as an opaque struct)"
-msgstr "(como uma estrutura opaca)"
+msgstr ""
 
 msgid "(including all members)"
-msgstr "(incluindo todos os membros)"
+msgstr ""
 
 msgid "since version %s"
-msgstr "desde a versão %s"
+msgstr ""
 
 msgid "(Only some members are part of the stable ABI.)"
-msgstr "(Apenas alguns membros fazem parte da ABI estável.)"
+msgstr ""
 
 msgid "This is"
-msgstr "Isto é"
+msgstr ""
 
 msgid "Unstable API"
-msgstr "API Instável"
+msgstr ""
 
 msgid ". It may change without warning in minor releases."
-msgstr ". Pode ser alterada sem aviso em versões secundárias."
+msgstr ""
 
 msgid "Return value: Always NULL."
-msgstr "Valor de retorno: Sempre NULL."
+msgstr ""
 
 msgid "Return value: New reference."
-msgstr "Valor de retorno: Nova referência."
+msgstr ""
 
 msgid "Return value: Borrowed reference."
-msgstr "Valor de retorno: Referência emprestada."
+msgstr ""
 
 msgid "CPython implementation detail:"
-msgstr "Detalhe de implementação do CPython:"
+msgstr ""
 
 msgid "Deprecated since version %s, will be removed in version %s"
 msgstr ""
@@ -199,202 +179,194 @@ msgid "Deprecated since version %s, removed in version %s"
 msgstr ""
 
 msgid "in development"
-msgstr "em desenvolvimento"
+msgstr ""
 
 msgid "pre-release"
-msgstr "pré-lançamento"
+msgstr ""
 
 msgid "stable"
-msgstr "estável"
+msgstr ""
 
 msgid "security-fixes"
-msgstr "correções de segurança"
+msgstr ""
 
 msgid "EOL"
-msgstr "Fim de vida útil"
+msgstr ""
 
 msgid "Welcome! This is the official documentation for Python %(release)s."
-msgstr "Bem-vindo! Esta é a documentação oficial do Python %(release)s."
+msgstr ""
 
 msgid "Documentation sections:"
-msgstr "Secções da documentação:"
+msgstr ""
 
 msgid "What's new in Python %(version)s?"
-msgstr "O que há de novo no Python %(version)s?"
+msgstr ""
 
 msgid ""
 "Or <a href=\"%(whatsnew_index)s\">all \"What's new\" documents since Python "
 "2.0</a>"
 msgstr ""
-"Ou <a href=\"%(whatsnew_index)s\">todos os documentos \"O que há de novo\" "
-"desde o\n"
-"Python 2.0</a>"
 
 msgid "Tutorial"
-msgstr "Tutorial"
+msgstr ""
 
 msgid "Start here: a tour of Python's syntax and features"
-msgstr "Comece aqui: uma visita guiada à sintaxe e funcionalidades do Python"
+msgstr ""
 
 msgid "Library reference"
-msgstr "Referência da biblioteca"
+msgstr ""
 
 msgid "Standard library and builtins"
-msgstr "Biblioteca padrão e funções integradas"
+msgstr ""
 
 msgid "Language reference"
-msgstr "Referência da linguagem"
+msgstr ""
 
 msgid "Syntax and language elements"
-msgstr "Sintaxe e elementos da linguagem"
+msgstr ""
 
 msgid "Python setup and usage"
-msgstr "Instalação e utilização do Python"
+msgstr ""
 
 msgid "How to install, configure, and use Python"
-msgstr "Como instalar, configurar e usar o Python"
+msgstr ""
 
 msgid "Python HOWTOs"
-msgstr "Guias práticos do Python"
+msgstr ""
 
 msgid "In-depth topic manuals"
-msgstr "Manuais temáticos aprofundados"
+msgstr ""
 
 msgid "Installing Python modules"
-msgstr "Instalar módulos Python"
+msgstr ""
 
 msgid "Third-party modules and PyPI.org"
-msgstr "Módulos de terceiros e PyPI.org"
+msgstr ""
 
 msgid "Distributing Python modules"
-msgstr "Distribuir módulos Python"
+msgstr ""
 
 msgid "Publishing modules for use by other people"
-msgstr "Publicar módulos para uso por outros programadores"
+msgstr ""
 
 msgid "Extending and embedding"
-msgstr "Estender e incorporar"
+msgstr ""
 
 msgid "For C/C++ programmers"
-msgstr "Para programadores C/C++"
+msgstr ""
 
 msgid "Python's C API"
-msgstr "API C do Python"
+msgstr ""
 
 msgid "C API reference"
-msgstr "Referência da API C"
+msgstr ""
 
 msgid "FAQs"
-msgstr "Perguntas frequentes"
+msgstr ""
 
 msgid "Frequently asked questions (with answers!)"
-msgstr "Perguntas frequentes (com respostas!)"
+msgstr ""
 
 msgid "Deprecations"
-msgstr "Funcionalidades obsoletas"
+msgstr ""
 
 msgid "Deprecated functionality"
-msgstr "Funcionalidade obsoleta"
+msgstr ""
 
 msgid "Indices, glossary, and search:"
-msgstr "Índices, glossário e pesquisa:"
+msgstr ""
 
 msgid "Global module index"
-msgstr "Índice global de módulos"
+msgstr ""
 
 msgid "All modules and libraries"
-msgstr "Todos os módulos e bibliotecas"
+msgstr ""
 
 msgid "General index"
-msgstr "Índice geral"
+msgstr ""
 
 msgid "All functions, classes, and terms"
-msgstr "Todas as funções, classes e termos"
+msgstr ""
 
 msgid "Glossary"
-msgstr "Glossário"
+msgstr ""
 
 msgid "Terms explained"
-msgstr "Termos explicados"
+msgstr ""
 
 msgid "Search page"
-msgstr "Página de pesquisa"
+msgstr ""
 
 msgid "Search this documentation"
-msgstr "Pesquisar nesta documentação"
+msgstr ""
 
 msgid "Complete table of contents"
-msgstr "Índice remissivo completo"
+msgstr ""
 
 msgid "Lists all sections and subsections"
-msgstr "Lista todas as secções e subsecções"
+msgstr ""
 
 msgid "Project information:"
-msgstr "Informações do projeto:"
+msgstr ""
 
 msgid "Reporting issues"
-msgstr "Reportar problemas"
+msgstr ""
 
 msgid "Contributing to docs"
-msgstr "Contribuir para a documentação"
+msgstr ""
 
 msgid "Download the documentation"
-msgstr "Transferir a documentação"
+msgstr ""
 
 msgid "History and license of Python"
-msgstr "Histórico e licença do Python"
+msgstr ""
 
 msgid "Copyright"
-msgstr "Direitos de autor"
+msgstr ""
 
 msgid "About the documentation"
-msgstr "Sobre a documentação"
+msgstr ""
 
 msgid "Download these documents"
-msgstr "Transferir estes documentos"
+msgstr ""
 
 msgid "Docs by version"
-msgstr "Documentação por versão"
+msgstr ""
 
 msgid "All versions"
-msgstr "Todas as versões"
+msgstr ""
 
 msgid "Other resources"
-msgstr "Outros recursos"
+msgstr ""
 
 msgid "PEP index"
-msgstr "Índice de PEPs"
+msgstr ""
 
 msgid "Beginner's guide"
-msgstr "Guia para iniciantes"
+msgstr ""
 
 msgid "Book list"
-msgstr "Lista de livros"
+msgstr ""
 
 msgid "Audio/visual talks"
-msgstr "Palestras áudio/visuais"
+msgstr ""
 
 msgid "Python developer’s guide"
-msgstr "Guia do programador Python"
+msgstr ""
 
 msgid ""
 "This document is for an old version of Python that is no longer supported.\n"
 "    You should upgrade, and read the"
 msgstr ""
-"Este documento é para uma versão antiga do Python que já não é suportada.\n"
-"Deve atualizar e ler a"
 
 msgid "Python documentation for the current stable release"
-msgstr "documentação do Python para a versão estável atual"
+msgstr ""
 
 msgid ""
 "This is a deploy preview created from a <a href=\"%(repository_url)s/pull/"
 "%(pr_id)s\">pull request</a>.\n"
 "  For authoritative documentation, see"
 msgstr ""
-"Esta é uma pré-visualização de implementação criada a partir de um\n"
-"<a href=\"%(repository_url)s/pull/%(pr_id)s\">*pull request*</a>.\n"
-"Para a documentação oficial, consulte a"
 
 msgid "the current stable release"
-msgstr "versão estável atual"
+msgstr ""

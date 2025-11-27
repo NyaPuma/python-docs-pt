@@ -396,7 +396,7 @@ msgid "This is currently equivalent to ``INT_MAX``."
 msgstr ""
 
 msgid "Compute the stack effect of *opcode* with argument *oparg*."
-msgstr "Calcular o efeito na pilha de *opcode* com argumento *oparg*."
+msgstr ""
 
 msgid ""
 "On success, this function returns the stack effect; on failure, this "

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-21 14:14+0000\n"
+"POT-Creation-Date: 2025-11-25 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: NyaPuma <afrmscb@gmail.com>, 2025\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
@@ -74,7 +74,7 @@ msgid ""
 msgstr ""
 
 msgid ":pep:`273` - Import Modules from Zip Archives"
-msgstr ":pep:`273` - Importação de Módulos a Partir de Arquivos ZIP"
+msgstr ""
 
 msgid ""
 "Written by James C. Ahlstrom, who also provided an implementation. Python "
@@ -145,7 +145,6 @@ msgstr ""
 
 msgid ":exc:`IOError` used to be raised, it is now an alias of :exc:`OSError`."
 msgstr ""
-":exc:`IOError` costumava ser levantado, agora é um alias de :exc:`OSError`."
 
 msgid ""
 "Return the value ``__file__`` would be set to if the specified module was "
@@ -170,7 +169,7 @@ msgid ""
 msgstr ""
 
 msgid "Use :meth:`exec_module` instead."
-msgstr "Use :meth:`exec_module` em vez disso."
+msgstr ""
 
 msgid ""
 "Clear out the internal cache of information about files found within the ZIP "
@@ -194,7 +193,7 @@ msgid ""
 msgstr ""
 
 msgid "Examples"
-msgstr "Exemplos"
+msgstr ""
 
 msgid ""
 "Here is an example that imports a module from a ZIP archive - note that the :"

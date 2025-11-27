@@ -27,7 +27,7 @@ msgid "Unicode HOWTO"
 msgstr ""
 
 msgid "Release"
-msgstr "Versão"
+msgstr ""
 
 msgid "1.12"
 msgstr ""
@@ -226,7 +226,7 @@ msgid ""
 msgstr ""
 
 msgid "References"
-msgstr "Referências"
+msgstr ""
 
 msgid ""
 "The `Unicode Consortium site <https://www.unicode.org>`_ has character "
@@ -981,7 +981,7 @@ msgid ""
 msgstr ""
 
 msgid "Acknowledgements"
-msgstr "Agradecimentos"
+msgstr ""
 
 msgid ""
 "The initial draft of this document was written by Andrew Kuchling. It has "

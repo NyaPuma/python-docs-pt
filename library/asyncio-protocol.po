@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# André Moreira <afrmscb@gmail.com>, 2025
+# NyaPuma <afrmscb@gmail.com>, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-17 14:14+0000\n"
+"POT-Creation-Date: 2025-11-25 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
-"Last-Translator: André Moreira <afrmscb@gmail.com>, 2025\n"
+"Last-Translator: NyaPuma <afrmscb@gmail.com>, 2025\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
 "teams/5390/pt_PT/)\n"
 "MIME-Version: 1.0\n"
@@ -27,7 +27,7 @@ msgid "Transports and Protocols"
 msgstr ""
 
 msgid "Preface"
-msgstr "Prefácio"
+msgstr ""
 
 msgid ""
 "Transports and Protocols are used by the **low-level** event loop APIs such "
@@ -45,7 +45,7 @@ msgid "This documentation page covers both `Transports`_ and `Protocols`_."
 msgstr ""
 
 msgid "Introduction"
-msgstr "Introdução"
+msgstr ""
 
 msgid ""
 "At the highest level, the transport is concerned with *how* bytes are "
@@ -79,10 +79,10 @@ msgid ""
 msgstr ""
 
 msgid "Contents"
-msgstr "Conteúdos"
+msgstr ""
 
 msgid "This documentation page contains the following sections:"
-msgstr "Esta página de documentação contém as seguintes secções:"
+msgstr ""
 
 msgid ""
 "The `Transports`_ section documents asyncio :class:`BaseTransport`, :class:"
@@ -102,7 +102,7 @@ msgid ""
 msgstr ""
 
 msgid "Transports"
-msgstr "Transportes"
+msgstr ""
 
 msgid "**Source code:** :source:`Lib/asyncio/transports.py`"
 msgstr ""
@@ -191,7 +191,7 @@ msgid "Base Transport"
 msgstr ""
 
 msgid "Close the transport."
-msgstr "Fecha o transporte."
+msgstr ""
 
 msgid ""
 "If the transport has a buffer for outgoing data, buffered data will be "
@@ -202,7 +202,7 @@ msgid ""
 msgstr ""
 
 msgid "Return ``True`` if the transport is closing or is closed."
-msgstr "Devolve ``True`` se o transporte estiver a fechar ou estiver fechado."
+msgstr ""
 
 msgid "Return information about the transport or underlying resources it uses."
 msgstr ""
@@ -287,7 +287,7 @@ msgid "``'subprocess'``: :class:`subprocess.Popen` instance"
 msgstr ""
 
 msgid "Set a new protocol."
-msgstr "Define um novo protocolo."
+msgstr ""
 
 msgid ""
 "Switching protocol should only be done when both protocols are documented to "
@@ -295,7 +295,7 @@ msgid ""
 msgstr ""
 
 msgid "Return the current protocol."
-msgstr "Devolve o protocolo atual."
+msgstr ""
 
 msgid "Read-only Transports"
 msgstr ""
@@ -408,7 +408,7 @@ msgid ""
 msgstr ""
 
 msgid "Datagram Transports"
-msgstr "Transportes de datagrama"
+msgstr ""
 
 msgid ""
 "Send the *data* bytes to the remote peer given by *addr* (a transport-"
@@ -430,7 +430,7 @@ msgid ""
 msgstr ""
 
 msgid "Subprocess Transports"
-msgstr "Transportes de subprocesso"
+msgstr ""
 
 msgid "Return the subprocess process id as an integer."
 msgstr ""
@@ -465,7 +465,7 @@ msgid ""
 msgstr ""
 
 msgid "Kill the subprocess."
-msgstr "Mata o subprocesso."
+msgstr ""
 
 msgid ""
 "On POSIX systems, the function sends SIGKILL to the subprocess. On Windows, "
@@ -481,7 +481,7 @@ msgid ""
 msgstr ""
 
 msgid "Stop the subprocess."
-msgstr "Para o subprocesso."
+msgstr ""
 
 msgid ""
 "On POSIX systems, this method sends :py:const:`~signal.SIGTERM` to the "
@@ -501,7 +501,7 @@ msgid ""
 msgstr ""
 
 msgid "Protocols"
-msgstr "Protocolos"
+msgstr ""
 
 msgid "**Source code:** :source:`Lib/asyncio/protocols.py`"
 msgstr ""
@@ -558,7 +558,7 @@ msgid ""
 msgstr ""
 
 msgid "Called when a connection is made."
-msgstr "Chamado quando uma ligação é estabelecida."
+msgstr ""
 
 msgid ""
 "The *transport* argument is the transport representing the connection.  The "
@@ -566,7 +566,7 @@ msgid ""
 msgstr ""
 
 msgid "Called when the connection is lost or closed."
-msgstr "Chamado quando a ligação é perdida ou fechada."
+msgstr ""
 
 msgid ""
 "The argument is either an exception object or :const:`None`. The latter "
@@ -669,7 +669,7 @@ msgid ""
 msgstr ""
 
 msgid "Buffered Streaming Protocols"
-msgstr "Protocolos de fluxo com *buffer*"
+msgstr ""
 
 msgid ""
 "Buffered Protocols can be used with any event loop method that supports "
@@ -690,7 +690,7 @@ msgid ""
 msgstr ""
 
 msgid "Called to allocate a new receive buffer."
-msgstr "Chamado para alocar um novo *buffer* de receção."
+msgstr ""
 
 msgid ""
 "*sizehint* is the recommended minimum size for the returned buffer.  It is "
@@ -705,7 +705,7 @@ msgid ""
 msgstr ""
 
 msgid "Called when the buffer was updated with the received data."
-msgstr "Chamado quando o *buffer* foi atualizado com os dados recebidos."
+msgstr ""
 
 msgid "*nbytes* is the total number of bytes that were written to the buffer."
 msgstr ""
@@ -733,7 +733,7 @@ msgid ""
 msgstr ""
 
 msgid "Datagram Protocols"
-msgstr "Protocolos de datagrama"
+msgstr ""
 
 msgid ""
 "Datagram Protocol instances should be constructed by protocol factories "
@@ -771,7 +771,7 @@ msgid ""
 msgstr ""
 
 msgid "Subprocess Protocols"
-msgstr "Protocolos de subprocesso"
+msgstr ""
 
 msgid ""
 "Subprocess Protocol instances should be constructed by protocol factories "
@@ -792,7 +792,6 @@ msgstr ""
 msgid ""
 "Called when one of the pipes communicating with the child process is closed."
 msgstr ""
-"Chamado quando um dos *pipes* que comunicam com o processo filho é fechado."
 
 msgid "*fd* is the integer file descriptor that was closed."
 msgstr ""
@@ -806,7 +805,7 @@ msgid ""
 msgstr ""
 
 msgid "Examples"
-msgstr "Exemplos"
+msgstr ""
 
 msgid "TCP Echo Server"
 msgstr ""

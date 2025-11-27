@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-23 14:12+0000\n"
+"POT-Creation-Date: 2025-11-25 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: NyaPuma <afrmscb@gmail.com>, 2025\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
@@ -838,7 +838,7 @@ msgid ":pep:`3151` - Reworking the OS and IO exception hierarchy"
 msgstr ""
 
 msgid "Warnings"
-msgstr "Avisos"
+msgstr ""
 
 msgid ""
 "The following exceptions are used as warning categories; see the :ref:"
@@ -907,7 +907,7 @@ msgid "Base class for warnings related to encodings."
 msgstr ""
 
 msgid "See :ref:`io-encoding-warning` for details."
-msgstr "Veja :ref:`io-encoding-warning` para detalhes."
+msgstr ""
 
 msgid ""
 "Base class for warnings related to :class:`bytes` and :class:`bytearray`."
@@ -1140,22 +1140,22 @@ msgid ""
 msgstr ""
 
 msgid "statement"
-msgstr "instrução"
+msgstr ""
 
 msgid "try"
-msgstr "try"
+msgstr ""
 
 msgid "except"
-msgstr "except"
+msgstr ""
 
 msgid "raise"
 msgstr ""
 
 msgid "exception"
-msgstr "exceção"
+msgstr ""
 
 msgid "chaining"
-msgstr "encadeamento"
+msgstr ""
 
 msgid "__cause__ (exception attribute)"
 msgstr ""
@@ -1170,7 +1170,7 @@ msgid "assert"
 msgstr ""
 
 msgid "module"
-msgstr "módulo"
+msgstr ""
 
 msgid "errno"
-msgstr "errno"
+msgstr ""

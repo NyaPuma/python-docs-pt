@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-23 14:12+0000\n"
+"POT-Creation-Date: 2025-11-25 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: NyaPuma <afrmscb@gmail.com>, 2025\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
@@ -49,7 +49,7 @@ msgid ""
 msgstr ""
 
 msgid "This module defines the following functions:"
-msgstr "Este módulo define as seguintes funções:"
+msgstr ""
 
 msgid ""
 "Read a TOML file. The first argument should be a readable and binary file "
@@ -81,7 +81,7 @@ msgid "Subclass of :exc:`ValueError` with the following additional attributes:"
 msgstr ""
 
 msgid "The unformatted error message."
-msgstr "A mensagem de erro não formatada."
+msgstr ""
 
 msgid "The TOML document being parsed."
 msgstr ""
@@ -104,7 +104,7 @@ msgid "Passing free-form positional arguments is deprecated."
 msgstr ""
 
 msgid "Examples"
-msgstr "Exemplos"
+msgstr ""
 
 msgid "Parsing a TOML file::"
 msgstr ""
@@ -146,25 +146,25 @@ msgid "dict"
 msgstr ""
 
 msgid "string"
-msgstr "string"
+msgstr ""
 
 msgid "str"
 msgstr ""
 
 msgid "integer"
-msgstr "inteiro"
+msgstr ""
 
 msgid "int"
-msgstr "int"
+msgstr ""
 
 msgid "float"
-msgstr "float"
+msgstr ""
 
 msgid "float (configurable with *parse_float*)"
 msgstr ""
 
 msgid "boolean"
-msgstr "booleano"
+msgstr ""
 
 msgid "bool"
 msgstr ""
@@ -196,10 +196,10 @@ msgid "datetime.time"
 msgstr ""
 
 msgid "array"
-msgstr "array"
+msgstr ""
 
 msgid "list"
-msgstr "lista"
+msgstr ""
 
 msgid "table"
 msgstr ""

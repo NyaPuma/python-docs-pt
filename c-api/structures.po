@@ -238,7 +238,7 @@ msgid ""
 msgstr ""
 
 msgid "The function signature is::"
-msgstr "A assinatura da função é::"
+msgstr ""
 
 msgid ""
 "PyObject *PyCFunction(PyObject *self,\n"
@@ -745,40 +745,40 @@ msgid "Macro name"
 msgstr ""
 
 msgid "C type"
-msgstr "tipo C"
+msgstr ""
 
 msgid "Python type"
-msgstr "tipo Python"
+msgstr ""
 
 msgid ":c:expr:`char`"
-msgstr ":c:expr:`char`"
+msgstr ""
 
 msgid ":py:class:`int`"
 msgstr ""
 
 msgid ":c:expr:`short`"
-msgstr ":c:expr:`short`"
+msgstr ""
 
 msgid ":c:expr:`int`"
-msgstr ":c:expr:`int`"
+msgstr ""
 
 msgid ":c:expr:`long`"
-msgstr ":c:expr:`long`"
+msgstr ""
 
 msgid ":c:expr:`long long`"
 msgstr ""
 
 msgid ":c:expr:`unsigned char`"
-msgstr ":c:expr:`unsigned char`"
+msgstr ""
 
 msgid ":c:expr:`unsigned int`"
-msgstr ":c:expr:`unsigned int`"
+msgstr ""
 
 msgid ":c:expr:`unsigned short`"
-msgstr ":c:expr:`unsigned short`"
+msgstr ""
 
 msgid ":c:expr:`unsigned long`"
-msgstr ":c:expr:`unsigned long`"
+msgstr ""
 
 msgid ":c:expr:`unsigned long long`"
 msgstr ""
@@ -787,13 +787,13 @@ msgid ":c:expr:`Py_ssize_t`"
 msgstr ""
 
 msgid ":c:expr:`float`"
-msgstr ":c:expr:`float`"
+msgstr ""
 
 msgid ":py:class:`float`"
 msgstr ""
 
 msgid ":c:expr:`double`"
-msgstr ":c:expr:`double`"
+msgstr ""
 
 msgid ":c:expr:`char` (written as 0 or 1)"
 msgstr ""
@@ -902,13 +902,13 @@ msgid ""
 msgstr ""
 
 msgid "built-in function"
-msgstr "função incorporada"
+msgstr ""
 
 msgid "classmethod"
-msgstr "método de classe"
+msgstr ""
 
 msgid "staticmethod"
-msgstr "método estático"
+msgstr ""
 
 msgid "READ_RESTRICTED (C macro)"
 msgstr ""

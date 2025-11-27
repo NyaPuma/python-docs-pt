@@ -5,16 +5,16 @@
 #
 # Translators:
 # python-doc bot, 2025
-# André Moreira <afrmscb@gmail.com>, 2025
+# NyaPuma <afrmscb@gmail.com>, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-17 14:14+0000\n"
+"POT-Creation-Date: 2025-11-25 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
-"Last-Translator: André Moreira <afrmscb@gmail.com>, 2025\n"
+"Last-Translator: NyaPuma <afrmscb@gmail.com>, 2025\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
 "teams/5390/pt_PT/)\n"
 "MIME-Version: 1.0\n"
@@ -67,7 +67,7 @@ msgid ""
 msgstr ""
 
 msgid "Return the current process-wide policy."
-msgstr "Devolve a política atual em todo o processo."
+msgstr ""
 
 msgid ""
 "The :func:`get_event_loop_policy` function is deprecated and will be removed "
@@ -109,7 +109,7 @@ msgid "Set the event loop for the current context to *loop*."
 msgstr ""
 
 msgid "Create and return a new event loop object."
-msgstr "Cria e devolve um novo objeto de ciclo de eventos."
+msgstr ""
 
 msgid ""
 "The :class:`AbstractEventLoopPolicy` class is deprecated and will be removed "
@@ -148,7 +148,7 @@ msgid ""
 msgstr ""
 
 msgid "Availability"
-msgstr "Disponibilidade"
+msgstr ""
 
 msgid ""
 "The :class:`WindowsSelectorEventLoopPolicy` class is deprecated and will be "

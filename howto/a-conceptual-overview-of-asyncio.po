@@ -25,17 +25,13 @@ msgstr ""
 "1000000 == 0 ? 1 : 2;\n"
 
 msgid "A Conceptual Overview of :mod:`!asyncio`"
-msgstr "Uma visão geral conceitual de :mod:`!asyncio`"
+msgstr ""
 
 msgid ""
 "This :ref:`HOWTO <how-tos>` article seeks to help you build a sturdy mental "
 "model of how :mod:`asyncio` fundamentally works, helping you understand the "
 "how and why behind the recommended patterns."
 msgstr ""
-"Este artigo :ref:`Como Fazer <how-tos>` tem como objetivo ajudá-lo a "
-"compilar um modelo mental sólido de como :mod:`asyncio` funciona "
-"fundamentalmente, ajudando-o a compreender o como e o porquê por trás dos "
-"padrões recomendados."
 
 msgid ""
 "You might be curious about some key :mod:`!asyncio` concepts. By the end of "
@@ -83,7 +79,7 @@ msgid ""
 msgstr ""
 
 msgid "Event Loop"
-msgstr "Ciclo de Eventos"
+msgstr ""
 
 msgid ""
 "Everything in :mod:`!asyncio` happens relative to the event loop. It's the "
@@ -235,7 +231,7 @@ msgid ""
 msgstr ""
 
 msgid "Tasks"
-msgstr "Tarefas"
+msgstr ""
 
 msgid ""
 "Roughly speaking, :ref:`tasks <asyncio-task-obj>` are coroutines (not "
@@ -322,7 +318,7 @@ msgid ""
 msgstr ""
 
 msgid "await"
-msgstr "aguardar"
+msgstr ""
 
 msgid ""
 ":keyword:`await` is a Python keyword that's commonly used in one of two "
@@ -564,7 +560,7 @@ msgid ""
 msgstr ""
 
 msgid "Futures"
-msgstr "Futures"
+msgstr ""
 
 msgid ""
 "A :ref:`future <asyncio-future-obj>` is an object meant to represent a "
