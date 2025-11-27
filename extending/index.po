@@ -50,7 +50,7 @@ msgid ""
 msgstr ""
 
 msgid "Recommended third party tools"
-msgstr "Ferramentas de terceiros recomendadas"
+msgstr ""
 
 msgid ""
 "This guide only covers the basic tools for creating extensions provided as "
@@ -70,7 +70,7 @@ msgid ""
 msgstr ""
 
 msgid ":pep:`489` -- Multi-phase extension module initialization"
-msgstr ":pep:`489` -- Inicialização do módulo de extensão multifásico"
+msgstr ""
 
 msgid "Embedding the CPython runtime in a larger application"
 msgstr ""

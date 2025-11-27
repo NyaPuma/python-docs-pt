@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-21 14:14+0000\n"
+"POT-Creation-Date: 2025-11-25 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: NyaPuma <afrmscb@gmail.com>, 2025\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
@@ -33,7 +33,7 @@ msgid ""
 msgstr ""
 
 msgid "Availability"
-msgstr "Disponibilidade"
+msgstr ""
 
 msgid ""
 "Group database entries are reported as a tuple-like object, whose attributes "
@@ -42,16 +42,16 @@ msgid ""
 msgstr ""
 
 msgid "Index"
-msgstr "Índice"
+msgstr ""
 
 msgid "Attribute"
-msgstr "Atributo"
+msgstr ""
 
 msgid "Meaning"
-msgstr "Significado"
+msgstr ""
 
 msgid "0"
-msgstr "0"
+msgstr ""
 
 msgid "gr_name"
 msgstr ""
@@ -60,7 +60,7 @@ msgid "the name of the group"
 msgstr ""
 
 msgid "1"
-msgstr "1"
+msgstr ""
 
 msgid "gr_passwd"
 msgstr ""
@@ -69,7 +69,7 @@ msgid "the (encrypted) group password; often empty"
 msgstr ""
 
 msgid "2"
-msgstr "2"
+msgstr ""
 
 msgid "gr_gid"
 msgstr ""
@@ -78,7 +78,7 @@ msgid "the numerical group ID"
 msgstr ""
 
 msgid "3"
-msgstr "3"
+msgstr ""
 
 msgid "gr_mem"
 msgstr ""

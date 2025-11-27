@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-19 19:26+0000\n"
+"POT-Creation-Date: 2025-11-25 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: NyaPuma <afrmscb@gmail.com>, 2025\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
@@ -304,7 +304,7 @@ msgid "Load MIME type information from the Windows registry."
 msgstr ""
 
 msgid "Availability"
-msgstr "Disponibilidade"
+msgstr ""
 
 msgid ""
 "Add a mapping from the MIME type *type* to the extension *ext*. Valid "
@@ -318,7 +318,7 @@ msgid ""
 msgstr ""
 
 msgid "Command-line usage"
-msgstr "Utilização na linha de comandos"
+msgstr ""
 
 msgid ""
 "The :mod:`!mimetypes` module can be executed as a script from the command "
@@ -329,10 +329,10 @@ msgid "python -m mimetypes [-h] [-e] [-l] type [type ...]"
 msgstr ""
 
 msgid "The following options are accepted:"
-msgstr "As seguintes opções são aceites:"
+msgstr ""
 
 msgid "Show the help message and exit."
-msgstr "Mostra a mensagem de ajuda e sai."
+msgstr ""
 
 msgid "Guess extension instead of type."
 msgstr ""
@@ -416,7 +416,7 @@ msgid "headers"
 msgstr ""
 
 msgid "file"
-msgstr "ficheiro"
+msgstr ""
 
 msgid "mime.types"
 msgstr ""

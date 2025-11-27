@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-21 14:14+0000\n"
+"POT-Creation-Date: 2025-11-25 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: NyaPuma <afrmscb@gmail.com>, 2025\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
@@ -35,7 +35,7 @@ msgid ""
 msgstr ""
 
 msgid "Availability"
-msgstr "Disponibilidade"
+msgstr ""
 
 msgid ""
 "Several functions in this module used to raise a :exc:`WindowsError`, which "
@@ -43,7 +43,7 @@ msgid ""
 msgstr ""
 
 msgid "Functions"
-msgstr "Funções"
+msgstr ""
 
 msgid "This module offers the following functions:"
 msgstr ""
@@ -208,19 +208,19 @@ msgid "The result is a tuple of 3 items:"
 msgstr ""
 
 msgid "Index"
-msgstr "Índice"
+msgstr ""
 
 msgid "Meaning"
-msgstr "Significado"
+msgstr ""
 
 msgid "``0``"
-msgstr "``0``"
+msgstr ""
 
 msgid "A string that identifies the value name"
 msgstr ""
 
 msgid "``1``"
-msgstr "``1``"
+msgstr ""
 
 msgid ""
 "An object that holds the value data, and whose type depends on the "
@@ -535,7 +535,7 @@ msgid ""
 msgstr ""
 
 msgid "Constants"
-msgstr "Constantes"
+msgstr ""
 
 msgid ""
 "The following constants are defined for use in many :mod:`winreg` functions."
@@ -786,7 +786,7 @@ msgid ""
 msgstr ""
 
 msgid "% (percent)"
-msgstr "% (percentagem)"
+msgstr ""
 
 msgid "environment variables expansion (Windows)"
 msgstr ""

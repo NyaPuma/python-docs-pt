@@ -27,7 +27,7 @@ msgid "Library and Extension FAQ"
 msgstr ""
 
 msgid "Contents"
-msgstr "Conteúdos"
+msgstr ""
 
 msgid "General Library Questions"
 msgstr ""
@@ -542,7 +542,7 @@ msgid ""
 msgstr ""
 
 msgid "Input and Output"
-msgstr "Entrada e saída"
+msgstr ""
 
 msgid "How do I delete a file? (And other file questions...)"
 msgstr ""
@@ -811,7 +811,7 @@ msgid "Are there any interfaces to database packages in Python?"
 msgstr ""
 
 msgid "Yes."
-msgstr "Sim."
+msgstr ""
 
 msgid ""
 "Interfaces to disk-based hashes such as :mod:`DBM <dbm.ndbm>` and :mod:`GDBM "

@@ -5,16 +5,16 @@
 #
 # Translators:
 # python-doc bot, 2025
-# André Moreira <afrmscb@gmail.com>, 2025
+# NyaPuma <afrmscb@gmail.com>, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-13 14:15+0000\n"
+"POT-Creation-Date: 2025-11-25 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
-"Last-Translator: André Moreira <afrmscb@gmail.com>, 2025\n"
+"Last-Translator: NyaPuma <afrmscb@gmail.com>, 2025\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
 "teams/5390/pt_PT/)\n"
 "MIME-Version: 1.0\n"
@@ -210,7 +210,7 @@ msgid ""
 msgstr ""
 
 msgid "Parameters"
-msgstr "Parâmetros"
+msgstr ""
 
 msgid "The Python object to be serialized."
 msgstr ""
@@ -356,7 +356,7 @@ msgid ""
 msgstr ""
 
 msgid "Raises"
-msgstr "Lança"
+msgstr ""
 
 msgid "When the data being deserialized is not a valid JSON document."
 msgstr ""
@@ -414,19 +414,19 @@ msgid "Python"
 msgstr ""
 
 msgid "object"
-msgstr "objeto"
+msgstr ""
 
 msgid "dict"
 msgstr ""
 
 msgid "array"
-msgstr "array"
+msgstr ""
 
 msgid "list"
-msgstr "lista"
+msgstr ""
 
 msgid "string"
-msgstr "string"
+msgstr ""
 
 msgid "str"
 msgstr ""
@@ -435,31 +435,31 @@ msgid "number (int)"
 msgstr ""
 
 msgid "int"
-msgstr "int"
+msgstr ""
 
 msgid "number (real)"
 msgstr ""
 
 msgid "float"
-msgstr "float"
+msgstr ""
 
 msgid "true"
-msgstr "verdadeiro"
+msgstr ""
 
 msgid "True"
-msgstr "Verdadeiro"
+msgstr ""
 
 msgid "false"
-msgstr "falso"
+msgstr ""
 
 msgid "False"
-msgstr "Falso"
+msgstr ""
 
 msgid "null"
 msgstr ""
 
 msgid "None"
-msgstr "Nenhum"
+msgstr ""
 
 msgid ""
 "It also understands ``NaN``, ``Infinity``, and ``-Infinity`` as their "
@@ -553,7 +553,7 @@ msgid "int, float, int- & float-derived Enums"
 msgstr ""
 
 msgid "number"
-msgstr "número"
+msgstr ""
 
 msgid "Added support for int- and float-derived Enum classes."
 msgstr ""
@@ -667,13 +667,13 @@ msgid ""
 msgstr ""
 
 msgid "Exceptions"
-msgstr "Exceções"
+msgstr ""
 
 msgid "Subclass of :exc:`ValueError` with the following additional attributes:"
 msgstr ""
 
 msgid "The unformatted error message."
-msgstr "A mensagem de erro não formatada."
+msgstr ""
 
 msgid "The JSON document being parsed."
 msgstr ""
@@ -854,7 +854,7 @@ msgid ""
 msgstr ""
 
 msgid "Command-line interface"
-msgstr "Interface de linha de comandos"
+msgstr ""
 
 msgid "**Source code:** :source:`Lib/json/tool.py`"
 msgstr ""
@@ -891,7 +891,7 @@ msgid ""
 msgstr ""
 
 msgid "Command-line options"
-msgstr "Opções de linha de comandos"
+msgstr ""
 
 msgid "The JSON file to be validated or pretty-printed:"
 msgstr ""
@@ -936,7 +936,7 @@ msgid "Show the help message."
 msgstr ""
 
 msgid "Footnotes"
-msgstr "Notas de rodapé"
+msgstr ""
 
 msgid ""
 "As noted in `the errata for RFC 7159 <https://www.rfc-editor.org/"

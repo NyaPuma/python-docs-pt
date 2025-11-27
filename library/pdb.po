@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-19 14:14+0000\n"
+"POT-Creation-Date: 2025-11-25 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: NyaPuma <afrmscb@gmail.com>, 2025\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
@@ -113,7 +113,7 @@ msgid ""
 msgstr ""
 
 msgid "Command-line interface"
-msgstr "Interface de linha de comandos"
+msgstr ""
 
 msgid ""
 "You can also invoke :mod:`pdb` from the command line to debug other "
@@ -156,7 +156,7 @@ msgid ""
 msgstr ""
 
 msgid "python -m pdb -p 1234"
-msgstr "python -m pdb -p 1234"
+msgstr ""
 
 msgid ""
 "Attaching to a process that is blocked in a system call or waiting for I/O "
@@ -738,7 +738,7 @@ msgid ""
 msgstr ""
 
 msgid "Example::"
-msgstr "Exemplo::"
+msgstr ""
 
 msgid ""
 "lst = []\n"
@@ -954,7 +954,7 @@ msgid ""
 msgstr ""
 
 msgid "Footnotes"
-msgstr "Notas de rodapé"
+msgstr ""
 
 msgid ""
 "Whether a frame is considered to originate in a certain module is determined "
@@ -968,10 +968,10 @@ msgid "Pdb (class in pdb)"
 msgstr ""
 
 msgid "module"
-msgstr "módulo"
+msgstr ""
 
 msgid "bdb"
-msgstr "bdb"
+msgstr ""
 
 msgid "cmd"
 msgstr ""
@@ -980,10 +980,10 @@ msgid ".pdbrc"
 msgstr ""
 
 msgid "file"
-msgstr "ficheiro"
+msgstr ""
 
 msgid "debugger"
-msgstr "depurador"
+msgstr ""
 
 msgid "configuration"
 msgstr ""

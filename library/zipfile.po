@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-21 14:14+0000\n"
+"POT-Creation-Date: 2025-11-25 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: NyaPuma <afrmscb@gmail.com>, 2025\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
@@ -113,7 +113,7 @@ msgid ""
 msgstr ""
 
 msgid "Support for file and file-like objects."
-msgstr "Suporte para ficheiros e objetos tipo ficheiro."
+msgstr ""
 
 msgid "The numeric constant for an uncompressed archive member."
 msgstr ""
@@ -421,7 +421,7 @@ msgid ""
 msgstr ""
 
 msgid "The *path* parameter accepts a :term:`path-like object`."
-msgstr "O parâmetro *path* aceita um :term:`objeto tipo caminho`."
+msgstr ""
 
 msgid ""
 "Extract all members from the archive to the current working directory.  "
@@ -845,19 +845,19 @@ msgid "The tuple contains:"
 msgstr ""
 
 msgid "Index"
-msgstr "Índice"
+msgstr ""
 
 msgid "Value"
-msgstr "Valor"
+msgstr ""
 
 msgid "``0``"
-msgstr "``0``"
+msgstr ""
 
 msgid "Year (>= 1980)"
 msgstr ""
 
 msgid "``1``"
-msgstr "``1``"
+msgstr ""
 
 msgid "Month (one-based)"
 msgstr ""
@@ -869,13 +869,13 @@ msgid "Day of month (one-based)"
 msgstr ""
 
 msgid "``3``"
-msgstr "``3``"
+msgstr ""
 
 msgid "Hours (zero-based)"
 msgstr ""
 
 msgid "``4``"
-msgstr "``4``"
+msgstr ""
 
 msgid "Minutes (zero-based)"
 msgstr ""
@@ -950,7 +950,7 @@ msgid "Size of the uncompressed file."
 msgstr ""
 
 msgid "Command-Line Interface"
-msgstr "Interface de Linha de Comandos"
+msgstr ""
 
 msgid ""
 "The :mod:`zipfile` module provides a simple command-line interface to "
@@ -966,7 +966,7 @@ msgid "$ python -m zipfile -c monty.zip spam.txt eggs.txt"
 msgstr ""
 
 msgid "Passing a directory is also acceptable:"
-msgstr "Passar um diretório também é aceitável:"
+msgstr ""
 
 msgid "$ python -m zipfile -c monty.zip life-of-brian_1979/"
 msgstr ""
@@ -986,7 +986,7 @@ msgid "$ python -m zipfile -l monty.zip"
 msgstr ""
 
 msgid "Command-line options"
-msgstr "Opções de linha de comandos"
+msgstr ""
 
 msgid "List files in a zipfile."
 msgstr ""

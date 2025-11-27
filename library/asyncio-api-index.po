@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-21 14:14+0000\n"
+"POT-Creation-Date: 2025-11-25 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: NyaPuma <afrmscb@gmail.com>, 2025\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
@@ -24,355 +24,319 @@ msgstr ""
 "1000000 == 0 ? 1 : 2;\n"
 
 msgid "High-level API Index"
-msgstr "Índice de API de alto nível"
+msgstr ""
 
 msgid "This page lists all high-level async/await enabled asyncio APIs."
 msgstr ""
-"Esta página lista todas as APIs *async/await* de alto nível do *asyncio*."
 
 msgid "Tasks"
-msgstr "Tarefas"
+msgstr ""
 
 msgid ""
 "Utilities to run asyncio programs, create Tasks, and await on multiple "
 "things with timeouts."
 msgstr ""
-"Utilitários para executar programas *asyncio*, criar tarefas e aguardar "
-"múltiplos objetos com *timeouts*."
 
 msgid ":func:`run`"
-msgstr ":func:`run`"
+msgstr ""
 
 msgid "Create event loop, run a coroutine, close the loop."
-msgstr "Cria um ciclo de eventos, executa uma corrotina e fecha o ciclo."
+msgstr ""
 
 msgid ":class:`Runner`"
-msgstr ":class:`Runner`"
+msgstr ""
 
 msgid "A context manager that simplifies multiple async function calls."
 msgstr ""
-"Um gestor de contexto que simplifica múltiplas chamadas a funções "
-"assíncronas."
 
 msgid ":class:`Task`"
-msgstr ":class:`Task`"
+msgstr ""
 
 msgid "Task object."
-msgstr "Objeto de tarefa."
+msgstr ""
 
 msgid ":class:`TaskGroup`"
-msgstr ":class:`TaskGroup`"
+msgstr ""
 
 msgid ""
 "A context manager that holds a group of tasks. Provides a convenient and "
 "reliable way to wait for all tasks in the group to finish."
 msgstr ""
-"Um gestor de contexto que agrupa tarefas. Fornece uma forma conveniente e "
-"fiável para aguardar que todas as tarefas do grupo terminem."
 
 msgid ":func:`create_task`"
-msgstr ":func:`create_task`"
+msgstr ""
 
 msgid "Start an asyncio Task, then returns it."
-msgstr "Inicia uma tarefa *asyncio* e devolve-a."
+msgstr ""
 
 msgid ":func:`current_task`"
-msgstr ":func:`current_task`"
+msgstr ""
 
 msgid "Return the current Task."
-msgstr "Devolve a tarefa atual."
+msgstr ""
 
 msgid ":func:`all_tasks`"
-msgstr ":func:`all_tasks`"
+msgstr ""
 
 msgid "Return all tasks that are not yet finished for an event loop."
-msgstr "Devolve todas as tarefas ainda não concluídas de um ciclo de eventos."
+msgstr ""
 
 msgid "``await`` :func:`sleep`"
-msgstr "``await`` :func:`sleep`"
+msgstr ""
 
 msgid "Sleep for a number of seconds."
-msgstr "Aguarda durante um número de segundos."
+msgstr ""
 
 msgid "``await`` :func:`gather`"
-msgstr "``await`` :func:`gather`"
+msgstr ""
 
 msgid "Schedule and wait for things concurrently."
-msgstr "Agenda e aguarda objetos de forma concorrente."
+msgstr ""
 
 msgid "``await`` :func:`wait_for`"
-msgstr "``await`` :func:`wait_for`"
+msgstr ""
 
 msgid "Run with a timeout."
-msgstr "Executa com um *timeout*."
+msgstr ""
 
 msgid "``await`` :func:`shield`"
-msgstr "``await`` :func:`shield`"
+msgstr ""
 
 msgid "Shield from cancellation."
-msgstr "Protege contra cancelamento."
+msgstr ""
 
 msgid "``await`` :func:`wait`"
-msgstr "``await`` :func:`wait`"
+msgstr ""
 
 msgid "Monitor for completion."
-msgstr "Monitoriza a conclusão."
+msgstr ""
 
 msgid ":func:`timeout`"
-msgstr ":func:`timeout`"
+msgstr ""
 
 msgid "Run with a timeout. Useful in cases when ``wait_for`` is not suitable."
 msgstr ""
-"Executa com um *timeout*. Útil em casos em que ``wait_for`` não é adequado."
 
 msgid ":func:`to_thread`"
-msgstr ":func:`to_thread`"
+msgstr ""
 
 msgid "Asynchronously run a function in a separate OS thread."
 msgstr ""
-"Executa uma função de forma assíncrona numa *thread* do sistema operativo "
-"separada."
 
 msgid ":func:`run_coroutine_threadsafe`"
-msgstr ":func:`run_coroutine_threadsafe`"
+msgstr ""
 
 msgid "Schedule a coroutine from another OS thread."
-msgstr "Agenda uma corrotina a partir de outra *thread* do sistema operativo."
+msgstr ""
 
 msgid "``for in`` :func:`as_completed`"
-msgstr "``for in`` :func:`as_completed`"
+msgstr ""
 
 msgid "Monitor for completion with a ``for`` loop."
-msgstr "Monitoriza a conclusão com um ciclo ``for``."
+msgstr ""
 
 msgid "Examples"
-msgstr "Exemplos"
+msgstr ""
 
 msgid ""
 ":ref:`Using asyncio.gather() to run things in parallel "
 "<asyncio_example_gather>`."
 msgstr ""
-":ref:`Usar asyncio.gather() para executar objetos em paralelo "
-"<asyncio_example_gather>`."
 
 msgid ""
 ":ref:`Using asyncio.wait_for() to enforce a timeout "
 "<asyncio_example_waitfor>`."
 msgstr ""
-":ref:`Usar asyncio.wait_for() para impor um timeout "
-"<asyncio_example_waitfor>`."
 
 msgid ":ref:`Cancellation <asyncio_example_task_cancel>`."
-msgstr ":ref:`Cancelamento <asyncio_example_task_cancel>`."
+msgstr ""
 
 msgid ":ref:`Using asyncio.sleep() <asyncio_example_sleep>`."
-msgstr ":ref:`Usar asyncio.sleep() <asyncio_example_sleep>`."
+msgstr ""
 
 msgid "See also the main :ref:`Tasks documentation page <coroutine>`."
 msgstr ""
-"Consulte também a página principal da :ref:`documentação de tarefas "
-"<coroutine>`."
 
 msgid "Queues"
-msgstr "Filas"
+msgstr ""
 
 msgid ""
 "Queues should be used to distribute work amongst multiple asyncio Tasks, "
 "implement connection pools, and pub/sub patterns."
 msgstr ""
-"As filas devem ser usadas para distribuir trabalho entre múltiplas tarefas "
-"*asyncio*, implementar *pools* de ligações e padrões *pub/sub*."
 
 msgid ":class:`Queue`"
-msgstr ":class:`Queue`"
+msgstr ""
 
 msgid "A FIFO queue."
-msgstr "Uma fila FIFO."
+msgstr ""
 
 msgid ":class:`PriorityQueue`"
-msgstr ":class:`PriorityQueue`"
+msgstr ""
 
 msgid "A priority queue."
-msgstr "Uma fila de prioridades."
+msgstr ""
 
 msgid ":class:`LifoQueue`"
-msgstr ":class:`LifoQueue`"
+msgstr ""
 
 msgid "A LIFO queue."
-msgstr "Uma fila LIFO."
+msgstr ""
 
 msgid ""
 ":ref:`Using asyncio.Queue to distribute workload between several Tasks "
 "<asyncio_example_queue_dist>`."
 msgstr ""
-":ref:`Usar asyncio.Queue para distribuir carga de trabalho entre várias "
-"tarefas <asyncio_example_queue_dist>`."
 
 msgid "See also the :ref:`Queues documentation page <asyncio-queues>`."
 msgstr ""
-"Consulte também a :ref:`página de documentação de filas <asyncio-queues>`."
 
 msgid "Subprocesses"
-msgstr "Subprocessos"
+msgstr ""
 
 msgid "Utilities to spawn subprocesses and run shell commands."
-msgstr "Utilitários para criar subprocessos e executar comandos de *shell*."
+msgstr ""
 
 msgid "``await`` :func:`create_subprocess_exec`"
-msgstr "``await`` :func:`create_subprocess_exec`"
+msgstr ""
 
 msgid "Create a subprocess."
-msgstr "Cria um subprocesso."
+msgstr ""
 
 msgid "``await`` :func:`create_subprocess_shell`"
-msgstr "``await`` :func:`create_subprocess_shell`"
+msgstr ""
 
 msgid "Run a shell command."
-msgstr "Executa um comando de *shell*."
+msgstr ""
 
 msgid ":ref:`Executing a shell command <asyncio_example_subprocess_shell>`."
 msgstr ""
-":ref:`Executar um comando de shell <asyncio_example_subprocess_shell>`."
 
 msgid "See also the :ref:`subprocess APIs <asyncio-subprocess>` documentation."
 msgstr ""
-"Consulte também a :ref:`documentação das APIs de subprocessos <asyncio-"
-"subprocess>`."
 
 msgid "Streams"
-msgstr "*Streams*"
+msgstr ""
 
 msgid "High-level APIs to work with network IO."
-msgstr "APIs de alto nível para trabalhar com E/S de rede."
+msgstr ""
 
 msgid "``await`` :func:`open_connection`"
-msgstr "``await`` :func:`open_connection`"
+msgstr ""
 
 msgid "Establish a TCP connection."
-msgstr "Estabelece uma ligação TCP."
+msgstr ""
 
 msgid "``await`` :func:`open_unix_connection`"
-msgstr "``await`` :func:`open_unix_connection`"
+msgstr ""
 
 msgid "Establish a Unix socket connection."
-msgstr "Estabelece uma ligação de *socket* Unix."
+msgstr ""
 
 msgid "``await`` :func:`start_server`"
-msgstr "``await`` :func:`start_server`"
+msgstr ""
 
 msgid "Start a TCP server."
-msgstr "Inicia um servidor TCP."
+msgstr ""
 
 msgid "``await`` :func:`start_unix_server`"
-msgstr "``await`` :func:`start_unix_server`"
+msgstr ""
 
 msgid "Start a Unix socket server."
-msgstr "Inicia um servidor de *socket* Unix."
+msgstr ""
 
 msgid ":class:`StreamReader`"
-msgstr ":class:`StreamReader`"
+msgstr ""
 
 msgid "High-level async/await object to receive network data."
-msgstr "Objeto *async/await* de alto nível para receber dados de rede."
+msgstr ""
 
 msgid ":class:`StreamWriter`"
-msgstr ":class:`StreamWriter`"
+msgstr ""
 
 msgid "High-level async/await object to send network data."
-msgstr "Objeto *async/await* de alto nível para enviar dados de rede."
+msgstr ""
 
 msgid ":ref:`Example TCP client <asyncio_example_stream>`."
-msgstr ":ref:`Exemplo de cliente TCP <asyncio_example_stream>`."
+msgstr ""
 
 msgid "See also the :ref:`streams APIs <asyncio-streams>` documentation."
 msgstr ""
-"Consulte também a :ref:`documentação das APIs de *streams* <asyncio-"
-"streams>`."
 
 msgid "Synchronization"
-msgstr "Sincronização"
+msgstr ""
 
 msgid "Threading-like synchronization primitives that can be used in Tasks."
 msgstr ""
-"Primitivas de sincronização semelhantes a *threads* que podem ser usadas em "
-"tarefas."
 
 msgid ":class:`Lock`"
-msgstr ":class:`Lock`"
+msgstr ""
 
 msgid "A mutex lock."
-msgstr "Um bloqueio *mutex*."
+msgstr ""
 
 msgid ":class:`Event`"
-msgstr ":class:`Event`"
+msgstr ""
 
 msgid "An event object."
-msgstr "Um objeto de evento."
+msgstr ""
 
 msgid ":class:`Condition`"
-msgstr ":class:`Condition`"
+msgstr ""
 
 msgid "A condition object."
-msgstr "Um objeto de condição."
+msgstr ""
 
 msgid ":class:`Semaphore`"
-msgstr ":class:`Semaphore`"
+msgstr ""
 
 msgid "A semaphore."
-msgstr "Um semáforo."
+msgstr ""
 
 msgid ":class:`BoundedSemaphore`"
-msgstr ":class:`BoundedSemaphore`"
+msgstr ""
 
 msgid "A bounded semaphore."
-msgstr "Um semáforo limitado."
+msgstr ""
 
 msgid ":class:`Barrier`"
-msgstr ":class:`Barrier`"
+msgstr ""
 
 msgid "A barrier object."
-msgstr "Um objeto de barreira."
+msgstr ""
 
 msgid ":ref:`Using asyncio.Event <asyncio_example_sync_event>`."
-msgstr ":ref:`Usar asyncio.Event <asyncio_example_sync_event>`."
+msgstr ""
 
 msgid ":ref:`Using asyncio.Barrier <asyncio_example_barrier>`."
-msgstr ":ref:`Usar asyncio.Barrier <asyncio_example_barrier>`."
+msgstr ""
 
 msgid ""
 "See also the documentation of asyncio :ref:`synchronization primitives "
 "<asyncio-sync>`."
 msgstr ""
-"Consulte também a documentação das :ref:`primitivas de sincronização do "
-"asyncio <asyncio-sync>`."
 
 msgid "Exceptions"
-msgstr "Exceções"
+msgstr ""
 
 msgid ":exc:`asyncio.CancelledError`"
-msgstr ":exc:`asyncio.CancelledError`"
+msgstr ""
 
 msgid "Raised when a Task is cancelled. See also :meth:`Task.cancel`."
 msgstr ""
-"Gerada quando uma tarefa é cancelada. Consulte também :meth:`Task.cancel`."
 
 msgid ":exc:`asyncio.BrokenBarrierError`"
-msgstr ":exc:`asyncio.BrokenBarrierError`"
+msgstr ""
 
 msgid "Raised when a Barrier is broken. See also :meth:`Barrier.wait`."
 msgstr ""
-"Gerada quando uma barreira é quebrada. Consulte também :meth:`Barrier.wait`."
 
 msgid ""
 ":ref:`Handling CancelledError to run code on cancellation request "
 "<asyncio_example_task_cancel>`."
 msgstr ""
-":ref:`Tratar CancelledError para executar código em caso de pedido de "
-"cancelamento <asyncio_example_task_cancel>`."
 
 msgid ""
 "See also the full list of :ref:`asyncio-specific exceptions <asyncio-"
 "exceptions>`."
 msgstr ""
-"Veja também a lista completa de :ref:`exceções específicas do asyncio "
-"<asyncio-exceptions>`."

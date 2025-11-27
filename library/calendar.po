@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-19 19:26+0000\n"
+"POT-Creation-Date: 2025-11-25 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: NyaPuma <afrmscb@gmail.com>, 2025\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
@@ -492,13 +492,13 @@ msgid ""
 msgstr ""
 
 msgid "Module :mod:`time`"
-msgstr "Módulo :mod:`time`"
+msgstr ""
 
 msgid "Low-level time related functions."
 msgstr ""
 
 msgid "Command-line usage"
-msgstr "Utilização na linha de comandos"
+msgstr ""
 
 msgid ""
 "The :mod:`calendar` module can be executed as a script from the command line "
@@ -555,10 +555,10 @@ msgid ""
 msgstr ""
 
 msgid "The following options are accepted:"
-msgstr "As seguintes opções são aceites:"
+msgstr ""
 
 msgid "Show the help message and exit."
-msgstr "Mostra a mensagem de ajuda e sai."
+msgstr ""
 
 msgid "The locale to use for month and weekday names. Defaults to English."
 msgstr ""

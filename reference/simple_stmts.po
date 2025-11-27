@@ -5,16 +5,16 @@
 #
 # Translators:
 # python-doc bot, 2025
-# André Moreira <afrmscb@gmail.com>, 2025
+# NyaPuma <afrmscb@gmail.com>, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-15 14:12+0000\n"
+"POT-Creation-Date: 2025-11-25 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
-"Last-Translator: André Moreira <afrmscb@gmail.com>, 2025\n"
+"Last-Translator: NyaPuma <afrmscb@gmail.com>, 2025\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
 "teams/5390/pt_PT/)\n"
 "MIME-Version: 1.0\n"
@@ -335,7 +335,7 @@ msgid ""
 msgstr ""
 
 msgid ":pep:`526` - Syntax for Variable Annotations"
-msgstr ":pep:`526` - Sintaxe para Anotações de Variáveis"
+msgstr ""
 
 msgid ""
 "The proposal that added syntax for annotating the types of variables "
@@ -422,7 +422,7 @@ msgid ""
 msgstr ""
 
 msgid "The :keyword:`!del` statement"
-msgstr "A instrução :keyword:`!del`"
+msgstr ""
 
 msgid ""
 "Deletion is recursively defined very similar to the way assignment is "
@@ -739,8 +739,6 @@ msgid ""
 "If the module name is followed by :keyword:`!as`, then the name following :"
 "keyword:`!as` is bound directly to the imported module."
 msgstr ""
-"Se o nome do módulo for seguido por :keyword:`!as`, então o nome que segue :"
-"keyword:`!as` é ligado diretamente ao módulo importado."
 
 msgid ""
 "If no other name is specified, and the module being imported is a top level "
@@ -784,7 +782,7 @@ msgid ""
 msgstr ""
 
 msgid "Examples::"
-msgstr "Exemplos:"
+msgstr ""
 
 msgid ""
 "import foo                 # foo imported and bound locally\n"
@@ -1033,7 +1031,7 @@ msgid "For example, the following statement creates a type alias::"
 msgstr ""
 
 msgid "type Point = tuple[float, float]"
-msgstr "type Point = tuple[float, float]"
+msgstr ""
 
 msgid "This code is roughly equivalent to::"
 msgstr ""
@@ -1077,31 +1075,31 @@ msgid "simple"
 msgstr ""
 
 msgid "statement"
-msgstr "instrução"
+msgstr ""
 
 msgid "expression"
-msgstr "expressão"
+msgstr ""
 
 msgid "list"
-msgstr "lista"
+msgstr ""
 
 msgid "built-in function"
-msgstr "função incorporada"
+msgstr ""
 
 msgid "repr"
-msgstr "repr"
+msgstr ""
 
 msgid "object"
-msgstr "objeto"
+msgstr ""
 
 msgid "None"
-msgstr "Nenhum"
+msgstr ""
 
 msgid "string"
-msgstr "string"
+msgstr ""
 
 msgid "conversion"
-msgstr "conversão"
+msgstr ""
 
 msgid "output"
 msgstr ""
@@ -1113,76 +1111,76 @@ msgid "writing"
 msgstr ""
 
 msgid "values"
-msgstr "valores"
+msgstr ""
 
 msgid "procedure"
 msgstr ""
 
 msgid "call"
-msgstr "chamada"
+msgstr ""
 
 msgid "= (equals)"
-msgstr "= (igual)"
+msgstr ""
 
 msgid "assignment statement"
 msgstr ""
 
 msgid "assignment"
-msgstr "atribuição"
+msgstr ""
 
 msgid "binding"
-msgstr "ligação"
+msgstr ""
 
 msgid "name"
-msgstr "nome"
+msgstr ""
 
 msgid "rebinding"
 msgstr ""
 
 msgid "mutable"
-msgstr "mutável"
+msgstr ""
 
 msgid "attribute"
-msgstr "atributo"
+msgstr ""
 
 msgid "target"
-msgstr "alvo"
+msgstr ""
 
 msgid ", (comma)"
-msgstr ", (vírgula)"
+msgstr ""
 
 msgid "in target list"
 msgstr ""
 
 msgid "* (asterisk)"
-msgstr "* (asterisco)"
+msgstr ""
 
 msgid "in assignment target list"
 msgstr ""
 
 msgid "[] (square brackets)"
-msgstr "[] (parênteses retos)"
+msgstr ""
 
 msgid "() (parentheses)"
-msgstr "() (parênteses)"
+msgstr ""
 
 msgid "destructor"
-msgstr "destrutor"
+msgstr ""
 
 msgid "subscription"
-msgstr "subscrição"
+msgstr ""
 
 msgid "sequence"
-msgstr "sequência"
+msgstr ""
 
 msgid "mapping"
-msgstr "mapeamento"
+msgstr ""
 
 msgid "dictionary"
-msgstr "dicionário"
+msgstr ""
 
 msgid "slicing"
-msgstr "fatiamento"
+msgstr ""
 
 msgid "augmented"
 msgstr ""
@@ -1236,7 +1234,7 @@ msgid "assignment, annotated"
 msgstr ""
 
 msgid ": (colon)"
-msgstr ": (dois pontos)"
+msgstr ""
 
 msgid "annotated variable"
 msgstr ""
@@ -1251,13 +1249,13 @@ msgid "assertions"
 msgstr ""
 
 msgid "expression list"
-msgstr "lista de expressões"
+msgstr ""
 
 msgid "__debug__"
 msgstr ""
 
 msgid "exception"
-msgstr "exceção"
+msgstr ""
 
 msgid "AssertionError"
 msgstr ""
@@ -1269,49 +1267,49 @@ msgid "null"
 msgstr ""
 
 msgid "operation"
-msgstr "operação"
+msgstr ""
 
 msgid "del"
-msgstr "del"
+msgstr ""
 
 msgid "deletion"
 msgstr ""
 
 msgid "global"
-msgstr "global"
+msgstr ""
 
 msgid "unbinding"
 msgstr ""
 
 msgid "return"
-msgstr "retornar"
+msgstr ""
 
 msgid "function"
-msgstr "função"
+msgstr ""
 
 msgid "definition"
-msgstr "definição"
+msgstr ""
 
 msgid "class"
-msgstr "classe"
+msgstr ""
 
 msgid "keyword"
-msgstr "palavra-chave"
+msgstr ""
 
 msgid "finally"
-msgstr "finally"
+msgstr ""
 
 msgid "yield"
-msgstr "yield"
+msgstr ""
 
 msgid "generator"
-msgstr "gerador"
+msgstr ""
 
 msgid "iterator"
-msgstr "iterador"
+msgstr ""
 
 msgid "StopIteration"
-msgstr "StopIteration"
+msgstr ""
 
 msgid "raise"
 msgstr ""
@@ -1323,10 +1321,10 @@ msgid "__traceback__ (exception attribute)"
 msgstr ""
 
 msgid "traceback"
-msgstr "traceback"
+msgstr ""
 
 msgid "chaining"
-msgstr "encadeamento"
+msgstr ""
 
 msgid "__cause__ (exception attribute)"
 msgstr ""
@@ -1335,40 +1333,40 @@ msgid "__context__ (exception attribute)"
 msgstr ""
 
 msgid "break"
-msgstr "interromper"
+msgstr ""
 
 msgid "for"
-msgstr "para"
+msgstr ""
 
 msgid "while"
-msgstr "enquanto"
+msgstr ""
 
 msgid "loop"
-msgstr "ciclo"
+msgstr ""
 
 msgid "else"
-msgstr "senão"
+msgstr ""
 
 msgid "loop control"
 msgstr ""
 
 msgid "continue"
-msgstr "continuar"
+msgstr ""
 
 msgid "import"
-msgstr "importar"
+msgstr ""
 
 msgid "module"
-msgstr "módulo"
+msgstr ""
 
 msgid "importing"
-msgstr "importação"
+msgstr ""
 
 msgid "from"
-msgstr "de"
+msgstr ""
 
 msgid "as"
-msgstr "como"
+msgstr ""
 
 msgid "ImportError"
 msgstr ""
@@ -1386,7 +1384,7 @@ msgid "future"
 msgstr ""
 
 msgid "__future__"
-msgstr "__future__"
+msgstr ""
 
 msgid "future statement"
 msgstr ""
@@ -1395,16 +1393,16 @@ msgid "identifier list"
 msgstr ""
 
 msgid "exec"
-msgstr "exec"
+msgstr ""
 
 msgid "eval"
-msgstr "eval"
+msgstr ""
 
 msgid "compile"
-msgstr "compile"
+msgstr ""
 
 msgid "nonlocal"
 msgstr ""
 
 msgid "type"
-msgstr "tipo"
+msgstr ""

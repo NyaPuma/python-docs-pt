@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-19 19:26+0000\n"
+"POT-Creation-Date: 2025-11-25 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: NyaPuma <afrmscb@gmail.com>, 2025\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
@@ -42,13 +42,9 @@ msgid ""
 "Statistics on allocated memory blocks per filename and per line number: "
 "total size, number and average size of allocated memory blocks"
 msgstr ""
-"Estatísticas sobre blocos de memória alocados por nome de ficheiro e número "
-"de linha: tamanho total, número e tamanho médio dos blocos de memória "
-"alocados"
 
 msgid "Compute the differences between two snapshots to detect memory leaks"
 msgstr ""
-"Calcular as diferenças entre dois *snapshots* para detetar fugas de memória"
 
 msgid ""
 "To trace most memory blocks allocated by Python, the module should be "
@@ -66,7 +62,7 @@ msgid ""
 msgstr ""
 
 msgid "Examples"
-msgstr "Exemplos"
+msgstr ""
 
 msgid "Display the top 10"
 msgstr ""
@@ -380,7 +376,7 @@ msgid "API"
 msgstr ""
 
 msgid "Functions"
-msgstr "Funções"
+msgstr ""
 
 msgid "Clear traces of memory blocks allocated by Python."
 msgstr ""
@@ -551,7 +547,7 @@ msgid ""
 msgstr ""
 
 msgid "Examples:"
-msgstr "Exemplos:"
+msgstr ""
 
 msgid ""
 "``Filter(True, subprocess.__file__)`` only includes traces of the :mod:"
@@ -689,13 +685,13 @@ msgid "key_type"
 msgstr ""
 
 msgid "description"
-msgstr "descrição"
+msgstr ""
 
 msgid "``'filename'``"
 msgstr ""
 
 msgid "filename"
-msgstr "filename"
+msgstr ""
 
 msgid "``'lineno'``"
 msgstr ""
@@ -707,7 +703,7 @@ msgid "``'traceback'``"
 msgstr ""
 
 msgid "traceback"
-msgstr "traceback"
+msgstr ""
 
 msgid ""
 "If *cumulative* is ``True``, cumulate size and count of memory blocks of all "
@@ -868,7 +864,7 @@ msgid ""
 msgstr ""
 
 msgid "Example::"
-msgstr "Exemplo::"
+msgstr ""
 
 msgid ""
 "print(\"Traceback (most recent call first):\")\n"

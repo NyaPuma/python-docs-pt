@@ -89,7 +89,7 @@ msgid ""
 msgstr ""
 
 msgid "Packages"
-msgstr "Pacotes"
+msgstr ""
 
 msgid ""
 "Python has only one type of module object, and all modules are of this type, "
@@ -1133,7 +1133,7 @@ msgid ""
 msgstr ""
 
 msgid "References"
-msgstr "Referências"
+msgstr ""
 
 msgid ""
 "The import machinery has evolved considerably since Python's early days.  "
@@ -1176,7 +1176,7 @@ msgid ""
 msgstr ""
 
 msgid "Footnotes"
-msgstr "Notas de rodapé"
+msgstr ""
 
 msgid "See :class:`types.ModuleType`."
 msgstr ""
@@ -1193,28 +1193,28 @@ msgid "import machinery"
 msgstr ""
 
 msgid "package"
-msgstr "pacote"
+msgstr ""
 
 msgid "regular"
 msgstr ""
 
 msgid "namespace"
-msgstr "espaço de nomes"
+msgstr ""
 
 msgid "portion"
-msgstr "porção"
+msgstr ""
 
 msgid "sys.modules"
 msgstr ""
 
 msgid "finder"
-msgstr "localizador"
+msgstr ""
 
 msgid "loader"
-msgstr "*loader*"
+msgstr ""
 
 msgid "module spec"
-msgstr "especificação do módulo"
+msgstr ""
 
 msgid "import hooks"
 msgstr ""
@@ -1229,13 +1229,13 @@ msgid "hooks"
 msgstr ""
 
 msgid "import"
-msgstr "importar"
+msgstr ""
 
 msgid "meta"
 msgstr ""
 
 msgid "path"
-msgstr "caminho"
+msgstr ""
 
 msgid "sys.meta_path"
 msgstr ""
@@ -1244,7 +1244,7 @@ msgid "find_spec"
 msgstr ""
 
 msgid "path based finder"
-msgstr "localizador baseado em caminhos"
+msgstr ""
 
 msgid "sys.path"
 msgstr ""
