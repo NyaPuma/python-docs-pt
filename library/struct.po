@@ -5,16 +5,16 @@
 #
 # Translators:
 # python-doc bot, 2025
-# André Moreira <afrmscb@gmail.com>, 2025
+# NyaPuma <afrmscb@gmail.com>, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-17 14:14+0000\n"
+"POT-Creation-Date: 2025-11-25 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
-"Last-Translator: André Moreira <afrmscb@gmail.com>, 2025\n"
+"Last-Translator: NyaPuma <afrmscb@gmail.com>, 2025\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
 "teams/5390/pt_PT/)\n"
 "MIME-Version: 1.0\n"
@@ -146,7 +146,7 @@ msgid ""
 msgstr ""
 
 msgid "Character"
-msgstr "Caractere"
+msgstr ""
 
 msgid "Byte order"
 msgstr ""
@@ -173,13 +173,13 @@ msgid "none"
 msgstr ""
 
 msgid "``<``"
-msgstr "``<``"
+msgstr ""
 
 msgid "little-endian"
 msgstr ""
 
 msgid "``>``"
-msgstr "``>``"
+msgstr ""
 
 msgid "big-endian"
 msgstr ""
@@ -240,7 +240,7 @@ msgid ""
 msgstr ""
 
 msgid "Notes:"
-msgstr "Notas:"
+msgstr ""
 
 msgid ""
 "Padding is only automatically added between successive structure members. No "
@@ -259,7 +259,7 @@ msgid ""
 msgstr ""
 
 msgid "Format Characters"
-msgstr "Caracteres Formatados"
+msgstr ""
 
 msgid ""
 "Format characters have the following meaning; the conversion between C and "
@@ -271,22 +271,22 @@ msgid ""
 msgstr ""
 
 msgid "Format"
-msgstr "Formato"
+msgstr ""
 
 msgid "C Type"
 msgstr ""
 
 msgid "Python type"
-msgstr "tipo Python"
+msgstr ""
 
 msgid "Standard size"
 msgstr ""
 
 msgid "Notes"
-msgstr "Notas"
+msgstr ""
 
 msgid "``x``"
-msgstr "``x``"
+msgstr ""
 
 msgid "pad byte"
 msgstr ""
@@ -295,28 +295,28 @@ msgid "no value"
 msgstr ""
 
 msgid "\\(7)"
-msgstr "(7)"
+msgstr ""
 
 msgid "``c``"
-msgstr "``c``"
+msgstr ""
 
 msgid ":c:expr:`char`"
-msgstr ":c:expr:`char`"
+msgstr ""
 
 msgid "bytes of length 1"
 msgstr ""
 
 msgid "1"
-msgstr "1"
+msgstr ""
 
 msgid "``b``"
-msgstr "``b``"
+msgstr ""
 
 msgid ":c:expr:`signed char`"
 msgstr ""
 
 msgid "integer"
-msgstr "inteiro"
+msgstr ""
 
 msgid "\\(1), \\(2)"
 msgstr ""
@@ -325,64 +325,64 @@ msgid "``B``"
 msgstr ""
 
 msgid ":c:expr:`unsigned char`"
-msgstr ":c:expr:`unsigned char`"
+msgstr ""
 
 msgid "\\(2)"
-msgstr "(2)"
+msgstr ""
 
 msgid "``?``"
-msgstr "``?``"
+msgstr ""
 
 msgid ":c:expr:`_Bool`"
-msgstr ":c:expr:`_Bool`"
+msgstr ""
 
 msgid "bool"
 msgstr ""
 
 msgid "\\(1)"
-msgstr "(1)"
+msgstr ""
 
 msgid "``h``"
 msgstr ""
 
 msgid ":c:expr:`short`"
-msgstr ":c:expr:`short`"
+msgstr ""
 
 msgid "2"
-msgstr "2"
+msgstr ""
 
 msgid "``H``"
 msgstr ""
 
 msgid ":c:expr:`unsigned short`"
-msgstr ":c:expr:`unsigned short`"
+msgstr ""
 
 msgid "``i``"
 msgstr ""
 
 msgid ":c:expr:`int`"
-msgstr ":c:expr:`int`"
+msgstr ""
 
 msgid "4"
-msgstr "4"
+msgstr ""
 
 msgid "``I``"
 msgstr ""
 
 msgid ":c:expr:`unsigned int`"
-msgstr ":c:expr:`unsigned int`"
+msgstr ""
 
 msgid "``l``"
-msgstr "``l``"
+msgstr ""
 
 msgid ":c:expr:`long`"
-msgstr ":c:expr:`long`"
+msgstr ""
 
 msgid "``L``"
 msgstr ""
 
 msgid ":c:expr:`unsigned long`"
-msgstr ":c:expr:`unsigned long`"
+msgstr ""
 
 msgid "``q``"
 msgstr ""
@@ -391,7 +391,7 @@ msgid ":c:expr:`long long`"
 msgstr ""
 
 msgid "8"
-msgstr "8"
+msgstr ""
 
 msgid "``Q``"
 msgstr ""
@@ -400,52 +400,52 @@ msgid ":c:expr:`unsigned long long`"
 msgstr ""
 
 msgid "``n``"
-msgstr "``n``"
+msgstr ""
 
 msgid ":c:type:`ssize_t`"
 msgstr ""
 
 msgid "\\(3)"
-msgstr "(3)"
+msgstr ""
 
 msgid "``N``"
-msgstr "``N``"
+msgstr ""
 
 msgid ":c:type:`size_t`"
-msgstr ":c:type:`size_t`"
+msgstr ""
 
 msgid "``e``"
-msgstr "``e``"
+msgstr ""
 
 msgid "\\(6)"
-msgstr "(6)"
+msgstr ""
 
 msgid "float"
-msgstr "float"
+msgstr ""
 
 msgid "\\(4)"
-msgstr "(4)"
+msgstr ""
 
 msgid "``f``"
 msgstr ""
 
 msgid ":c:expr:`float`"
-msgstr ":c:expr:`float`"
+msgstr ""
 
 msgid "``d``"
-msgstr "``d``"
+msgstr ""
 
 msgid ":c:expr:`double`"
-msgstr ":c:expr:`double`"
+msgstr ""
 
 msgid "``F``"
 msgstr ""
 
 msgid ":c:expr:`float complex`"
-msgstr ":c:expr:`float complex`"
+msgstr ""
 
 msgid "complex"
-msgstr "complex"
+msgstr ""
 
 msgid "\\(10)"
 msgstr ""
@@ -454,28 +454,28 @@ msgid "``D``"
 msgstr ""
 
 msgid ":c:expr:`double complex`"
-msgstr ":c:expr:`double complex`"
+msgstr ""
 
 msgid "16"
-msgstr "16"
+msgstr ""
 
 msgid "``s``"
-msgstr "``s``"
+msgstr ""
 
 msgid ":c:expr:`char[]`"
 msgstr ""
 
 msgid "bytes"
-msgstr "bytes"
+msgstr ""
 
 msgid "\\(9)"
-msgstr "(9)"
+msgstr ""
 
 msgid "``p``"
-msgstr "``p``"
+msgstr ""
 
 msgid "\\(8)"
-msgstr "(8)"
+msgstr ""
 
 msgid "``P``"
 msgstr ""
@@ -484,7 +484,7 @@ msgid ":c:expr:`void \\*`"
 msgstr ""
 
 msgid "\\(5)"
-msgstr "(5)"
+msgstr ""
 
 msgid "Added support for the ``'n'`` and ``'N'`` formats."
 msgstr ""
@@ -612,7 +612,7 @@ msgid ""
 msgstr ""
 
 msgid "Examples"
-msgstr "Exemplos"
+msgstr ""
 
 msgid ""
 "Native byte order examples (designated by the ``'@'`` format prefix or lack "
@@ -825,7 +825,7 @@ msgid ""
 msgstr ""
 
 msgid "Classes"
-msgstr "Classes"
+msgstr ""
 
 msgid "The :mod:`struct` module also defines the following type:"
 msgstr ""
@@ -885,7 +885,7 @@ msgid "The *repr()* of structs has changed.  It is now:"
 msgstr ""
 
 msgid "C"
-msgstr "C"
+msgstr ""
 
 msgid "structures"
 msgstr ""
@@ -894,28 +894,28 @@ msgid "packing"
 msgstr ""
 
 msgid "binary"
-msgstr "binário"
+msgstr ""
 
 msgid "data"
-msgstr "dados"
+msgstr ""
 
 msgid "@ (at)"
-msgstr "@ (arroba)"
+msgstr ""
 
 msgid "in struct format strings"
 msgstr ""
 
 msgid "= (equals)"
-msgstr "= (igual)"
+msgstr ""
 
 msgid "< (less)"
-msgstr "< (menor)"
+msgstr ""
 
 msgid "> (greater)"
-msgstr "> (maior)"
+msgstr ""
 
 msgid "! (exclamation)"
-msgstr "! (ponto de exclamação)"
+msgstr ""
 
 msgid "? (question mark)"
-msgstr "? (ponto de interrogação)"
+msgstr ""

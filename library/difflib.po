@@ -86,10 +86,10 @@ msgid "Each line of a :class:`Differ` delta begins with a two-letter code:"
 msgstr ""
 
 msgid "Code"
-msgstr "Código"
+msgstr ""
 
 msgid "Meaning"
-msgstr "Significado"
+msgstr ""
 
 msgid "``'- '``"
 msgstr ""
@@ -293,7 +293,7 @@ msgid ""
 msgstr ""
 
 msgid "Example:"
-msgstr "Exemplo:"
+msgstr ""
 
 msgid ""
 "Compare *a* and *b* (lists of strings); return a delta (a :term:`generator` "
@@ -497,10 +497,10 @@ msgid "The *tag* values are strings, with these meanings:"
 msgstr ""
 
 msgid "Value"
-msgstr "Valor"
+msgstr ""
 
 msgid "``'replace'``"
-msgstr "``'replace'``"
+msgstr ""
 
 msgid "``a[i1:i2]`` should be replaced by ``b[j1:j2]``."
 msgstr ""
@@ -526,7 +526,7 @@ msgid "``a[i1:i2] == b[j1:j2]`` (the sub-sequences are equal)."
 msgstr ""
 
 msgid "For example::"
-msgstr "Por exemplo::"
+msgstr ""
 
 msgid ""
 ">>> a = \"qabxcd\"\n"

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-19 14:14+0000\n"
+"POT-Creation-Date: 2025-11-25 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: NyaPuma <afrmscb@gmail.com>, 2025\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
@@ -28,7 +28,7 @@ msgid "Isolating Extension Modules"
 msgstr ""
 
 msgid "Abstract"
-msgstr "Resumo"
+msgstr ""
 
 msgid ""
 "Traditionally, state belonging to Python extension modules was kept in C "
@@ -53,7 +53,7 @@ msgid ""
 msgstr ""
 
 msgid "Background"
-msgstr "Contexto"
+msgstr ""
 
 msgid ""
 "An *interpreter* is the context in which Python code runs. It contains "
@@ -345,7 +345,7 @@ msgid ""
 msgstr ""
 
 msgid "Heap Types"
-msgstr "Tipos de Heap"
+msgstr ""
 
 msgid ""
 "Traditionally, types defined in C code are *static*; that is, ``static "
@@ -507,7 +507,7 @@ msgid "For example, if your traverse function includes::"
 msgstr ""
 
 msgid "base->tp_traverse(self, visit, arg)"
-msgstr "base->tp_traverse(self, visit, arg)"
+msgstr ""
 
 msgid "...and ``base`` may be a static type, then it should also include::"
 msgstr ""
@@ -686,7 +686,7 @@ msgid ""
 msgstr ""
 
 msgid "For example::"
-msgstr "Por exemplo::"
+msgstr ""
 
 msgid ""
 "static PyObject *\n"

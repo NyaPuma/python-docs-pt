@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-23 14:12+0000\n"
+"POT-Creation-Date: 2025-11-25 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: NyaPuma <afrmscb@gmail.com>, 2025\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
@@ -25,7 +25,7 @@ msgstr ""
 "1000000 == 0 ? 1 : 2;\n"
 
 msgid "Synchronization Primitives"
-msgstr "Primitivas de sincronização"
+msgstr ""
 
 msgid "**Source code:** :source:`Lib/asyncio/locks.py`"
 msgstr ""
@@ -50,22 +50,22 @@ msgid "asyncio has the following basic synchronization primitives:"
 msgstr ""
 
 msgid ":class:`Lock`"
-msgstr ":class:`Lock`"
+msgstr ""
 
 msgid ":class:`Event`"
-msgstr ":class:`Event`"
+msgstr ""
 
 msgid ":class:`Condition`"
-msgstr ":class:`Condition`"
+msgstr ""
 
 msgid ":class:`Semaphore`"
-msgstr ":class:`Semaphore`"
+msgstr ""
 
 msgid ":class:`BoundedSemaphore`"
-msgstr ":class:`BoundedSemaphore`"
+msgstr ""
 
 msgid ":class:`Barrier`"
-msgstr ":class:`Barrier`"
+msgstr ""
 
 msgid "Lock"
 msgstr ""
@@ -104,7 +104,7 @@ msgid ""
 msgstr ""
 
 msgid "Removed the *loop* parameter."
-msgstr "Removido o parâmetro *loop*."
+msgstr ""
 
 msgid "Acquire the lock."
 msgstr ""
@@ -137,7 +137,7 @@ msgid "Return ``True`` if the lock is *locked*."
 msgstr ""
 
 msgid "Event"
-msgstr "Event"
+msgstr ""
 
 msgid "An event object.  Not thread-safe."
 msgstr ""
@@ -155,7 +155,7 @@ msgid ""
 msgstr ""
 
 msgid "Example::"
-msgstr "Exemplo::"
+msgstr ""
 
 msgid ""
 "async def waiter(event):\n"
@@ -285,8 +285,6 @@ msgstr ""
 
 msgid "When invoked on an unlocked lock, a :exc:`RuntimeError` is raised."
 msgstr ""
-"Quando invocado num bloqueio desbloqueado, é levantada uma exceção :exc:"
-"`RuntimeError`."
 
 msgid "Wait until notified."
 msgstr ""
@@ -361,7 +359,7 @@ msgid ""
 msgstr ""
 
 msgid "Acquire a semaphore."
-msgstr "Adquire um semáforo."
+msgstr ""
 
 msgid ""
 "If the internal counter is greater than zero, decrement it by one and return "
@@ -504,14 +502,12 @@ msgid "The number of tasks currently waiting in the barrier while filling."
 msgstr ""
 
 msgid "A boolean that is ``True`` if the barrier is in the broken state."
-msgstr "Um booleano que é ``True`` se a barreira estiver no estado quebrado."
+msgstr ""
 
 msgid ""
 "This exception, a subclass of :exc:`RuntimeError`, is raised when the :class:"
 "`Barrier` object is reset or broken."
 msgstr ""
-"Esta exceção, uma subclasse de :exc:`RuntimeError`, é levantada quando o "
-"objeto :class:`Barrier` é reiniciado ou quebrado."
 
 msgid ""
 "Acquiring a lock using ``await lock`` or ``yield from lock`` and/or :keyword:"

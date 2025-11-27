@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-21 14:14+0000\n"
+"POT-Creation-Date: 2025-11-25 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: NyaPuma <afrmscb@gmail.com>, 2025\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
@@ -149,13 +149,13 @@ msgid ""
 msgstr ""
 
 msgid "Attribute"
-msgstr "Atributo"
+msgstr ""
 
 msgid "Index"
-msgstr "Índice"
+msgstr ""
 
 msgid "Value"
-msgstr "Valor"
+msgstr ""
 
 msgid "Value if not present"
 msgstr ""
@@ -164,7 +164,7 @@ msgid ":attr:`scheme`"
 msgstr ""
 
 msgid "0"
-msgstr "0"
+msgstr ""
 
 msgid "URL scheme specifier"
 msgstr ""
@@ -176,7 +176,7 @@ msgid ":attr:`netloc`"
 msgstr ""
 
 msgid "1"
-msgstr "1"
+msgstr ""
 
 msgid "Network location part"
 msgstr ""
@@ -188,7 +188,7 @@ msgid ":attr:`path`"
 msgstr ""
 
 msgid "2"
-msgstr "2"
+msgstr ""
 
 msgid "Hierarchical path"
 msgstr ""
@@ -197,7 +197,7 @@ msgid ":attr:`params`"
 msgstr ""
 
 msgid "3"
-msgstr "3"
+msgstr ""
 
 msgid "Parameters for last path element"
 msgstr ""
@@ -206,7 +206,7 @@ msgid ":attr:`query`"
 msgstr ""
 
 msgid "4"
-msgstr "4"
+msgstr ""
 
 msgid "Query component"
 msgstr ""
@@ -215,7 +215,7 @@ msgid ":attr:`fragment`"
 msgstr ""
 
 msgid "5"
-msgstr "5"
+msgstr ""
 
 msgid "Fragment identifier"
 msgstr ""

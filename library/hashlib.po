@@ -5,16 +5,16 @@
 #
 # Translators:
 # python-doc bot, 2025
-# André Moreira <afrmscb@gmail.com>, 2025
+# NyaPuma <afrmscb@gmail.com>, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-07 14:15+0000\n"
+"POT-Creation-Date: 2025-11-25 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
-"Last-Translator: André Moreira <afrmscb@gmail.com>, 2025\n"
+"Last-Translator: NyaPuma <afrmscb@gmail.com>, 2025\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
 "teams/5390/pt_PT/)\n"
 "MIME-Version: 1.0\n"
@@ -110,7 +110,7 @@ msgid ""
 msgstr ""
 
 msgid "Usage"
-msgstr "Utilização"
+msgstr ""
 
 msgid ""
 "To obtain the digest of the byte string ``b\"Nobody inspects the spammish "
@@ -284,7 +284,7 @@ msgid ""
 msgstr ""
 
 msgid "Example:"
-msgstr "Exemplo:"
+msgstr ""
 
 msgid ""
 "Now raises a :exc:`BlockingIOError` if the file is opened in non-blocking "
@@ -442,7 +442,7 @@ msgid "64"
 msgstr ""
 
 msgid "16"
-msgstr "16"
+msgstr ""
 
 msgid "BLAKE2s"
 msgstr ""
@@ -451,7 +451,7 @@ msgid "32"
 msgstr ""
 
 msgid "8"
-msgstr "8"
+msgstr ""
 
 msgid ""
 "BLAKE2 specification defines constant lengths for salt and personalization "
@@ -510,7 +510,7 @@ msgid ""
 msgstr ""
 
 msgid "Constants"
-msgstr "Constantes"
+msgstr ""
 
 msgid "Salt length (maximum length accepted by constructors)."
 msgstr ""
@@ -526,7 +526,7 @@ msgid "Maximum digest size that the hash function can output."
 msgstr ""
 
 msgid "Examples"
-msgstr "Exemplos"
+msgstr ""
 
 msgid "Simple hashing"
 msgstr ""
@@ -879,7 +879,7 @@ msgid ""
 msgstr ""
 
 msgid "OpenSSL"
-msgstr "OpenSSL"
+msgstr ""
 
 msgid "(use in module hashlib)"
 msgstr ""

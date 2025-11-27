@@ -5,16 +5,16 @@
 #
 # Translators:
 # python-doc bot, 2025
-# André Moreira <afrmscb@gmail.com>, 2025
+# NyaPuma <afrmscb@gmail.com>, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-15 14:12+0000\n"
+"POT-Creation-Date: 2025-11-25 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
-"Last-Translator: André Moreira <afrmscb@gmail.com>, 2025\n"
+"Last-Translator: NyaPuma <afrmscb@gmail.com>, 2025\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
 "teams/5390/pt_PT/)\n"
 "MIME-Version: 1.0\n"
@@ -333,7 +333,7 @@ msgid ""
 msgstr ""
 
 msgid "Example:"
-msgstr "Exemplo:"
+msgstr ""
 
 msgid ""
 ">>> type Alias = 1/0\n"
@@ -421,7 +421,7 @@ msgid ""
 msgstr ""
 
 msgid "Exceptions"
-msgstr "Exceções"
+msgstr ""
 
 msgid ""
 "Exceptions are a means of breaking out of the normal flow of control of a "
@@ -706,7 +706,7 @@ msgid ""
 msgstr ""
 
 msgid "Footnotes"
-msgstr "Notas de rodapé"
+msgstr ""
 
 msgid ""
 "This limitation occurs because the code that is executed by these operations "
@@ -717,31 +717,31 @@ msgid "execution model"
 msgstr ""
 
 msgid "code"
-msgstr "código"
+msgstr ""
 
 msgid "block"
 msgstr ""
 
 msgid "execution"
-msgstr "execução"
+msgstr ""
 
 msgid "frame"
-msgstr "frame"
+msgstr ""
 
 msgid "namespace"
-msgstr "espaço de nomes"
+msgstr ""
 
 msgid "scope"
 msgstr ""
 
 msgid "name"
-msgstr "nome"
+msgstr ""
 
 msgid "binding"
-msgstr "ligação"
+msgstr ""
 
 msgid "from"
-msgstr "de"
+msgstr ""
 
 msgid "import statement"
 msgstr ""
@@ -750,7 +750,7 @@ msgid "free"
 msgstr ""
 
 msgid "variable"
-msgstr "variável"
+msgstr ""
 
 msgid "environment"
 msgstr ""
@@ -762,16 +762,16 @@ msgid "UnboundLocalError"
 msgstr ""
 
 msgid "module"
-msgstr "módulo"
+msgstr ""
 
 msgid "__main__"
-msgstr "__main__"
+msgstr ""
 
 msgid "restricted"
 msgstr ""
 
 msgid "exception"
-msgstr "exceção"
+msgstr ""
 
 msgid "raise an exception"
 msgstr ""

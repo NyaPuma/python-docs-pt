@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-21 14:14+0000\n"
+"POT-Creation-Date: 2025-11-25 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: NyaPuma <afrmscb@gmail.com>, 2025\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
@@ -25,10 +25,10 @@ msgstr ""
 "1000000 == 0 ? 1 : 2;\n"
 
 msgid ":mod:`!operator` --- Standard operators as functions"
-msgstr ":mod:`!operator` — Operadores padrão como funções"
+msgstr ""
 
 msgid "**Source code:** :source:`Lib/operator.py`"
-msgstr "**Código-fonte:** :source:`Lib/operator.py`"
+msgstr ""
 
 msgid ""
 "The :mod:`operator` module exports a set of efficient functions "
@@ -39,27 +39,16 @@ msgid ""
 "underscores kept. The variants without the double underscores are preferred "
 "for clarity."
 msgstr ""
-"O módulo :mod:`operator` exporta um conjunto de funções eficientes que "
-"correspondem aos operadores intrínsecos do Python. Por exemplo, ``operator."
-"add(x, y)`` é equivalente à expressão ``x+y``. Muitos nomes de funções são "
-"os mesmos usados para métodos especiais, sem os duplos underscores. Por "
-"compatibilidade retroativa, muitas destas funções têm uma variante que "
-"mantém os duplos underscores. As variantes sem os duplos underscores são "
-"preferidas por serem mais claras."
 
 msgid ""
 "The functions fall into categories that perform object comparisons, logical "
 "operations, mathematical operations and sequence operations."
 msgstr ""
-"As funções estão divididas em categorias que realizam comparações de "
-"objetos, operações lógicas, operações matemáticas e operações com sequências."
 
 msgid ""
 "The object comparison functions are useful for all objects, and are named "
 "after the rich comparison operators they support:"
 msgstr ""
-"As funções de comparação de objetos são úteis para todos os objetos e têm "
-"nomes baseados nos operadores de comparação rica que suportam:"
 
 msgid ""
 "Perform \"rich comparisons\" between *a* and *b*. Specifically, ``lt(a, b)`` "
@@ -70,20 +59,11 @@ msgid ""
 "which may or may not be interpretable as a Boolean value.  See :ref:"
 "`comparisons` for more information about rich comparisons."
 msgstr ""
-"Realizam \"comparações ricas\" entre *a* e *b*. Especificamente, ``lt(a, "
-"b)`` é equivalente a ``a < b``, ``le(a, b)`` é equivalente a ``a <= b``, "
-"``eq(a, b)`` é equivalente a ``a == b``, ``ne(a, b)`` é equivalente a ``a != "
-"b``, ``gt(a, b)`` é equivalente a ``a > b`` e ``ge(a, b)`` é equivalente a "
-"``a >= b``. Note que estas funções podem devolver qualquer valor, que pode "
-"ou não ser interpretado como um valor booleano. Consulte :ref:`comparisons` "
-"para mais informações sobre comparações ricas."
 
 msgid ""
 "The logical operations are also generally applicable to all objects, and "
 "support truth tests, identity tests, and boolean operations:"
 msgstr ""
-"As operações lógicas também são geralmente aplicáveis a todos os objetos e "
-"suportam testes de verdade, testes de identidade e operações booleanas:"
 
 msgid ""
 "Return the outcome of :keyword:`not` *obj*.  (Note that there is no :meth:`!"
@@ -91,146 +71,127 @@ msgid ""
 "operation.  The result is affected by the :meth:`~object.__bool__` and :meth:"
 "`~object.__len__` methods.)"
 msgstr ""
-"Devolve o resultado de :keyword:`not` *obj*. (Note que não existe um método :"
-"meth:`!__not__` para instâncias de objetos; apenas o núcleo do interpretador "
-"define esta operação. O resultado é afetado pelos métodos :meth:`~object."
-"__bool__` e :meth:`~object.__len__`.)"
 
 msgid ""
 "Return :const:`True` if *obj* is true, and :const:`False` otherwise.  This "
 "is equivalent to using the :class:`bool` constructor."
 msgstr ""
-"Devolve :const:`True` se *obj* for verdadeiro e :const:`False` caso "
-"contrário. Isto é equivalente a usar o construtor :class:`bool`."
 
 msgid "Return ``a is b``.  Tests object identity."
-msgstr "Devolve ``a is b``. Testa a identidade do objeto."
+msgstr ""
 
 msgid "Return ``a is not b``.  Tests object identity."
-msgstr "Devolve ``a is not b``. Testa a identidade do objeto."
+msgstr ""
 
 msgid "Return ``a is None``.  Tests object identity."
-msgstr "Devolve ``a is None``. Testa a identidade do objeto."
+msgstr ""
 
 msgid "Return ``a is not None``.  Tests object identity."
-msgstr "Devolve ``a is not None``. Testa a identidade do objeto."
+msgstr ""
 
 msgid "The mathematical and bitwise operations are the most numerous:"
-msgstr "As operações matemáticas e bit a bit são as mais numerosas:"
+msgstr ""
 
 msgid "Return the absolute value of *obj*."
-msgstr "Devolve o valor absoluto de *obj*."
+msgstr ""
 
 msgid "Return ``a + b``, for *a* and *b* numbers."
-msgstr "Devolve ``a + b``, para *a* e *b* números."
+msgstr ""
 
 msgid "Return the bitwise and of *a* and *b*."
-msgstr "Devolve o *bitwise and* de *a* e *b*."
+msgstr ""
 
 msgid "Return ``a // b``."
-msgstr "Devolve ``a // b``."
+msgstr ""
 
 msgid "Return *a* converted to an integer.  Equivalent to ``a.__index__()``."
 msgstr ""
-"Devolve *a* convertido para um inteiro. Equivalente a ``a.__index__()``."
 
 msgid ""
 "The result always has exact type :class:`int`.  Previously, the result could "
 "have been an instance of a subclass of ``int``."
 msgstr ""
-"O resultado tem sempre o tipo exato :class:`int`. Anteriormente, o resultado "
-"poderia ter sido uma instância de uma subclasse de ``int``."
 
 msgid ""
 "Return the bitwise inverse of the number *obj*.  This is equivalent to "
 "``~obj``."
 msgstr ""
-"Devolve o inverso bit a bit do número *obj*. Isto é equivalente a ``~obj``."
 
 msgid "Return *a* shifted left by *b*."
-msgstr "Devolve *a* deslocado à esquerda por *b* posições."
+msgstr ""
 
 msgid "Return ``a % b``."
-msgstr "Devolve ``a % b``."
+msgstr ""
 
 msgid "Return ``a * b``, for *a* and *b* numbers."
-msgstr "Devolve ``a * b``, para *a* e *b* números."
+msgstr ""
 
 msgid "Return ``a @ b``."
-msgstr "Devolve ``a @ b``."
+msgstr ""
 
 msgid "Return *obj* negated (``-obj``)."
-msgstr "Devolve *obj* negado (``-obj``)."
+msgstr ""
 
 msgid "Return the bitwise or of *a* and *b*."
-msgstr "Retorne o resultado da operação bitwise or entre *a* e *b*."
+msgstr ""
 
 msgid "Return *obj* positive (``+obj``)."
-msgstr "Devolve *obj* positivo (``+obj``)."
+msgstr ""
 
 msgid "Return ``a ** b``, for *a* and *b* numbers."
-msgstr "Devolve ``a ** b``, para *a* e *b* números."
+msgstr ""
 
 msgid "Return *a* shifted right by *b*."
-msgstr "Devolve *a* deslocado à direita por *b* posições."
+msgstr ""
 
 msgid "Return ``a - b``."
-msgstr "Devolve ``a - b``."
+msgstr ""
 
 msgid ""
 "Return ``a / b`` where 2/3 is .66 rather than 0.  This is also known as "
 "\"true\" division."
 msgstr ""
-"Devolve ``a / b`` onde 2/3 é 0.66 em vez de 0. Isto é também conhecido como "
-"divisão \"verdadeira\"."
 
 msgid "Return the bitwise exclusive or of *a* and *b*."
-msgstr "Devolve o *bitwise exclusive or* de *a* e *b*."
+msgstr ""
 
 msgid ""
 "Operations which work with sequences (some of them with mappings too) "
 "include:"
 msgstr ""
-"Operações que funcionam com sequências (algumas também com mapeamentos) "
-"incluem:"
 
 msgid "Return ``a + b`` for *a* and *b* sequences."
-msgstr "Devolve ``a + b`` para as sequências *a* e *b*."
+msgstr ""
 
 msgid "Return the outcome of the test ``b in a``. Note the reversed operands."
 msgstr ""
-"Devolve o resultado do teste ``b in a``. Note que os operandos estão "
-"invertidos."
 
 msgid "Return the number of occurrences of *b* in *a*."
-msgstr "Devolve o número de ocorrências de *b* em *a*."
+msgstr ""
 
 msgid "Remove the value of *a* at index *b*."
-msgstr "Remove o valor de *a* no índice *b*."
+msgstr ""
 
 msgid "Return the value of *a* at index *b*."
-msgstr "Devolve o valor de *a* no índice *b*."
+msgstr ""
 
 msgid "Return the index of the first of occurrence of *b* in *a*."
-msgstr "Devolve o índice da primeira ocorrência de *b* em *a*."
+msgstr ""
 
 msgid "Set the value of *a* at index *b* to *c*."
-msgstr "Define o valor de *a* no índice *b* para *c*."
+msgstr ""
 
 msgid ""
 "Return an estimated length for the object *obj*. First try to return its "
 "actual length, then an estimate using :meth:`object.__length_hint__`, and "
 "finally return the default value."
 msgstr ""
-"Devolve um comprimento estimado para o objeto *obj*. Primeiro tenta devolver "
-"o seu comprimento real, depois uma estimativa usando :meth:`object."
-"__length_hint__` e, finalmente, devolve o valor predefinido."
 
 msgid "The following operation works with callables:"
-msgstr "A seguinte operação funciona com objetos chamáveis:"
+msgstr ""
 
 msgid "Return ``obj(*args, **kwargs)``."
-msgstr "Devolve ``obj(*args, **kwargs)``."
+msgstr ""
 
 msgid ""
 "The :mod:`operator` module also defines tools for generalized attribute and "
@@ -238,40 +199,28 @@ msgid ""
 "arguments for :func:`map`, :func:`sorted`, :meth:`itertools.groupby`, or "
 "other functions that expect a function argument."
 msgstr ""
-"O módulo :mod:`operator` também define ferramentas para pesquisas "
-"generalizadas de atributos e itens. Estas são úteis para criar extratores de "
-"campos rápidos como argumentos para :func:`map`, :func:`sorted`, :meth:"
-"`itertools.groupby` ou outras funções que esperam um argumento de função."
 
 msgid ""
 "Return a callable object that fetches *attr* from its operand. If more than "
 "one attribute is requested, returns a tuple of attributes. The attribute "
 "names can also contain dots. For example:"
 msgstr ""
-"Devolve um objeto chamável que obtém *attr* do seu operando. Se for "
-"solicitado mais do que um atributo, devolve um tuplo de atributos. Os nomes "
-"dos atributos podem também conter pontos. Por exemplo:"
 
 msgid "After ``f = attrgetter('name')``, the call ``f(b)`` returns ``b.name``."
 msgstr ""
-"Depois de ``f = attrgetter('name')``, a chamada ``f(b)`` devolve ``b.name``."
 
 msgid ""
 "After ``f = attrgetter('name', 'date')``, the call ``f(b)`` returns ``(b."
 "name, b.date)``."
 msgstr ""
-"Depois de ``f = attrgetter('name', 'date')``, a chamada ``f(b)`` devolve "
-"``(b.name, b.date)``."
 
 msgid ""
 "After ``f = attrgetter('name.first', 'name.last')``, the call ``f(b)`` "
 "returns ``(b.name.first, b.name.last)``."
 msgstr ""
-"Depois de ``f = attrgetter('name.first', 'name.last')``, a chamada ``f(b)`` "
-"devolve ``(b.name.first, b.name.last)``."
 
 msgid "Equivalent to::"
-msgstr "Equivalente a::"
+msgstr ""
 
 msgid ""
 "def attrgetter(*items):\n"
@@ -291,41 +240,20 @@ msgid ""
 "        obj = getattr(obj, name)\n"
 "    return obj"
 msgstr ""
-"def attrgetter(*items):\n"
-"    if any(not isinstance(item, str) for item in items):\n"
-"        raise TypeError('attribute name must be a string')\n"
-"    if len(items) == 1:\n"
-"        attr = items[0]\n"
-"        def g(obj):\n"
-"            return resolve_attr(obj, attr)\n"
-"    else:\n"
-"        def g(obj):\n"
-"            return tuple(resolve_attr(obj, attr) for attr in items)\n"
-"    return g\n"
-"\n"
-"def resolve_attr(obj, attr):\n"
-"    for name in attr.split(\".\"):\n"
-"        obj = getattr(obj, name)\n"
-"    return obj"
 
 msgid ""
 "Return a callable object that fetches *item* from its operand using the "
 "operand's :meth:`~object.__getitem__` method.  If multiple items are "
 "specified, returns a tuple of lookup values.  For example:"
 msgstr ""
-"Devolve um objeto chamável que obtém *item* do seu operando usando o método :"
-"meth:`~object.__getitem__` do operando. Se forem especificados vários itens, "
-"devolve um tuplo de valores de pesquisa. Por exemplo:"
 
 msgid "After ``f = itemgetter(2)``, the call ``f(r)`` returns ``r[2]``."
-msgstr "Depois de ``f = itemgetter(2)``, a chamada ``f(r)`` devolve ``r[2]``."
+msgstr ""
 
 msgid ""
 "After ``g = itemgetter(2, 5, 3)``, the call ``g(r)`` returns ``(r[2], r[5], "
 "r[3])``."
 msgstr ""
-"Depois de ``g = itemgetter(2, 5, 3)``, a chamada ``g(r)`` devolve ``(r[2], "
-"r[5], r[3])``."
 
 msgid ""
 "def itemgetter(*items):\n"
@@ -338,53 +266,32 @@ msgid ""
 "            return tuple(obj[item] for item in items)\n"
 "    return g"
 msgstr ""
-"def itemgetter(*items):\n"
-"    if len(items) == 1:\n"
-"        item = items[0]\n"
-"        def g(obj):\n"
-"            return obj[item]\n"
-"    else:\n"
-"        def g(obj):\n"
-"            return tuple(obj[item] for item in items)\n"
-"    return g"
 
 msgid ""
 "The items can be any type accepted by the operand's :meth:`~object."
 "__getitem__` method.  Dictionaries accept any :term:`hashable` value.  "
 "Lists, tuples, and strings accept an index or a slice:"
 msgstr ""
-"Os itens podem ser de qualquer tipo aceite pelo método :meth:`~object."
-"__getitem__` do operando. Os dicionários aceitam qualquer valor :term:"
-"`hashable`. As listas, tuplos e strings aceitam um índice ou uma fatia:"
 
 msgid ""
 "Example of using :func:`itemgetter` to retrieve specific fields from a tuple "
 "record:"
 msgstr ""
-"Exemplo de utilização de :func:`itemgetter` para recuperar campos "
-"específicos de um registo em tuplo:"
 
 msgid ""
 "Return a callable object that calls the method *name* on its operand.  If "
 "additional arguments and/or keyword arguments are given, they will be given "
 "to the method as well.  For example:"
 msgstr ""
-"Devolve um objeto chamável que invoca o método *name* no seu operando. Se "
-"forem fornecidos argumentos adicionais e/ou argumentos nomeados, estes serão "
-"passados ao método. Por exemplo:"
 
 msgid ""
 "After ``f = methodcaller('name')``, the call ``f(b)`` returns ``b.name()``."
 msgstr ""
-"Depois de ``f = methodcaller('name')``, a chamada ``f(b)`` devolve ``b."
-"name()``."
 
 msgid ""
 "After ``f = methodcaller('name', 'foo', bar=1)``, the call ``f(b)`` returns "
 "``b.name('foo', bar=1)``."
 msgstr ""
-"Depois de ``f = methodcaller('name', 'foo', bar=1)``, a chamada ``f(b)`` "
-"devolve ``b.name('foo', bar=1)``."
 
 msgid ""
 "def methodcaller(name, /, *args, **kwargs):\n"
@@ -392,344 +299,338 @@ msgid ""
 "        return getattr(obj, name)(*args, **kwargs)\n"
 "    return caller"
 msgstr ""
-"def methodcaller(name, /, *args, **kwargs):\n"
-"    def caller(obj):\n"
-"        return getattr(obj, name)(*args, **kwargs)\n"
-"    return caller"
 
 msgid "Mapping Operators to Functions"
-msgstr "Mapeamento de operadores para funções"
+msgstr ""
 
 msgid ""
 "This table shows how abstract operations correspond to operator symbols in "
 "the Python syntax and the functions in the :mod:`operator` module."
 msgstr ""
-"Esta tabela mostra como as operações abstratas correspondem aos símbolos de "
-"operadores na sintaxe Python e às funções no módulo :mod:`operator`."
 
 msgid "Operation"
-msgstr "Operação"
+msgstr ""
 
 msgid "Syntax"
-msgstr "Sintaxe"
+msgstr ""
 
 msgid "Function"
-msgstr "Função"
+msgstr ""
 
 msgid "Addition"
-msgstr "Adição"
+msgstr ""
 
 msgid "``a + b``"
-msgstr "``a + b``"
+msgstr ""
 
 msgid "``add(a, b)``"
-msgstr "``add(a, b)``"
+msgstr ""
 
 msgid "Concatenation"
-msgstr "Concatenação"
+msgstr ""
 
 msgid "``seq1 + seq2``"
-msgstr "``seq1 + seq2``"
+msgstr ""
 
 msgid "``concat(seq1, seq2)``"
-msgstr "``concat(seq1, seq2)``"
+msgstr ""
 
 msgid "Containment Test"
-msgstr "Teste de conteúdo"
+msgstr ""
 
 msgid "``obj in seq``"
-msgstr "``obj in seq``"
+msgstr ""
 
 msgid "``contains(seq, obj)``"
-msgstr "``contains(seq, obj)``"
+msgstr ""
 
 msgid "Division"
-msgstr "Divisão"
+msgstr ""
 
 msgid "``a / b``"
-msgstr "``a / b``"
+msgstr ""
 
 msgid "``truediv(a, b)``"
-msgstr "``truediv(a, b)``"
+msgstr ""
 
 msgid "``a // b``"
-msgstr "``a // b``"
+msgstr ""
 
 msgid "``floordiv(a, b)``"
-msgstr "``floordiv(a, b)``"
+msgstr ""
 
 msgid "Bitwise And"
-msgstr "Bitwise And"
+msgstr ""
 
 msgid "``a & b``"
-msgstr "``a & b``"
+msgstr ""
 
 msgid "``and_(a, b)``"
-msgstr "``and_(a, b)``"
+msgstr ""
 
 msgid "Bitwise Exclusive Or"
-msgstr "Bitwise Exclusive Or"
+msgstr ""
 
 msgid "``a ^ b``"
-msgstr "``a ^ b``"
+msgstr ""
 
 msgid "``xor(a, b)``"
-msgstr "``xor(a, b)``"
+msgstr ""
 
 msgid "Bitwise Inversion"
-msgstr "Inversão bit a bit"
+msgstr ""
 
 msgid "``~ a``"
-msgstr "``~ a``"
+msgstr ""
 
 msgid "``invert(a)``"
-msgstr "``invert(a)``"
+msgstr ""
 
 msgid "Bitwise Or"
-msgstr "Bitwise Or"
+msgstr ""
 
 msgid "``a | b``"
-msgstr "``a | b``"
+msgstr ""
 
 msgid "``or_(a, b)``"
-msgstr "``or_(a, b)``"
+msgstr ""
 
 msgid "Exponentiation"
-msgstr "Exponenciação"
+msgstr ""
 
 msgid "``a ** b``"
-msgstr "``a ** b``"
+msgstr ""
 
 msgid "``pow(a, b)``"
-msgstr "``pow(a, b)``"
+msgstr ""
 
 msgid "Identity"
-msgstr "Identidade"
+msgstr ""
 
 msgid "``a is b``"
-msgstr "``a is b``"
+msgstr ""
 
 msgid "``is_(a, b)``"
-msgstr "``is_(a, b)``"
+msgstr ""
 
 msgid "``a is not b``"
-msgstr "``a is not b``"
+msgstr ""
 
 msgid "``is_not(a, b)``"
-msgstr "``is_not(a, b)``"
+msgstr ""
 
 msgid "``a is None``"
-msgstr "``a is None``"
+msgstr ""
 
 msgid "``is_none(a)``"
-msgstr "``is_none(a)``"
+msgstr ""
 
 msgid "``a is not None``"
-msgstr "``a is not None``"
+msgstr ""
 
 msgid "``is_not_none(a)``"
-msgstr "``is_not_none(a)``"
+msgstr ""
 
 msgid "Indexed Assignment"
-msgstr "Atribuição indexada"
+msgstr ""
 
 msgid "``obj[k] = v``"
-msgstr "``obj[k] = v``"
+msgstr ""
 
 msgid "``setitem(obj, k, v)``"
-msgstr "``setitem(obj, k, v)``"
+msgstr ""
 
 msgid "Indexed Deletion"
-msgstr "Eliminação indexada"
+msgstr ""
 
 msgid "``del obj[k]``"
-msgstr "``del obj[k]``"
+msgstr ""
 
 msgid "``delitem(obj, k)``"
-msgstr "``delitem(obj, k)``"
+msgstr ""
 
 msgid "Indexing"
-msgstr "Indexação"
+msgstr ""
 
 msgid "``obj[k]``"
-msgstr "``obj[k]``"
+msgstr ""
 
 msgid "``getitem(obj, k)``"
-msgstr "``getitem(obj, k)``"
+msgstr ""
 
 msgid "Left Shift"
-msgstr "Deslocamento à esquerda"
+msgstr ""
 
 msgid "``a << b``"
-msgstr "``a << b``"
+msgstr ""
 
 msgid "``lshift(a, b)``"
-msgstr "``lshift(a, b)``"
+msgstr ""
 
 msgid "Modulo"
-msgstr "Módulo"
+msgstr ""
 
 msgid "``a % b``"
-msgstr "``a % b``"
+msgstr ""
 
 msgid "``mod(a, b)``"
-msgstr "``mod(a, b)``"
+msgstr ""
 
 msgid "Multiplication"
-msgstr "Multiplicação"
+msgstr ""
 
 msgid "``a * b``"
-msgstr "``a * b``"
+msgstr ""
 
 msgid "``mul(a, b)``"
-msgstr "``mul(a, b)``"
+msgstr ""
 
 msgid "Matrix Multiplication"
-msgstr "Multiplicação de matrizes"
+msgstr ""
 
 msgid "``a @ b``"
-msgstr "``a @ b``"
+msgstr ""
 
 msgid "``matmul(a, b)``"
-msgstr "``matmul(a, b)``"
+msgstr ""
 
 msgid "Negation (Arithmetic)"
-msgstr "Negação (aritmética)"
+msgstr ""
 
 msgid "``- a``"
-msgstr "``- a``"
+msgstr ""
 
 msgid "``neg(a)``"
-msgstr "``neg(a)``"
+msgstr ""
 
 msgid "Negation (Logical)"
-msgstr "Negação (lógica)"
+msgstr ""
 
 msgid "``not a``"
-msgstr "``not a``"
+msgstr ""
 
 msgid "``not_(a)``"
-msgstr "``not_(a)``"
+msgstr ""
 
 msgid "Positive"
-msgstr "Positivo"
+msgstr ""
 
 msgid "``+ a``"
-msgstr "``+ a``"
+msgstr ""
 
 msgid "``pos(a)``"
-msgstr "``pos(a)``"
+msgstr ""
 
 msgid "Right Shift"
-msgstr "Deslocamento à direita"
+msgstr ""
 
 msgid "``a >> b``"
-msgstr "``a >> b``"
+msgstr ""
 
 msgid "``rshift(a, b)``"
-msgstr "``rshift(a, b)``"
+msgstr ""
 
 msgid "Slice Assignment"
-msgstr "Atribuição de fatia"
+msgstr ""
 
 msgid "``seq[i:j] = values``"
-msgstr "``seq[i:j] = values``"
+msgstr ""
 
 msgid "``setitem(seq, slice(i, j), values)``"
-msgstr "``setitem(seq, slice(i, j), values)``"
+msgstr ""
 
 msgid "Slice Deletion"
-msgstr "Eliminação de fatia"
+msgstr ""
 
 msgid "``del seq[i:j]``"
-msgstr "``del seq[i:j]``"
+msgstr ""
 
 msgid "``delitem(seq, slice(i, j))``"
-msgstr "``delitem(seq, slice(i, j))``"
+msgstr ""
 
 msgid "Slicing"
-msgstr "Fatiamento"
+msgstr ""
 
 msgid "``seq[i:j]``"
-msgstr "``seq[i:j]``"
+msgstr ""
 
 msgid "``getitem(seq, slice(i, j))``"
-msgstr "``getitem(seq, slice(i, j))``"
+msgstr ""
 
 msgid "String Formatting"
-msgstr "Formatação de strings"
+msgstr ""
 
 msgid "``s % obj``"
-msgstr "``s % obj``"
+msgstr ""
 
 msgid "``mod(s, obj)``"
-msgstr "``mod(s, obj)``"
+msgstr ""
 
 msgid "Subtraction"
-msgstr "Subtração"
+msgstr ""
 
 msgid "``a - b``"
-msgstr "``a - b``"
+msgstr ""
 
 msgid "``sub(a, b)``"
-msgstr "``sub(a, b)``"
+msgstr ""
 
 msgid "Truth Test"
-msgstr "Teste de verdade"
+msgstr ""
 
 msgid "``obj``"
-msgstr "``obj``"
+msgstr ""
 
 msgid "``truth(obj)``"
-msgstr "``truth(obj)``"
+msgstr ""
 
 msgid "Ordering"
-msgstr "Ordenação"
+msgstr ""
 
 msgid "``a < b``"
-msgstr "``a < b``"
+msgstr ""
 
 msgid "``lt(a, b)``"
-msgstr "``lt(a, b)``"
+msgstr ""
 
 msgid "``a <= b``"
-msgstr "``a <= b``"
+msgstr ""
 
 msgid "``le(a, b)``"
-msgstr "``le(a, b)``"
+msgstr ""
 
 msgid "Equality"
-msgstr "Igualdade"
+msgstr ""
 
 msgid "``a == b``"
-msgstr "``a == b``"
+msgstr ""
 
 msgid "``eq(a, b)``"
-msgstr "``eq(a, b)``"
+msgstr ""
 
 msgid "Difference"
-msgstr "Diferença"
+msgstr ""
 
 msgid "``a != b``"
-msgstr "``a != b``"
+msgstr ""
 
 msgid "``ne(a, b)``"
-msgstr "``ne(a, b)``"
+msgstr ""
 
 msgid "``a >= b``"
-msgstr "``a >= b``"
+msgstr ""
 
 msgid "``ge(a, b)``"
-msgstr "``ge(a, b)``"
+msgstr ""
 
 msgid "``a > b``"
-msgstr "``a > b``"
+msgstr ""
 
 msgid "``gt(a, b)``"
-msgstr "``gt(a, b)``"
+msgstr ""
 
 msgid "In-place Operators"
-msgstr "Operadores locais"
+msgstr ""
 
 msgid ""
 "Many operations have an \"in-place\" version.  Listed below are functions "
@@ -739,11 +640,6 @@ msgid ""
 "operator.iadd(x, y)`` is equivalent to the compound statement ``z = x; z += "
 "y``."
 msgstr ""
-"Muitas operações têm uma versão \"*in-place*\". Abaixo estão listadas "
-"funções que fornecem um acesso mais primitivo aos operadores *in-place* do "
-"que a sintaxe habitual; por exemplo, a :term:`instrução` ``x += y`` é "
-"equivalente a ``x = operator.iadd(x, y)``. Outra forma de o dizer é que ``z "
-"= operator.iadd(x, y)`` é equivalente à instrução composta ``z = x; z += y``."
 
 msgid ""
 "In those examples, note that when an in-place method is called, the "
@@ -751,66 +647,56 @@ msgid ""
 "place functions listed below only do the first step, calling the in-place "
 "method.  The second step, assignment, is not handled."
 msgstr ""
-"Nesses exemplos, note que quando um método *in-place* é chamado, o cálculo e "
-"a atribuição são realizados em dois passos separados. As funções *in-place* "
-"listadas abaixo apenas realizam o primeiro passo, chamando o método *in-"
-"place*. O segundo passo, a atribuição, não é tratado."
 
 msgid ""
 "For immutable targets such as strings, numbers, and tuples, the updated "
 "value is computed, but not assigned back to the input variable:"
 msgstr ""
-"Para alvos imutáveis como strings, números e tuplos, o valor atualizado é "
-"calculado, mas não é reatribuído à variável de entrada:"
 
 msgid ""
 "For mutable targets such as lists and dictionaries, the in-place method will "
 "perform the update, so no subsequent assignment is necessary:"
 msgstr ""
-"Para alvos mutáveis como listas e dicionários, o método *in-place* realizará "
-"a atualização, pelo que não é necessária nenhuma atribuição subsequente:"
 
 msgid "``a = iadd(a, b)`` is equivalent to ``a += b``."
-msgstr "``a = iadd(a, b)`` é equivalente a ``a += b``."
+msgstr ""
 
 msgid "``a = iand(a, b)`` is equivalent to ``a &= b``."
-msgstr "``a = iand(a, b)`` é equivalente a ``a &= b``."
+msgstr ""
 
 msgid ""
 "``a = iconcat(a, b)`` is equivalent to ``a += b`` for *a* and *b* sequences."
 msgstr ""
-"``a = iconcat(a, b)`` é equivalente a ``a += b`` para as sequências *a* e "
-"*b*."
 
 msgid "``a = ifloordiv(a, b)`` is equivalent to ``a //= b``."
-msgstr "``a = ifloordiv(a, b)`` é equivalente a ``a //= b``."
+msgstr ""
 
 msgid "``a = ilshift(a, b)`` is equivalent to ``a <<= b``."
-msgstr "``a = ilshift(a, b)`` é equivalente a ``a <<= b``."
+msgstr ""
 
 msgid "``a = imod(a, b)`` is equivalent to ``a %= b``."
-msgstr "``a = imod(a, b)`` é equivalente a ``a %= b``."
+msgstr ""
 
 msgid "``a = imul(a, b)`` is equivalent to ``a *= b``."
-msgstr "``a = imul(a, b)`` é equivalente a ``a *= b``."
+msgstr ""
 
 msgid "``a = imatmul(a, b)`` is equivalent to ``a @= b``."
-msgstr "``a = imatmul(a, b)`` é equivalente a ``a @= b``."
+msgstr ""
 
 msgid "``a = ior(a, b)`` is equivalent to ``a |= b``."
-msgstr "``a = ior(a, b)`` é equivalente a ``a |= b``."
+msgstr ""
 
 msgid "``a = ipow(a, b)`` is equivalent to ``a **= b``."
-msgstr "``a = ipow(a, b)`` é equivalente a ``a **= b``."
+msgstr ""
 
 msgid "``a = irshift(a, b)`` is equivalent to ``a >>= b``."
-msgstr "``a = irshift(a, b)`` é equivalente a ``a >>= b``."
+msgstr ""
 
 msgid "``a = isub(a, b)`` is equivalent to ``a -= b``."
-msgstr "``a = isub(a, b)`` é equivalente a ``a -= b``."
+msgstr ""
 
 msgid "``a = itruediv(a, b)`` is equivalent to ``a /= b``."
-msgstr "``a = itruediv(a, b)`` é equivalente a ``a /= b``."
+msgstr ""
 
 msgid "``a = ixor(a, b)`` is equivalent to ``a ^= b``."
-msgstr "``a = ixor(a, b)`` é equivalente a ``a ^= b``."
+msgstr ""

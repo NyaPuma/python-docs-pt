@@ -5,16 +5,16 @@
 #
 # Translators:
 # python-doc bot, 2025
-# André Moreira <afrmscb@gmail.com>, 2025
+# NyaPuma <afrmscb@gmail.com>, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-11 14:15+0000\n"
+"POT-Creation-Date: 2025-11-25 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
-"Last-Translator: André Moreira <afrmscb@gmail.com>, 2025\n"
+"Last-Translator: NyaPuma <afrmscb@gmail.com>, 2025\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
 "teams/5390/pt_PT/)\n"
 "MIME-Version: 1.0\n"
@@ -31,7 +31,7 @@ msgid "**Source code:** :source:`Lib/selectors.py`"
 msgstr ""
 
 msgid "Introduction"
-msgstr "Introdução"
+msgstr ""
 
 msgid ""
 "This module allows high-level and efficient I/O multiplexing, built upon "
@@ -68,17 +68,15 @@ msgid "Low-level I/O multiplexing module."
 msgstr ""
 
 msgid "Availability"
-msgstr "Disponibilidade"
+msgstr ""
 
 msgid ""
 "This module does not work or is not available on WebAssembly. See :ref:`wasm-"
 "availability` for more information."
 msgstr ""
-"Este módulo não funciona ou não está disponível em WebAssembly. Consulte :"
-"ref:`wasm-availability` para mais informações."
 
 msgid "Classes"
-msgstr "Classes"
+msgstr ""
 
 msgid "Classes hierarchy::"
 msgstr ""
@@ -99,10 +97,10 @@ msgid ""
 msgstr ""
 
 msgid "Constant"
-msgstr "Constante"
+msgstr ""
 
 msgid "Meaning"
-msgstr "Significado"
+msgstr ""
 
 msgid "Available for read"
 msgstr ""
@@ -282,7 +280,7 @@ msgid ""
 msgstr ""
 
 msgid "Examples"
-msgstr "Exemplos"
+msgstr ""
 
 msgid "Here is a simple echo server implementation::"
 msgstr ""

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-19 19:26+0000\n"
+"POT-Creation-Date: 2025-11-25 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: NyaPuma <afrmscb@gmail.com>, 2025\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
@@ -28,10 +28,10 @@ msgid "Logging HOWTO"
 msgstr ""
 
 msgid "Author"
-msgstr "Autor"
+msgstr ""
 
 msgid "Vinay Sajip <vinay_sajip at red-dove dot com>"
-msgstr "Vinay Sajip <vinay_sajip at red-dove dot com>"
+msgstr ""
 
 msgid ""
 "This page contains tutorial information. For links to reference information "
@@ -74,7 +74,7 @@ msgid ""
 msgstr ""
 
 msgid ":func:`print`"
-msgstr ":func:`print`"
+msgstr ""
 
 msgid ""
 "Report events that occur during normal operation of a program (e.g. for "
@@ -123,7 +123,7 @@ msgid ""
 msgstr ""
 
 msgid "Level"
-msgstr "Nível"
+msgstr ""
 
 msgid "When it's used"
 msgstr ""
@@ -139,7 +139,7 @@ msgid "``INFO``"
 msgstr ""
 
 msgid "Confirmation that things are working as expected."
-msgstr "Confirmação de que as coisas estão a funcionar como esperado."
+msgstr ""
 
 msgid "``WARNING``"
 msgstr ""
@@ -157,8 +157,6 @@ msgid ""
 "Due to a more serious problem, the software has not been able to perform "
 "some function."
 msgstr ""
-"Devido a um problema mais grave, o software não foi capaz de executar alguma "
-"função."
 
 msgid "``CRITICAL``"
 msgstr ""
@@ -167,8 +165,6 @@ msgid ""
 "A serious error, indicating that the program itself may be unable to "
 "continue running."
 msgstr ""
-"Um erro grave, indicando que o próprio programa pode ser incapaz de "
-"continuar a executar."
 
 msgid ""
 "The default level is ``WARNING``, which means that only events of this "
@@ -462,25 +458,19 @@ msgstr ""
 
 msgid "Loggers expose the interface that application code directly uses."
 msgstr ""
-"Os registadores expõem a interface que o código da aplicação usa diretamente."
 
 msgid ""
 "Handlers send the log records (created by loggers) to the appropriate "
 "destination."
 msgstr ""
-"Os manipuladores enviam os registos de registo (criados pelos registadores) "
-"para o destino apropriado."
 
 msgid ""
 "Filters provide a finer grained facility for determining which log records "
 "to output."
 msgstr ""
-"Os filtros fornecem uma facilidade mais fina para determinar quais registos "
-"de registo devem ser produzidos."
 
 msgid "Formatters specify the layout of log records in the final output."
 msgstr ""
-"Os formatadores especificam o layout dos registos de registo na saída final."
 
 msgid ""
 "Log event information is passed between loggers, handlers, filters and "
@@ -503,7 +493,7 @@ msgid ""
 msgstr ""
 
 msgid "logger = logging.getLogger(__name__)"
-msgstr "logger = logging.getLogger(__name__)"
+msgstr ""
 
 msgid ""
 "This means that logger names track the package/module hierarchy, and it's "
@@ -1094,7 +1084,7 @@ msgid ""
 msgstr ""
 
 msgid "Logging Levels"
-msgstr "Níveis de Registo"
+msgstr ""
 
 msgid ""
 "The numeric values of logging levels are given in the following table. These "
@@ -1103,35 +1093,30 @@ msgid ""
 "define a level with the same numeric value, it overwrites the predefined "
 "value; the predefined name is lost."
 msgstr ""
-"Os valores numéricos dos níveis de registo são dados na tabela seguinte. "
-"Estes são principalmente de interesse se pretender definir os seus próprios "
-"níveis e precisar que tenham valores específicos em relação aos níveis "
-"predefinidos. Se definir um nível com o mesmo valor numérico, ele "
-"sobrescreve o valor predefinido; o nome predefinido é perdido."
 
 msgid "Numeric value"
-msgstr "Valor numérico"
+msgstr ""
 
 msgid "50"
-msgstr "50"
+msgstr ""
 
 msgid "40"
-msgstr "40"
+msgstr ""
 
 msgid "30"
-msgstr "30"
+msgstr ""
 
 msgid "20"
-msgstr "20"
+msgstr ""
 
 msgid "10"
-msgstr "10"
+msgstr ""
 
 msgid "``NOTSET``"
 msgstr ""
 
 msgid "0"
-msgstr "0"
+msgstr ""
 
 msgid ""
 "Levels can also be associated with loggers, being set either by the "
@@ -1452,25 +1437,25 @@ msgid ""
 msgstr ""
 
 msgid "Other resources"
-msgstr "Outros recursos"
+msgstr ""
 
 msgid "Module :mod:`logging`"
-msgstr "Módulo :mod:`logging`"
+msgstr ""
 
 msgid "API reference for the logging module."
-msgstr "Referência da API para o módulo de registo."
+msgstr ""
 
 msgid "Module :mod:`logging.config`"
-msgstr "Módulo :mod:`logging.config`"
+msgstr ""
 
 msgid "Configuration API for the logging module."
-msgstr "API de configuração para o módulo de registo."
+msgstr ""
 
 msgid "Module :mod:`logging.handlers`"
-msgstr "Módulo :mod:`logging.handlers`"
+msgstr ""
 
 msgid "Useful handlers included with the logging module."
-msgstr "Manipuladores úteis incluídos com o módulo de registo."
+msgstr ""
 
 msgid ":ref:`A logging cookbook <logging-cookbook>`"
 msgstr ""
