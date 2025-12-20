@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# NyaPuma <afrmscb@gmail.com>, 2025
+# André Moreira <afrmscb@gmail.com>, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-15 14:20+0000\n"
+"POT-Creation-Date: 2025-12-19 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
-"Last-Translator: NyaPuma <afrmscb@gmail.com>, 2025\n"
+"Last-Translator: André Moreira <afrmscb@gmail.com>, 2025\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
 "teams/5390/pt_PT/)\n"
 "MIME-Version: 1.0\n"
@@ -342,10 +342,11 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Old classes :class:`!ast.Num`, :class:`!ast.Str`, :class:`!ast.Bytes`, :"
-"class:`!ast.NameConstant` and :class:`!ast.Ellipsis` are still available, "
-"but they will be removed in future Python releases.  In the meantime, "
-"instantiating them will return an instance of a different class."
+"Previous versions of Python provided the AST classes :class:`!ast.Num`, :"
+"class:`!ast.Str`, :class:`!ast.Bytes`, :class:`!ast.NameConstant` and :class:"
+"`!ast.Ellipsis`, which were deprecated in Python 3.8. These classes were "
+"removed in Python 3.14, and their functionality has been replaced with :"
+"class:`ast.Constant`."
 msgstr ""
 
 msgid ""
@@ -2597,9 +2598,9 @@ msgstr ""
 
 msgid ""
 "Methods :meth:`!visit_Num`, :meth:`!visit_Str`, :meth:`!visit_Bytes`, :meth:"
-"`!visit_NameConstant` and :meth:`!visit_Ellipsis` are deprecated now and "
-"will not be called in future Python versions.  Add the :meth:"
-"`visit_Constant` method to handle all constant nodes."
+"`!visit_NameConstant` and :meth:`!visit_Ellipsis` will not be called in "
+"Python 3.14+.  Add the :meth:`visit_Constant` method instead to handle all "
+"constant nodes."
 msgstr ""
 
 msgid ""
