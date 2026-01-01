@@ -5,16 +5,16 @@
 #
 # Translators:
 # python-doc bot, 2025
-# NyaPuma <afrmscb@gmail.com>, 2025
+# André Moreira <afrmscb@gmail.com>, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-11 14:18+0000\n"
+"POT-Creation-Date: 2025-12-31 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
-"Last-Translator: NyaPuma <afrmscb@gmail.com>, 2025\n"
+"Last-Translator: André Moreira <afrmscb@gmail.com>, 2025\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
 "teams/5390/pt_PT/)\n"
 "MIME-Version: 1.0\n"
@@ -1922,8 +1922,8 @@ msgid "The default installation directory for all-user installs"
 msgstr ""
 
 msgid ""
-":file:`%ProgramFiles%\\\\ Python X.Y` or :file:` %ProgramFiles(x86)%\\\\ "
-"Python X.Y`"
+":file:`%ProgramFiles%\\\\\\ Python X.Y` or :file:`\\ %ProgramFiles(x86)%\\\\"
+"\\ Python X.Y`"
 msgstr ""
 
 msgid "DefaultJustForMeTargetDir"
@@ -1933,9 +1933,9 @@ msgid "The default install directory for just-for-me installs"
 msgstr ""
 
 msgid ""
-":file:`%LocalAppData%\\\\ Programs\\\\Python\\\\ PythonXY` or :file:"
-"`%LocalAppData%\\\\ Programs\\\\Python\\\\ PythonXY-32` or :file:"
-"`%LocalAppData%\\\\ Programs\\\\Python\\\\ PythonXY-64`"
+":file:`%LocalAppData%\\\\\\ Programs\\\\Python\\\\\\ PythonXY` or :file:"
+"`%LocalAppData%\\\\\\ Programs\\\\Python\\\\\\ PythonXY-32` or :file:"
+"`%LocalAppData%\\\\\\ Programs\\\\Python\\\\\\ PythonXY-64`"
 msgstr ""
 
 msgid "DefaultCustomTargetDir"
