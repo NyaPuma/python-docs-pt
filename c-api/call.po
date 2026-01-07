@@ -5,6 +5,7 @@
 #
 # Translators:
 # python-doc bot, 2025
+# André Moreira <afrmscb@gmail.com>, 2026
 #
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-05 14:19+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"Last-Translator: André Moreira <afrmscb@gmail.com>, 2026\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
 "teams/5390/pt_PT/)\n"
 "MIME-Version: 1.0\n"
@@ -24,23 +25,26 @@ msgstr ""
 "1000000 == 0 ? 1 : 2;\n"
 
 msgid "Call Protocol"
-msgstr ""
+msgstr "Protocolo de chamada"
 
 msgid ""
 "CPython supports two different calling protocols: *tp_call* and vectorcall."
-msgstr ""
+msgstr "O CPython permite dois protocolos de chamada: *tp_call* e vectorcall."
 
 msgid "The *tp_call* Protocol"
-msgstr ""
+msgstr "O protocolo *tp_call*"
 
 msgid ""
 "Instances of classes that set :c:member:`~PyTypeObject.tp_call` are "
 "callable. The signature of the slot is::"
 msgstr ""
+"Instâncias de classe que definem :c:member:`~PyTypeObject.tp_call` são "
+"chamáveis. A assinatura do slot é::"
 
 msgid ""
 "PyObject *tp_call(PyObject *callable, PyObject *args, PyObject *kwargs);"
 msgstr ""
+"PyObject *tp_call(PyObject *callable, PyObject *args, PyObject *kwargs);"
 
 msgid ""
 "A call is made using a tuple for the positional arguments and a dict for the "
@@ -48,19 +52,29 @@ msgid ""
 "code. *args* must be non-NULL (use an empty tuple if there are no arguments) "
 "but *kwargs* may be *NULL* if there are no keyword arguments."
 msgstr ""
+"Uma chamada é feita usando um tuplo para os argumentos posicionais e um "
+"dicionário para os argumentos nomeados, similar a ``callable(*args, "
+"**kwargs)`` no Python. *args* não pode ser nulo (utilize um tuplo vazio se "
+"não houver argumentos), mas *kwargs* pode ser *NULL* se não houver "
+"argumentos nomeados."
 
 msgid ""
 "This convention is not only used by *tp_call*: :c:member:`~PyTypeObject."
 "tp_new` and :c:member:`~PyTypeObject.tp_init` also pass arguments this way."
 msgstr ""
+"Esta convenção não é apenas usada por *tp_call*: :c:member:`~PyTypeObject."
+"tp_new` e :c:member:`~PyTypeObject.tp_init` também passam argumento dessa "
+"forma."
 
 msgid ""
 "To call an object, use :c:func:`PyObject_Call` or another :ref:`call API "
 "<capi-call>`."
 msgstr ""
+"Para chamar um objeto, use :c:func:`PyObject_Call` ou outra :ref:`call API "
+"<capi-call>`."
 
 msgid "The Vectorcall Protocol"
-msgstr ""
+msgstr "O protocolo vectorcall"
 
 msgid ""
 "The vectorcall protocol was introduced in :pep:`590` as an additional "

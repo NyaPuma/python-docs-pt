@@ -5,6 +5,7 @@
 #
 # Translators:
 # python-doc bot, 2025
+# André Moreira <afrmscb@gmail.com>, 2026
 #
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-05 14:19+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"Last-Translator: André Moreira <afrmscb@gmail.com>, 2026\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
 "teams/5390/pt_PT/)\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +25,7 @@ msgstr ""
 "1000000 == 0 ? 1 : 2;\n"
 
 msgid "Cell Objects"
-msgstr ""
+msgstr "Objetos célula"
 
 msgid ""
 "\"Cell\" objects are used to implement variables referenced by multiple "
@@ -38,44 +39,60 @@ msgid ""
 msgstr ""
 
 msgid "The C structure used for cell objects."
-msgstr ""
+msgstr "A estrutura C usada para objetos célula."
 
 msgid "The type object corresponding to cell objects."
-msgstr ""
+msgstr "O objeto de tipo correspondente aos objetos célula."
 
 msgid ""
 "Return true if *ob* is a cell object; *ob* must not be ``NULL``.  This "
 "function always succeeds."
 msgstr ""
+"Retorna verdadeiro se *ob* for um objeto célula; *ob* não deve ser ``NULL``. "
+"Esta função é sempre bem-sucedida."
 
 msgid ""
 "Create and return a new cell object containing the value *ob*. The parameter "
 "may be ``NULL``."
 msgstr ""
+"Cria e retorna um novo objeto célula contendo o valor *ob*. O parâmetro pode "
+"ser ``NULL``."
 
 msgid ""
 "Return the contents of the cell *cell*, which can be ``NULL``. If *cell* is "
 "not a cell object, returns ``NULL`` with an exception set."
 msgstr ""
+"Retorna o conteúdo da célula *cell*, que pode ser ``NULL``. Se *cell* não "
+"for um objeto célula, retorna ``NULL`` com um conjunto de exceções."
 
 msgid ""
 "Return the contents of the cell *cell*, but without checking that *cell* is "
 "non-``NULL`` and a cell object."
 msgstr ""
+"Retorna o conteúdo da célula *cell*, mas sem verificar se *cell* não é "
+"``NULL`` e um objeto célula."
 
 msgid ""
 "Set the contents of the cell object *cell* to *value*.  This releases the "
 "reference to any current content of the cell. *value* may be ``NULL``.  "
 "*cell* must be non-``NULL``."
 msgstr ""
+"Define o conteúdo do objeto da célula *cell* como *value*. Isto libera a "
+"referência a qualquer conteúdo atual da célula. *value* pode ser ``NULL``. "
+"*cell* não pode ser ``NULL``."
 
 msgid ""
 "On success, return ``0``. If *cell* is not a cell object, set an exception "
 "and return ``-1``."
 msgstr ""
+"Em caso de sucesso, retorna ``0``. Se *cell* não for um objeto célula, "
+"define uma exceção e retorna ``-1``."
 
 msgid ""
 "Sets the value of the cell object *cell* to *value*.  No reference counts "
 "are adjusted, and no checks are made for safety; *cell* must be non-``NULL`` "
 "and must be a cell object."
 msgstr ""
+"Define o valor do objeto da célula *cell* como *value*. Nenhuma contagem de "
+"referência é ajustada e nenhuma verificação é feita quanto à segurança; "
+"*cell* não pode ser ``NULL`` e deve ser um objeto célula."
