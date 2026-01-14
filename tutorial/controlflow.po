@@ -5,16 +5,16 @@
 #
 # Translators:
 # python-doc bot, 2025
-# André Moreira <afrmscb@gmail.com>, 2025
+# André Moreira <afrmscb@gmail.com>, 2026
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-09 14:19+0000\n"
+"POT-Creation-Date: 2026-01-13 14:20+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
-"Last-Translator: André Moreira <afrmscb@gmail.com>, 2025\n"
+"Last-Translator: André Moreira <afrmscb@gmail.com>, 2026\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
 "teams/5390/pt_PT/)\n"
 "MIME-Version: 1.0\n"
@@ -2115,6 +2115,22 @@ msgid ""
 "    >>> my_function()\n"
 "    >>>"
 msgstr ""
+">>> def minha_função():\n"
+"...     \"\"\"Não faz nada, mas documenta-o.\n"
+"...\n"
+"...     Não, realmente, não faz nada:\n"
+"...\n"
+"...         >>> minha_função()\n"
+"...         >>>\n"
+"...     \"\"\"\n"
+"...     pass\n"
+"...\n"
+">>> print(minha_função.__doc__)\n"
+"Não faz nada, mas documenta-o.\n"
+"Nope, realmente, não faz nada:\n"
+"\n"
+"    >>> minha_função()\n"
+"    >>>"
 
 msgid "Function Annotations"
 msgstr "Anotações de funções"
