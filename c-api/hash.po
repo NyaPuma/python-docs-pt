@@ -5,16 +5,16 @@
 #
 # Translators:
 # python-doc bot, 2025
-# André Moreira <afrmscb@gmail.com>, 2025
+# André Moreira <afrmscb@gmail.com>, 2026
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-05 14:19+0000\n"
+"POT-Creation-Date: 2026-01-19 14:21+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
-"Last-Translator: André Moreira <afrmscb@gmail.com>, 2025\n"
+"Last-Translator: André Moreira <afrmscb@gmail.com>, 2026\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
 "teams/5390/pt_PT/)\n"
 "MIME-Version: 1.0\n"
@@ -41,42 +41,54 @@ msgid ""
 "A numerical value indicating the algorithm for hashing of :class:`str`, :"
 "class:`bytes`, and :class:`memoryview`."
 msgstr ""
+"Um valor numérico que indica o algoritmo para hash de :class:`str`, :class:"
+"`bytes` e :class:`memoryview`."
 
 msgid "The algorithm name is exposed by :data:`sys.hash_info.algorithm`."
-msgstr ""
+msgstr "O nome do algoritmo é exposto por :data:`sys.hash_info.algorithm`."
 
 msgid ""
 "Numerical values to compare to :c:macro:`Py_HASH_ALGORITHM` to determine "
 "which algorithm is used for hashing. The hash algorithm can be configured "
 "via the configure :option:`--with-hash-algorithm` option."
 msgstr ""
+"Valores numéricos a comparar com :c:macro:`Py_HASH_ALGORITHM` para "
+"determinar qual algoritmo é usado para hash. O algoritmo hash pode ser "
+"configurado através da opção :option:`--with-hash-algorithm`."
 
 msgid "Add :c:macro:`!Py_HASH_FNV` and :c:macro:`!Py_HASH_SIPHASH24`."
-msgstr ""
+msgstr "Adiciona :c:macro:`!Py_HASH_FNV` e :c:macro:`!Py_HASH_SIPHASH24`."
 
 msgid "Add :c:macro:`!Py_HASH_SIPHASH13`."
-msgstr ""
+msgstr "Adiciona :c:macro:`!Py_HASH_SIPHASH13`."
 
 msgid ""
 "Buffers of length in range ``[1, Py_HASH_CUTOFF)`` are hashed using DJBX33A "
 "instead of the algorithm described by :c:macro:`Py_HASH_ALGORITHM`."
 msgstr ""
+"Os buffers com comprimento no intervalo ``[1, Py_HASH_CUTOFF)`` são hashados "
+"utilizando DJBX33A em vez do algoritmo descrito por :c:macro:"
+"`Py_HASH_ALGORITHM`."
 
 msgid "A :c:macro:`!Py_HASH_CUTOFF` of 0 disables the optimization."
-msgstr ""
+msgstr "A :c:macro:`!Py_HASH_CUTOFF` de 0 desativa a otimização."
 
 msgid ""
 ":c:macro:`!Py_HASH_CUTOFF` must be non-negative and less or equal than 7."
-msgstr ""
+msgstr ":c:macro:`!Py_HASH_CUTOFF` deve ser não negativo e menor ou igual a 7."
 
 msgid ""
 "32-bit platforms should use a cutoff smaller than 64-bit platforms because "
 "it is easier to create colliding strings. A cutoff of 7 on 64-bit platforms "
 "and 5 on 32-bit platforms should provide a decent safety margin."
 msgstr ""
+"As plataformas de 32 bits devem usar um limite menor do que as plataformas "
+"de 64 bits, pois é mais fácil criar colisões de strings. Um limite de 7 em "
+"plataformas de 64 bits e 5 em plataformas de 32 bits deve fornecer uma "
+"margem de segurança adequada."
 
 msgid "This corresponds to the :data:`sys.hash_info.cutoff` constant."
-msgstr ""
+msgstr "Isto corresponde à constante :data:`sys.hash_info.cutoff`."
 
 msgid ""
 "The `Mersenne prime <https://en.wikipedia.org/wiki/Mersenne_prime>`_ ``P = "
@@ -84,7 +96,7 @@ msgid ""
 msgstr ""
 
 msgid "This corresponds to the :data:`sys.hash_info.modulus` constant."
-msgstr ""
+msgstr "Isto corresponde à constante :data:`sys.hash_info.modulus`."
 
 msgid "The exponent ``n`` of ``P`` in :c:macro:`PyHASH_MODULUS`."
 msgstr ""
@@ -96,13 +108,13 @@ msgid "The hash value returned for a positive infinity."
 msgstr ""
 
 msgid "This corresponds to the :data:`sys.hash_info.inf` constant."
-msgstr ""
+msgstr "Isto corresponde à constante :data:`sys.hash_info.inf`."
 
 msgid "The multiplier used for the imaginary part of a complex number."
 msgstr ""
 
 msgid "This corresponds to the :data:`sys.hash_info.imag` constant."
-msgstr ""
+msgstr "Isto corresponde à constante :data:`sys.hash_info.imag`."
 
 msgid "Hash function definition used by :c:func:`PyHash_GetFuncDef`."
 msgstr ""
@@ -114,19 +126,19 @@ msgid "Hash function name (UTF-8 encoded string)."
 msgstr ""
 
 msgid "This corresponds to the :data:`sys.hash_info.algorithm` constant."
-msgstr ""
+msgstr "Isto corresponde à constante :data:`sys.hash_info.algorithm`."
 
 msgid "Internal size of the hash value in bits."
 msgstr ""
 
 msgid "This corresponds to the :data:`sys.hash_info.hash_bits` constant."
-msgstr ""
+msgstr "Isto corresponde à constante :data:`sys.hash_info.hash_bits`."
 
 msgid "Size of seed input in bits."
 msgstr ""
 
 msgid "This corresponds to the :data:`sys.hash_info.seed_bits` constant."
-msgstr ""
+msgstr "Isto corresponde à constante :data:`sys.hash_info.seed_bits`."
 
 msgid "Get the hash function definition."
 msgstr ""
