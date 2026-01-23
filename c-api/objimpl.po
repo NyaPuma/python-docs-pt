@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# André Moreira <afrmscb@gmail.com>, 2026
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-05 14:19+0000\n"
+"POT-Creation-Date: 2026-01-21 14:24+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
+"Last-Translator: André Moreira <afrmscb@gmail.com>, 2026\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
 "teams/5390/pt_PT/)\n"
 "MIME-Version: 1.0\n"
@@ -20,9 +24,11 @@ msgstr ""
 "1000000 == 0 ? 1 : 2;\n"
 
 msgid "Object Implementation Support"
-msgstr ""
+msgstr "Suporte à implementação de objetos"
 
 msgid ""
 "This chapter describes the functions, types, and macros used when defining "
 "new object types."
 msgstr ""
+"Este capítulo descreve as funções, os tipos e as macros utilizados na "
+"definição de novos tipos de objetos."
