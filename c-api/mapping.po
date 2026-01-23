@@ -5,16 +5,16 @@
 #
 # Translators:
 # python-doc bot, 2025
-# André Moreira <afrmscb@gmail.com>, 2025
+# André Moreira <afrmscb@gmail.com>, 2026
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-05 14:19+0000\n"
+"POT-Creation-Date: 2026-01-21 14:24+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
-"Last-Translator: André Moreira <afrmscb@gmail.com>, 2025\n"
+"Last-Translator: André Moreira <afrmscb@gmail.com>, 2026\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
 "teams/5390/pt_PT/)\n"
 "MIME-Version: 1.0\n"
@@ -109,6 +109,10 @@ msgid ""
 "`PyMapping_HasKeyWithError`, :c:func:`PyMapping_GetOptionalItem` or :c:func:"
 "`PyObject_GetItem()` instead."
 msgstr ""
+"As exceções que ocorrem quando isto chama o método :meth:`~object."
+"__getitem__` são silenciosamente ignoradas. Para um tratamento adequado de "
+"erros, use :c:func:`PyMapping_HasKeyWithError`, :c:func:"
+"`PyMapping_GetOptionalItem` ou :c:func:`PyObject_GetItem()` em vez disso."
 
 msgid ""
 "This is the same as :c:func:`PyMapping_HasKey`, but *key* is specified as a :"
@@ -123,6 +127,11 @@ msgid ""
 "func:`PyMapping_GetOptionalItemString` or :c:func:`PyMapping_GetItemString` "
 "instead."
 msgstr ""
+"As exceções que ocorrem quando isto chama o método :meth:`~object."
+"__getitem__` ou durante a criação do objeto temporário :class:`str` são "
+"silenciosamente ignoradas. Para um tratamento adequado de erros, use :c:func:"
+"`PyMapping_HasKeyStringWithError`, :c:func:`PyMapping_GetOptionalItemString` "
+"ou :c:func:`PyMapping_GetItemString` em vez disso."
 
 msgid ""
 "On success, return a list of the keys in object *o*.  On failure, return "
