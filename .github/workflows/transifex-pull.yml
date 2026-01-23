@@ -44,8 +44,7 @@ jobs:
         env:
           TX_TOKEN: ${{ secrets.TX_TOKEN }}
 
-      # ADD: --pull-options="--mode reviewed"
-      - run: ./transifex-util.py fetch --language pt_PT --project-slug python-newest --version ${{ matrix.version }} --pull-options="--mode reviewed"
+      - run: ./transifex-util.py fetch --language pt_PT --project-slug python-newest --version ${{ matrix.version }}
         env:
           TX_TOKEN: ${{ secrets.TX_TOKEN }}
 
