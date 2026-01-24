@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-05 14:19+0000\n"
+"POT-Creation-Date: 2026-01-17 14:14+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: André Moreira <afrmscb@gmail.com>, 2025\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
@@ -24,100 +24,100 @@ msgstr ""
 "1000000 == 0 ? 1 : 2;\n"
 
 msgid "Pending removal in Python 3.13"
-msgstr ""
+msgstr "Remoção pendente no Python 3.13"
 
 msgid "Modules (see :pep:`594`):"
-msgstr ""
+msgstr "Módulos (consulte :pep:`594`):"
 
 msgid ":mod:`!aifc`"
-msgstr ""
+msgstr ":mod:`!aifc`"
 
 msgid ":mod:`!audioop`"
-msgstr ""
+msgstr ":mod:`!audioop`"
 
 msgid ":mod:`!cgi`"
-msgstr ""
+msgstr ":mod:`!cgi`"
 
 msgid ":mod:`!cgitb`"
-msgstr ""
+msgstr ":mod:`!cgitb`"
 
 msgid ":mod:`!chunk`"
-msgstr ""
+msgstr ":mod:`!chunk`"
 
 msgid ":mod:`!crypt`"
-msgstr ""
+msgstr ":mod:`!crypt`"
 
 msgid ":mod:`!imghdr`"
-msgstr ""
+msgstr ":mod:`!imghdr`"
 
 msgid ":mod:`!mailcap`"
-msgstr ""
+msgstr ":mod:`!mailcap`"
 
 msgid ":mod:`!msilib`"
-msgstr ""
+msgstr ":mod:`!msilib`"
 
 msgid ":mod:`!nis`"
-msgstr ""
+msgstr ":mod:`!nis`"
 
 msgid ":mod:`!nntplib`"
-msgstr ""
+msgstr ":mod:`!nntplib`"
 
 msgid ":mod:`!ossaudiodev`"
-msgstr ""
+msgstr ":mod:`!ossaudiodev`"
 
 msgid ":mod:`!pipes`"
-msgstr ""
+msgstr ":mod:`!pipes`"
 
 msgid ":mod:`!sndhdr`"
-msgstr ""
+msgstr ":mod:`!sndhdr`"
 
 msgid ":mod:`!spwd`"
-msgstr ""
+msgstr ":mod:`!spwd`"
 
 msgid ":mod:`!sunau`"
-msgstr ""
+msgstr ":mod:`!sunau`"
 
 msgid ":mod:`!telnetlib`"
-msgstr ""
+msgstr ":mod:`!telnetlib`"
 
 msgid ":mod:`!uu`"
-msgstr ""
+msgstr ":mod:`!uu`"
 
 msgid ":mod:`!xdrlib`"
-msgstr ""
+msgstr ":mod:`!xdrlib`"
 
 msgid "Other modules:"
-msgstr ""
+msgstr "Outros módulos:"
 
 msgid ":mod:`!lib2to3`, and the :program:`2to3` program (:gh:`84540`)"
-msgstr ""
+msgstr ":mod:`!lib2to3` e o programa :program:`2to3` (:gh:`84540`)"
 
 msgid "APIs:"
-msgstr ""
+msgstr "APIs:"
 
 msgid ":class:`!configparser.LegacyInterpolation` (:gh:`90765`)"
-msgstr ""
+msgstr ":class:`!configparser.LegacyInterpolation` (:gh:`90765`)"
 
 msgid "``locale.resetlocale()`` (:gh:`90817`)"
-msgstr ""
+msgstr "``locale.resetlocale()`` (:gh:`90817`)"
 
 msgid ":meth:`!turtle.RawTurtle.settiltangle` (:gh:`50096`)"
-msgstr ""
+msgstr ":meth:`!turtle.RawTurtle.settiltangle` (:gh:`50096`)"
 
 msgid ":func:`!unittest.findTestCases` (:gh:`50096`)"
-msgstr ""
+msgstr ":func:`!unittest.findTestCases` (:gh:`50096`)"
 
 msgid ":func:`!unittest.getTestCaseNames` (:gh:`50096`)"
-msgstr ""
+msgstr ":func:`!unittest.getTestCaseNames` (:gh:`50096`)"
 
 msgid ":func:`!unittest.makeSuite` (:gh:`50096`)"
-msgstr ""
+msgstr ":func:`!unittest.makeSuite` (:gh:`50096`)"
 
 msgid ":meth:`!unittest.TestProgram.usageExit` (:gh:`67048`)"
-msgstr ""
+msgstr ":meth:`!unittest.TestProgram.usageExit` (:gh:`67048`)"
 
 msgid ":class:`!webbrowser.MacOSX` (:gh:`86421`)"
-msgstr ""
+msgstr ":class:`!webbrowser.MacOSX` (:gh:`86421`)"
 
 msgid ":class:`classmethod` descriptor chaining (:gh:`89519`)"
-msgstr ""
+msgstr "Encadeamento de descritores :class:`classmethod` (:gh:`89519`)"

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-13 14:20+0000\n"
+"POT-Creation-Date: 2026-01-17 14:14+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: André Moreira <afrmscb@gmail.com>, 2025\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
@@ -49,7 +49,7 @@ msgid ""
 msgstr ""
 
 msgid "This module defines the following functions:"
-msgstr ""
+msgstr "Este módulo define as seguintes funções:"
 
 msgid ""
 "Read a TOML file. The first argument should be a readable and binary file "
@@ -78,10 +78,10 @@ msgid "The following exceptions are available:"
 msgstr ""
 
 msgid "Subclass of :exc:`ValueError` with the following additional attributes:"
-msgstr ""
+msgstr "Subclasse de :exc:`ValueError` com os seguintes atributos adicionais:"
 
 msgid "The unformatted error message."
-msgstr ""
+msgstr "A mensagem de erro não formatada."
 
 msgid "The TOML document being parsed."
 msgstr ""
@@ -90,10 +90,10 @@ msgid "The index of *doc* where parsing failed."
 msgstr ""
 
 msgid "The line corresponding to *pos*."
-msgstr ""
+msgstr "A linha correspondente a *pos*."
 
 msgid "The column corresponding to *pos*."
-msgstr ""
+msgstr "A coluna correspondente a *pos*."
 
 msgid ""
 "Added the *msg*, *doc* and *pos* parameters. Added the :attr:`msg`, :attr:"
@@ -104,7 +104,7 @@ msgid "Passing free-form positional arguments is deprecated."
 msgstr ""
 
 msgid "Examples"
-msgstr ""
+msgstr "Exemplos"
 
 msgid "Parsing a TOML file::"
 msgstr ""
@@ -137,37 +137,37 @@ msgid "TOML"
 msgstr ""
 
 msgid "Python"
-msgstr ""
+msgstr "Python"
 
 msgid "TOML document"
 msgstr ""
 
 msgid "dict"
-msgstr ""
+msgstr "dicionário"
 
 msgid "string"
-msgstr ""
+msgstr "string"
 
 msgid "str"
-msgstr ""
+msgstr "str"
 
 msgid "integer"
-msgstr ""
+msgstr "inteiro"
 
 msgid "int"
-msgstr ""
+msgstr "int"
 
 msgid "float"
-msgstr ""
+msgstr "float"
 
 msgid "float (configurable with *parse_float*)"
 msgstr ""
 
 msgid "boolean"
-msgstr ""
+msgstr "booleano"
 
 msgid "bool"
-msgstr ""
+msgstr "bool"
 
 msgid "offset date-time"
 msgstr ""
@@ -196,10 +196,10 @@ msgid "datetime.time"
 msgstr ""
 
 msgid "array"
-msgstr ""
+msgstr "array"
 
 msgid "list"
-msgstr ""
+msgstr "lista"
 
 msgid "table"
 msgstr ""

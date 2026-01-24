@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-19 14:21+0000\n"
+"POT-Creation-Date: 2026-01-21 14:24+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: André Moreira <afrmscb@gmail.com>, 2026\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
@@ -25,17 +25,18 @@ msgstr ""
 "1000000 == 0 ? 1 : 2;\n"
 
 msgid "PyHash API"
-msgstr ""
+msgstr "API do PyHash"
 
 msgid ""
 "See also the :c:member:`PyTypeObject.tp_hash` member and :ref:`numeric-hash`."
 msgstr ""
+"Veja também o membro :c:member:`PyTypeObject.tp_hash` e :ref:`numeric-hash`."
 
 msgid "Hash value type: signed integer."
-msgstr ""
+msgstr "Tipo de valor do hash: inteiro com sinal."
 
 msgid "Hash value type: unsigned integer."
-msgstr ""
+msgstr "Tipo de valor do hash: inteiro sem sinal."
 
 msgid ""
 "A numerical value indicating the algorithm for hashing of :class:`str`, :"
@@ -94,65 +95,70 @@ msgid ""
 "The `Mersenne prime <https://en.wikipedia.org/wiki/Mersenne_prime>`_ ``P = "
 "2**n -1``, used for numeric hash scheme."
 msgstr ""
+"O `primo de Mersenne <https://en.wikipedia.org/wiki/Mersenne_prime>`_ ``P = "
+"2**n -1``, usado para o esquema de hash numérico."
 
 msgid "This corresponds to the :data:`sys.hash_info.modulus` constant."
 msgstr "Isto corresponde à constante :data:`sys.hash_info.modulus`."
 
 msgid "The exponent ``n`` of ``P`` in :c:macro:`PyHASH_MODULUS`."
-msgstr ""
+msgstr "O expoente ``n`` de ``P`` em :c:macro:`PyHASH_MODULUS`."
 
 msgid "Prime multiplier used in string and various other hashes."
-msgstr ""
+msgstr "Multiplicador de primo usado em strings e vários outros hashes."
 
 msgid "The hash value returned for a positive infinity."
-msgstr ""
+msgstr "O valor de hash retornado para um infinito positivo."
 
 msgid "This corresponds to the :data:`sys.hash_info.inf` constant."
 msgstr "Isto corresponde à constante :data:`sys.hash_info.inf`."
 
 msgid "The multiplier used for the imaginary part of a complex number."
-msgstr ""
+msgstr "O multiplicador usado para a parte imaginária de um número complexo."
 
 msgid "This corresponds to the :data:`sys.hash_info.imag` constant."
 msgstr "Isto corresponde à constante :data:`sys.hash_info.imag`."
 
 msgid "Hash function definition used by :c:func:`PyHash_GetFuncDef`."
-msgstr ""
+msgstr "Definição de função de hash usada por :c:func:`PyHash_GetFuncDef`."
 
 msgid "Hash function."
-msgstr ""
+msgstr "Função hash."
 
 msgid "Hash function name (UTF-8 encoded string)."
-msgstr ""
+msgstr "Nome de função hash (string codificada em UTF-8)."
 
 msgid "This corresponds to the :data:`sys.hash_info.algorithm` constant."
 msgstr "Isto corresponde à constante :data:`sys.hash_info.algorithm`."
 
 msgid "Internal size of the hash value in bits."
-msgstr ""
+msgstr "Tamanho interno do valor do hash em bits."
 
 msgid "This corresponds to the :data:`sys.hash_info.hash_bits` constant."
 msgstr "Isto corresponde à constante :data:`sys.hash_info.hash_bits`."
 
 msgid "Size of seed input in bits."
-msgstr ""
+msgstr "Tamanho da entrada de seed em bits."
 
 msgid "This corresponds to the :data:`sys.hash_info.seed_bits` constant."
 msgstr "Isto corresponde à constante :data:`sys.hash_info.seed_bits`."
 
 msgid "Get the hash function definition."
-msgstr ""
+msgstr "Obtém a definição de função de hash."
 
 msgid ":pep:`456` \"Secure and interchangeable hash algorithm\"."
-msgstr ""
+msgstr ":pep:`456` \"Algoritmo de hash seguro e intercambiável\"."
 
 msgid ""
 "Hash a pointer value: process the pointer value as an integer (cast it to "
 "``uintptr_t`` internally). The pointer is not dereferenced."
 msgstr ""
+"Hash de um valor de ponteiro: processa o valor do ponteiro como um inteiro "
+"(converte-o para ``uintptr_t`` internamente). O ponteiro não é "
+"desreferenciado."
 
 msgid "The function cannot fail: it cannot return ``-1``."
-msgstr ""
+msgstr "A função não pode falhar: ela não pode retornar ``-1``."
 
 msgid ""
 "Compute and return the hash value of a buffer of *len* bytes starting at "
@@ -160,22 +166,30 @@ msgid ""
 "class:`memoryview`, and other built-in objects that implement the :ref:"
 "`buffer protocol <bufferobjects>`."
 msgstr ""
+"Calcula e retorna o valor de hash de um buffer de *len* bytes, começando no "
+"endereço *ptr*. O hash tem garantia de corresponder ao de :class:`bytes`, :"
+"class:`memoryview` e outros objetos embutidos que implementam o :ref:"
+"`protocolo de buffer <bufferobjects>`."
 
 msgid ""
 "Use this function to implement hashing for immutable objects whose :c:member:"
 "`~PyTypeObject.tp_richcompare` function compares to another object's buffer."
 msgstr ""
+"Usa esta função para implementar hash para objetos imutáveis cuja função :c:"
+"member:`~PyTypeObject.tp_richcompare` compara ao buffer de outro objeto."
 
 msgid "*len* must be greater than or equal to ``0``."
-msgstr ""
+msgstr "*len* deve ser maior que ou igual a ``0``."
 
 msgid "This function always succeeds."
-msgstr ""
+msgstr "Esta função é sempre bem-sucedida."
 
 msgid ""
 "Generic hashing function that is meant to be put into a type object's "
 "``tp_hash`` slot. Its result only depends on the object's identity."
 msgstr ""
+"Função de hash genérica destinada a ser colocada no slot ``tp_hash`` de um "
+"objeto de tipo. O seu resultado depende apenas da identidade do objeto."
 
 msgid "In CPython, it is equivalent to :c:func:`Py_HashPointer`."
-msgstr ""
+msgstr "No CPython, é equivalente a :c:func:`Py_HashPointer`."

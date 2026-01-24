@@ -27,13 +27,13 @@ msgid "Annotations Best Practices"
 msgstr ""
 
 msgid "author"
-msgstr ""
+msgstr "autor"
 
 msgid "Larry Hastings"
 msgstr ""
 
 msgid "Abstract"
-msgstr ""
+msgstr "Resumo"
 
 msgid ""
 "This document is designed to encapsulate the best practices for working with "

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-05 14:19+0000\n"
+"POT-Creation-Date: 2026-01-09 14:19+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: André Moreira <afrmscb@gmail.com>, 2025\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
@@ -31,7 +31,7 @@ msgid "**Source code:** :source:`Lib/selectors.py`"
 msgstr ""
 
 msgid "Introduction"
-msgstr ""
+msgstr "Introdução"
 
 msgid ""
 "This module allows high-level and efficient I/O multiplexing, built upon "
@@ -68,15 +68,17 @@ msgid "Low-level I/O multiplexing module."
 msgstr ""
 
 msgid "Availability"
-msgstr ""
+msgstr "Disponibilidade"
 
 msgid ""
 "This module does not work or is not available on WebAssembly. See :ref:`wasm-"
 "availability` for more information."
 msgstr ""
+"Este módulo não funciona ou não está disponível em WebAssembly. Consulte :"
+"ref:`wasm-availability` para mais informações."
 
 msgid "Classes"
-msgstr ""
+msgstr "Classes"
 
 msgid "Classes hierarchy::"
 msgstr ""
@@ -97,16 +99,16 @@ msgid ""
 msgstr ""
 
 msgid "Constant"
-msgstr ""
+msgstr "Constante"
 
 msgid "Meaning"
-msgstr ""
+msgstr "Significado"
 
 msgid "Available for read"
-msgstr ""
+msgstr "Disponível para leitura"
 
 msgid "Available for write"
-msgstr ""
+msgstr "Disponível para escrita"
 
 msgid ""
 "A :class:`SelectorKey` is a :class:`~collections.namedtuple` used to "
@@ -280,7 +282,7 @@ msgid ""
 msgstr ""
 
 msgid "Examples"
-msgstr ""
+msgstr "Exemplos"
 
 msgid "Here is a simple echo server implementation::"
 msgstr ""

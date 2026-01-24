@@ -78,7 +78,7 @@ msgid "Apple's documentation of the file format."
 msgstr ""
 
 msgid "This module defines the following functions:"
-msgstr ""
+msgstr "Este módulo define as seguintes funções:"
 
 msgid ""
 "Read a plist file. *fp* should be a readable and binary file object. Return "
@@ -204,7 +204,7 @@ msgid "Raised when a file cannot be parsed."
 msgstr ""
 
 msgid "Examples"
-msgstr ""
+msgstr "Exemplos"
 
 msgid "Generating a plist::"
 msgstr ""
@@ -251,7 +251,7 @@ msgid "plist"
 msgstr ""
 
 msgid "file"
-msgstr ""
+msgstr "ficheiro"
 
 msgid "property list"
 msgstr ""

@@ -27,7 +27,7 @@ msgid "An introduction to the ipaddress module"
 msgstr ""
 
 msgid "author"
-msgstr ""
+msgstr "autor"
 
 msgid "Peter Moody"
 msgstr ""
@@ -36,7 +36,7 @@ msgid "Nick Coghlan"
 msgstr ""
 
 msgid "Overview"
-msgstr ""
+msgstr "Visão Geral"
 
 msgid ""
 "This document aims to provide a gentle introduction to the :mod:`ipaddress` "
@@ -331,7 +331,7 @@ msgid ""
 msgstr ""
 
 msgid "Comparisons"
-msgstr ""
+msgstr "Comparações"
 
 msgid ""
 ":mod:`ipaddress` provides some simple, hopefully intuitive ways to compare "

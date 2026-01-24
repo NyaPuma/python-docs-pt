@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-19 14:21+0000\n"
+"POT-Creation-Date: 2026-01-21 14:24+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: André Moreira <afrmscb@gmail.com>, 2026\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
@@ -27,13 +27,13 @@ msgid "Socket Programming HOWTO"
 msgstr ""
 
 msgid "Author"
-msgstr ""
+msgstr "Autor"
 
 msgid "Gordon McMillan"
 msgstr ""
 
 msgid "Abstract"
-msgstr ""
+msgstr "Resumo"
 
 msgid ""
 "Sockets are used nearly everywhere, but are one of the most severely "
@@ -45,7 +45,7 @@ msgid ""
 msgstr ""
 
 msgid "Sockets"
-msgstr ""
+msgstr "Sockets"
 
 msgid ""
 "I'm only going to talk about INET (i.e. IPv4) sockets, but they account for "

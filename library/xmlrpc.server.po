@@ -44,12 +44,14 @@ msgid ""
 msgstr ""
 
 msgid "Availability"
-msgstr ""
+msgstr "Disponibilidade"
 
 msgid ""
 "This module does not work or is not available on WebAssembly. See :ref:`wasm-"
 "availability` for more information."
 msgstr ""
+"Este módulo não funciona ou não está disponível em WebAssembly. Consulte :"
+"ref:`wasm-availability` para mais informações."
 
 msgid ""
 "Create a new server instance.  This class provides methods for registration "
@@ -71,7 +73,7 @@ msgid ""
 msgstr ""
 
 msgid "The *use_builtin_types* flag was added."
-msgstr ""
+msgstr "A flag *use_builtin_types* foi adicionada."
 
 msgid ""
 "Create a new instance to handle XML-RPC requests in a CGI environment.  The "
@@ -359,7 +361,7 @@ msgid ""
 msgstr ""
 
 msgid "Example::"
-msgstr ""
+msgstr "Exemplo::"
 
 msgid ""
 "class MyFuncs:\n"

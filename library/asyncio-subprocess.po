@@ -24,7 +24,7 @@ msgstr ""
 "1000000 == 0 ? 1 : 2;\n"
 
 msgid "Subprocesses"
-msgstr ""
+msgstr "Subprocessos"
 
 msgid ""
 "**Source code:** :source:`Lib/asyncio/subprocess.py`, :source:`Lib/asyncio/"
@@ -62,7 +62,7 @@ msgid ""
 msgstr ""
 
 msgid "will print::"
-msgstr ""
+msgstr "imprimirá::"
 
 msgid ""
 "['ls /zzz' exited with 1]\n"
@@ -93,7 +93,7 @@ msgid "Creating Subprocesses"
 msgstr ""
 
 msgid "Create a subprocess."
-msgstr ""
+msgstr "Cria um subprocesso."
 
 msgid ""
 "The *limit* argument sets the buffer limit for :class:`StreamReader` "
@@ -115,7 +115,7 @@ msgid ""
 msgstr ""
 
 msgid "Removed the *loop* parameter."
-msgstr ""
+msgstr "Removido o parâmetro *loop*."
 
 msgid "Run the *cmd* shell command."
 msgstr ""
@@ -148,7 +148,7 @@ msgid ""
 msgstr ""
 
 msgid "Constants"
-msgstr ""
+msgstr "Constantes"
 
 msgid "Can be passed to the *stdin*, *stdout* or *stderr* parameters."
 msgstr ""
@@ -358,6 +358,8 @@ msgid ""
 "A negative value ``-N`` indicates that the child was terminated by signal "
 "``N`` (POSIX only)."
 msgstr ""
+"Um valor negativo ``-N`` indica que o processo filho foi terminado pelo "
+"sinal ``N`` (apenas POSIX)."
 
 msgid "Subprocess and Threads"
 msgstr ""
@@ -383,7 +385,7 @@ msgid ""
 msgstr ""
 
 msgid "Examples"
-msgstr ""
+msgstr "Exemplos"
 
 msgid ""
 "An example using the :class:`~asyncio.subprocess.Process` class to control a "

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-05 14:19+0000\n"
+"POT-Creation-Date: 2026-01-23 14:20+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: André Moreira <afrmscb@gmail.com>, 2025\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
@@ -33,7 +33,7 @@ msgid ""
 msgstr ""
 
 msgid "Availability"
-msgstr ""
+msgstr "Disponibilidade"
 
 msgid ""
 "Password database entries are reported as a tuple-like object, whose "
@@ -42,16 +42,16 @@ msgid ""
 msgstr ""
 
 msgid "Index"
-msgstr ""
+msgstr "Índice"
 
 msgid "Attribute"
-msgstr ""
+msgstr "Atributo"
 
 msgid "Meaning"
-msgstr ""
+msgstr "Significado"
 
 msgid "0"
-msgstr ""
+msgstr "0"
 
 msgid "``pw_name``"
 msgstr ""
@@ -60,7 +60,7 @@ msgid "Login name"
 msgstr ""
 
 msgid "1"
-msgstr ""
+msgstr "1"
 
 msgid "``pw_passwd``"
 msgstr ""
@@ -69,7 +69,7 @@ msgid "Optional encrypted password"
 msgstr ""
 
 msgid "2"
-msgstr ""
+msgstr "2"
 
 msgid "``pw_uid``"
 msgstr ""
@@ -78,7 +78,7 @@ msgid "Numerical user ID"
 msgstr ""
 
 msgid "3"
-msgstr ""
+msgstr "3"
 
 msgid "``pw_gid``"
 msgstr ""
@@ -87,7 +87,7 @@ msgid "Numerical group ID"
 msgstr ""
 
 msgid "4"
-msgstr ""
+msgstr "4"
 
 msgid "``pw_gecos``"
 msgstr ""
@@ -96,7 +96,7 @@ msgid "User name or comment field"
 msgstr ""
 
 msgid "5"
-msgstr ""
+msgstr "5"
 
 msgid "``pw_dir``"
 msgstr ""
@@ -105,7 +105,7 @@ msgid "User home directory"
 msgstr ""
 
 msgid "6"
-msgstr ""
+msgstr "6"
 
 msgid "``pw_shell``"
 msgstr ""

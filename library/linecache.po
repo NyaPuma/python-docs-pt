@@ -89,7 +89,7 @@ msgid ""
 msgstr ""
 
 msgid "Example::"
-msgstr ""
+msgstr "Exemplo::"
 
 msgid ""
 ">>> import linecache\n"
@@ -98,10 +98,10 @@ msgid ""
 msgstr ""
 
 msgid "module"
-msgstr ""
+msgstr "módulo"
 
 msgid "search"
-msgstr ""
+msgstr "pesquisar"
 
 msgid "path"
-msgstr ""
+msgstr "caminho"

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-07 14:19+0000\n"
+"POT-Creation-Date: 2026-01-09 14:19+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: André Moreira <afrmscb@gmail.com>, 2025\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
@@ -25,7 +25,7 @@ msgstr ""
 "1000000 == 0 ? 1 : 2;\n"
 
 msgid ":mod:`!errno` --- Standard errno system symbols"
-msgstr ""
+msgstr ":mod:`!errno` --- Símbolos do sistema errno padrão"
 
 msgid ""
 "This module makes available standard ``errno`` system symbols. The value of "
@@ -33,525 +33,573 @@ msgid ""
 "are borrowed from :file:`linux/include/errno.h`, which should be all-"
 "inclusive."
 msgstr ""
+"Este módulo disponibiliza os símbolos do sistema ``errno`` padrão. O valor "
+"de cada símbolo é o valor inteiro correspondente. Os nomes e descrições são "
+"retirados de :file:`linux/include/errno.h`, que deve ser abrangente."
 
 msgid ""
 "Dictionary providing a mapping from the errno value to the string name in "
 "the underlying system.  For instance, ``errno.errorcode[errno.EPERM]`` maps "
 "to ``'EPERM'``."
 msgstr ""
+"Dicionário que fornece um mapeamento do valor errno para o nome da string no "
+"sistema subjacente. Por exemplo, ``errno.errorcode[errno.EPERM]`` mapeia "
+"para ``'EPERM'``."
 
 msgid ""
 "To translate a numeric error code to an error message, use :func:`os."
 "strerror`."
 msgstr ""
+"Para traduzir um código de erro numérico para uma mensagem de erro, use :"
+"func:`os.strerror`."
 
 msgid ""
 "Of the following list, symbols that are not used on the current platform are "
 "not defined by the module.  The specific list of defined symbols is "
 "available as ``errno.errorcode.keys()``.  Symbols available can include:"
 msgstr ""
+"Da lista seguinte, os símbolos que não são usados na plataforma atual não "
+"são definidos pelo módulo. A lista específica de símbolos definidos está "
+"disponível como ``errno.errorcode.keys()``. Os símbolos disponíveis podem "
+"incluir:"
 
 msgid ""
 "Operation not permitted. This error is mapped to the exception :exc:"
 "`PermissionError`."
 msgstr ""
+"Operação não permitida. Este erro é mapeado para a exceção :exc:"
+"`PermissionError`."
 
 msgid ""
 "No such file or directory. This error is mapped to the exception :exc:"
 "`FileNotFoundError`."
 msgstr ""
+"Ficheiro ou diretório inexistente. Este erro é mapeado para a exceção :exc:"
+"`FileNotFoundError`."
 
 msgid ""
 "No such process. This error is mapped to the exception :exc:"
 "`ProcessLookupError`."
 msgstr ""
+"Processo inexistente. Este erro é mapeado para a exceção :exc:"
+"`ProcessLookupError`."
 
 msgid ""
 "Interrupted system call. This error is mapped to the exception :exc:"
 "`InterruptedError`."
 msgstr ""
+"Chamada de sistema interrompida. Este erro é mapeado para a exceção :exc:"
+"`InterruptedError`."
 
 msgid "I/O error"
-msgstr ""
+msgstr "Erro de E/S"
 
 msgid "No such device or address"
-msgstr ""
+msgstr "Dispositivo ou endereço inexistente"
 
 msgid "Arg list too long"
-msgstr ""
+msgstr "Lista de argumentos demasiado longa"
 
 msgid "Exec format error"
-msgstr ""
+msgstr "Erro de formato de execução"
 
 msgid "Bad file number"
-msgstr ""
+msgstr "Número de ficheiro inválido"
 
 msgid ""
 "No child processes. This error is mapped to the exception :exc:"
 "`ChildProcessError`."
 msgstr ""
+"Sem processos filhos. Este erro é mapeado para a exceção :exc:"
+"`ChildProcessError`."
 
 msgid ""
 "Try again. This error is mapped to the exception :exc:`BlockingIOError`."
 msgstr ""
+"Tente novamente. Este erro é mapeado para a exceção :exc:`BlockingIOError`."
 
 msgid "Out of memory"
-msgstr ""
+msgstr "Sem memória"
 
 msgid ""
 "Permission denied.  This error is mapped to the exception :exc:"
 "`PermissionError`."
 msgstr ""
+"Permissão negada. Este erro é mapeado para a exceção :exc:`PermissionError`."
 
 msgid "Bad address"
-msgstr ""
+msgstr "Endereço inválido"
 
 msgid "Block device required"
-msgstr ""
+msgstr "Dispositivo de bloco necessário"
 
 msgid "Device or resource busy"
-msgstr ""
+msgstr "Dispositivo ou recurso ocupado"
 
 msgid ""
 "File exists. This error is mapped to the exception :exc:`FileExistsError`."
 msgstr ""
+"Ficheiro já existe. Este erro é mapeado para a exceção :exc:"
+"`FileExistsError`."
 
 msgid "Cross-device link"
-msgstr ""
+msgstr "Ligação entre dispositivos"
 
 msgid "No such device"
-msgstr ""
+msgstr "Dispositivo inexistente"
 
 msgid ""
 "Not a directory. This error is mapped to the exception :exc:"
 "`NotADirectoryError`."
 msgstr ""
+"Não é um diretório. Este erro é mapeado para a exceção :exc:"
+"`NotADirectoryError`."
 
 msgid ""
 "Is a directory. This error is mapped to the exception :exc:"
 "`IsADirectoryError`."
 msgstr ""
+"É um diretório. Este erro é mapeado para a exceção :exc:`IsADirectoryError`."
 
 msgid "Invalid argument"
-msgstr ""
+msgstr "Argumento inválido"
 
 msgid "File table overflow"
-msgstr ""
+msgstr "Transbordo da tabela de ficheiros"
 
 msgid "Too many open files"
-msgstr ""
+msgstr "Ficheiros abertos a mais"
 
 msgid "Not a typewriter"
-msgstr ""
+msgstr "Não é uma máquina de escrever"
 
 msgid "Text file busy"
-msgstr ""
+msgstr "Ficheiro de texto ocupado"
 
 msgid "File too large"
-msgstr ""
+msgstr "Ficheiro demasiado grande"
 
 msgid "No space left on device"
-msgstr ""
+msgstr "Sem espaço no dispositivo"
 
 msgid "Illegal seek"
-msgstr ""
+msgstr "Procura ilegal"
 
 msgid "Read-only file system"
-msgstr ""
+msgstr "Sistema de ficheiros só de leitura"
 
 msgid "Too many links"
-msgstr ""
+msgstr "Ligações a mais"
 
 msgid ""
 "Broken pipe. This error is mapped to the exception :exc:`BrokenPipeError`."
 msgstr ""
+"Tubo partido. Este erro é mapeado para a exceção :exc:`BrokenPipeError`."
 
 msgid "Math argument out of domain of func"
-msgstr ""
+msgstr "Argumento matemático fora do domínio da função"
 
 msgid "Math result not representable"
-msgstr ""
+msgstr "Resultado matemático não representável"
 
 msgid "Resource deadlock would occur"
-msgstr ""
+msgstr "Ocorreria um impasse de recursos"
 
 msgid "File name too long"
-msgstr ""
+msgstr "Nome de ficheiro demasiado longo"
 
 msgid "No record locks available"
-msgstr ""
+msgstr "Sem bloqueios de registo disponíveis"
 
 msgid "Function not implemented"
-msgstr ""
+msgstr "Função não implementada"
 
 msgid "Directory not empty"
-msgstr ""
+msgstr "Diretório não vazio"
 
 msgid "Too many symbolic links encountered"
-msgstr ""
+msgstr "Demasiadas ligações simbólicas encontradas"
 
 msgid ""
 "Operation would block. This error is mapped to the exception :exc:"
 "`BlockingIOError`."
 msgstr ""
+"Operação bloquearia. Este erro é mapeado para a exceção :exc:"
+"`BlockingIOError`."
 
 msgid "No message of desired type"
-msgstr ""
+msgstr "Sem mensagem do tipo desejado"
 
 msgid "Identifier removed"
-msgstr ""
+msgstr "Identificador removido"
 
 msgid "Channel number out of range"
-msgstr ""
+msgstr "Número de canal fora do intervalo"
 
 msgid "Level 2 not synchronized"
-msgstr ""
+msgstr "Nível 2 não sincronizado"
 
 msgid "Level 3 halted"
-msgstr ""
+msgstr "Nível 3 parado"
 
 msgid "Level 3 reset"
-msgstr ""
+msgstr "Nível 3 reiniciado"
 
 msgid "Link number out of range"
-msgstr ""
+msgstr "Número de ligação fora do intervalo"
 
 msgid "Protocol driver not attached"
-msgstr ""
+msgstr "Controlador de protocolo não anexado"
 
 msgid "No CSI structure available"
-msgstr ""
+msgstr "Sem estrutura CSI disponível"
 
 msgid "Level 2 halted"
-msgstr ""
+msgstr "Nível 2 parado"
 
 msgid "Invalid exchange"
-msgstr ""
+msgstr "Troca inválida"
 
 msgid "Invalid request descriptor"
-msgstr ""
+msgstr "Descritor de pedido inválido"
 
 msgid "Exchange full"
-msgstr ""
+msgstr "Troca cheia"
 
 msgid "No anode"
-msgstr ""
+msgstr "Sem ânodo"
 
 msgid "Invalid request code"
-msgstr ""
+msgstr "Código de pedido inválido"
 
 msgid "Invalid slot"
-msgstr ""
+msgstr "Slot inválido"
 
 msgid "File locking deadlock error"
-msgstr ""
+msgstr "Erro de impasse de bloqueio de ficheiro"
 
 msgid "Bad font file format"
-msgstr ""
+msgstr "Formato de ficheiro de tipo de letra inválido"
 
 msgid "Device not a stream"
-msgstr ""
+msgstr "Dispositivo não é um fluxo"
 
 msgid "No data available"
-msgstr ""
+msgstr "Sem dados disponíveis"
 
 msgid "Timer expired"
-msgstr ""
+msgstr "Temporizador expirado"
 
 msgid "Out of streams resources"
-msgstr ""
+msgstr "Sem recursos de fluxos"
 
 msgid "Machine is not on the network"
-msgstr ""
+msgstr "Máquina não está na rede"
 
 msgid "Package not installed"
-msgstr ""
+msgstr "Pacote não instalado"
 
 msgid "Object is remote"
-msgstr ""
+msgstr "Objeto é remoto"
 
 msgid "Link has been severed"
-msgstr ""
+msgstr "Ligação foi cortada"
 
 msgid "Advertise error"
-msgstr ""
+msgstr "Erro de anúncio"
 
 msgid "Srmount error"
-msgstr ""
+msgstr "Erro de srmount"
 
 msgid "Communication error on send"
-msgstr ""
+msgstr "Erro de comunicação ao enviar"
 
 msgid "Protocol error"
-msgstr ""
+msgstr "Erro de protocolo"
 
 msgid "Multihop attempted"
-msgstr ""
+msgstr "Tentativa de multihop"
 
 msgid "RFS specific error"
-msgstr ""
+msgstr "Erro específico do RFS"
 
 msgid "Not a data message"
-msgstr ""
+msgstr "Não é uma mensagem de dados"
 
 msgid "Value too large for defined data type"
-msgstr ""
+msgstr "Valor demasiado grande para o tipo de dados definido"
 
 msgid "Name not unique on network"
-msgstr ""
+msgstr "Nome não único na rede"
 
 msgid "File descriptor in bad state"
-msgstr ""
+msgstr "Descritor de ficheiro em estado inválido"
 
 msgid "Remote address changed"
-msgstr ""
+msgstr "Endereço remoto alterado"
 
 msgid "Can not access a needed shared library"
-msgstr ""
+msgstr "Não é possível aceder a uma biblioteca partilhada necessária"
 
 msgid "Accessing a corrupted shared library"
-msgstr ""
+msgstr "A aceder a uma biblioteca partilhada corrompida"
 
 msgid ".lib section in a.out corrupted"
-msgstr ""
+msgstr "Secção .lib em a.out corrompida"
 
 msgid "Attempting to link in too many shared libraries"
-msgstr ""
+msgstr "Tentativa de ligar demasiadas bibliotecas partilhadas"
 
 msgid "Cannot exec a shared library directly"
-msgstr ""
+msgstr "Não é possível executar diretamente uma biblioteca partilhada"
 
 msgid "Illegal byte sequence"
-msgstr ""
+msgstr "Sequência de bytes ilegal"
 
 msgid "Interrupted system call should be restarted"
-msgstr ""
+msgstr "Chamada de sistema interrompida deve ser reiniciada"
 
 msgid "Streams pipe error"
-msgstr ""
+msgstr "Erro de tubo de fluxos"
 
 msgid "Too many users"
-msgstr ""
+msgstr "Demasiados utilizadores"
 
 msgid "Socket operation on non-socket"
-msgstr ""
+msgstr "Operação de socket em não-socket"
 
 msgid "Destination address required"
-msgstr ""
+msgstr "Endereço de destino necessário"
 
 msgid "Message too long"
-msgstr ""
+msgstr "Mensagem demasiado longa"
 
 msgid "Protocol wrong type for socket"
-msgstr ""
+msgstr "Tipo de protocolo errado para socket"
 
 msgid "Protocol not available"
-msgstr ""
+msgstr "Protocolo não disponível"
 
 msgid "Protocol not supported"
-msgstr ""
+msgstr "Protocolo não suportado"
 
 msgid "Socket type not supported"
-msgstr ""
+msgstr "Tipo de socket não suportado"
 
 msgid "Operation not supported on transport endpoint"
-msgstr ""
+msgstr "Operação não suportada no ponto final de transporte"
 
 msgid "Operation not supported"
-msgstr ""
+msgstr "Operação não suportada"
 
 msgid "Protocol family not supported"
-msgstr ""
+msgstr "Família de protocolos não suportada"
 
 msgid "Address family not supported by protocol"
-msgstr ""
+msgstr "Família de endereços não suportada pelo protocolo"
 
 msgid "Address already in use"
-msgstr ""
+msgstr "Endereço já em uso"
 
 msgid "Cannot assign requested address"
-msgstr ""
+msgstr "Não é possível atribuir o endereço solicitado"
 
 msgid "Network is down"
-msgstr ""
+msgstr "Rede inativa"
 
 msgid "Network is unreachable"
-msgstr ""
+msgstr "Rede inacessível"
 
 msgid "Network dropped connection because of reset"
-msgstr ""
+msgstr "Rede cortou ligação devido a reinício"
 
 msgid ""
 "Software caused connection abort. This error is mapped to the exception :exc:"
 "`ConnectionAbortedError`."
 msgstr ""
+"Aborto de ligação causado por software. Este erro é mapeado para a exceção :"
+"exc:`ConnectionAbortedError`."
 
 msgid ""
 "Connection reset by peer. This error is mapped to the exception :exc:"
 "`ConnectionResetError`."
 msgstr ""
+"Ligação reiniciada pelo par. Este erro é mapeado para a exceção :exc:"
+"`ConnectionResetError`."
 
 msgid "No buffer space available"
-msgstr ""
+msgstr "Sem espaço de buffer disponível"
 
 msgid "Transport endpoint is already connected"
-msgstr ""
+msgstr "Ponto final de transporte já ligado"
 
 msgid "Transport endpoint is not connected"
-msgstr ""
+msgstr "Ponto final de transporte não ligado"
 
 msgid ""
 "Cannot send after transport endpoint shutdown. This error is mapped to the "
 "exception :exc:`BrokenPipeError`."
 msgstr ""
+"Não é possível enviar após o encerramento do ponto final de transporte. Este "
+"erro é mapeado para a exceção :exc:`BrokenPipeError`."
 
 msgid "Too many references: cannot splice"
-msgstr ""
+msgstr "Demasiadas referências: não é possível empalmar"
 
 msgid ""
 "Connection timed out. This error is mapped to the exception :exc:"
 "`TimeoutError`."
 msgstr ""
+"Tempo limite de ligação excedido. Este erro é mapeado para a exceção :exc:"
+"`TimeoutError`."
 
 msgid ""
 "Connection refused. This error is mapped to the exception :exc:"
 "`ConnectionRefusedError`."
 msgstr ""
+"Ligação recusada. Este erro é mapeado para a exceção :exc:"
+"`ConnectionRefusedError`."
 
 msgid "Host is down"
-msgstr ""
+msgstr "Anfitrião inativo"
 
 msgid "No route to host"
-msgstr ""
+msgstr "Sem rota para o anfitrião"
 
 msgid "Memory page has hardware error."
-msgstr ""
+msgstr "Página de memória com erro de hardware."
 
 msgid ""
 "Operation already in progress. This error is mapped to the exception :exc:"
 "`BlockingIOError`."
 msgstr ""
+"Operação já em curso. Este erro é mapeado para a exceção :exc:"
+"`BlockingIOError`."
 
 msgid ""
 "Operation now in progress. This error is mapped to the exception :exc:"
 "`BlockingIOError`."
 msgstr ""
+"Operação agora em curso. Este erro é mapeado para a exceção :exc:"
+"`BlockingIOError`."
 
 msgid "Stale NFS file handle"
-msgstr ""
+msgstr "Descritor de ficheiro NFS obsoleto"
 
 msgid "Structure needs cleaning"
-msgstr ""
+msgstr "Estrutura necessita de limpeza"
 
 msgid "Not a XENIX named type file"
-msgstr ""
+msgstr "Não é um ficheiro de tipo nomeado XENIX"
 
 msgid "No XENIX semaphores available"
-msgstr ""
+msgstr "Sem semáforos XENIX disponíveis"
 
 msgid "Is a named type file"
-msgstr ""
+msgstr "É um ficheiro de tipo nomeado"
 
 msgid "Remote I/O error"
-msgstr ""
+msgstr "Erro de E/S remoto"
 
 msgid "Quota exceeded"
-msgstr ""
+msgstr "Quota excedida"
 
 msgid "Interface output queue is full"
-msgstr ""
+msgstr "Fila de saída da interface cheia"
 
 msgid "No medium found"
-msgstr ""
+msgstr "Sem suporte encontrado"
 
 msgid "Wrong medium type"
-msgstr ""
+msgstr "Tipo de suporte errado"
 
 msgid "Required key not available"
-msgstr ""
+msgstr "Chave necessária não disponível"
 
 msgid "Key has expired"
-msgstr ""
+msgstr "Chave expirada"
 
 msgid "Key has been revoked"
-msgstr ""
+msgstr "Chave revogada"
 
 msgid "Key was rejected by service"
-msgstr ""
+msgstr "Chave rejeitada pelo serviço"
 
 msgid "Operation not possible due to RF-kill"
-msgstr ""
+msgstr "Operação não possível devido a RF-kill"
 
 msgid "Locked lock was unmapped"
-msgstr ""
+msgstr "Bloqueio bloqueado foi desmapeado"
 
 msgid "Facility is not active"
-msgstr ""
+msgstr "Instalação não está ativa"
 
 msgid "Authentication error"
-msgstr ""
+msgstr "Erro de autenticação"
 
 msgid "Bad CPU type in executable"
-msgstr ""
+msgstr "Tipo de CPU inválido no executável"
 
 msgid "Bad executable (or shared library)"
-msgstr ""
+msgstr "Executável (ou biblioteca partilhada) inválido"
 
 msgid "Malformed Mach-o file"
-msgstr ""
+msgstr "Ficheiro Mach-o malformado"
 
 msgid "Device error"
-msgstr ""
+msgstr "Erro de dispositivo"
 
 msgid "Inappropriate file type or format"
-msgstr ""
+msgstr "Tipo ou formato de ficheiro inadequado"
 
 msgid "Need authenticator"
-msgstr ""
+msgstr "Necessário autenticador"
 
 msgid "Attribute not found"
-msgstr ""
+msgstr "Atributo não encontrado"
 
 msgid "Policy not found"
-msgstr ""
+msgstr "Política não encontrada"
 
 msgid "Too many processes"
-msgstr ""
+msgstr "Demasiados processos"
 
 msgid "Bad procedure for program"
-msgstr ""
+msgstr "Procedimento inválido para o programa"
 
 msgid "Program version wrong"
-msgstr ""
+msgstr "Versão do programa errada"
 
 msgid "RPC prog. not avail"
-msgstr ""
+msgstr "Programa RPC não disponível"
 
 msgid "Device power is off"
-msgstr ""
+msgstr "Dispositivo desligado"
 
 msgid "RPC struct is bad"
-msgstr ""
+msgstr "Estrutura RPC inválida"
 
 msgid "RPC version wrong"
-msgstr ""
+msgstr "Versão RPC errada"
 
 msgid "Shared library version mismatch"
-msgstr ""
+msgstr "Incompatibilidade de versão de biblioteca partilhada"
 
 msgid ""
 "Capabilities insufficient. This error is mapped to the exception :exc:"
 "`PermissionError`."
 msgstr ""
+"Capacidades insuficientes. Este erro é mapeado para a exceção :exc:"
+"`PermissionError`."
 
 msgid "Availability"
-msgstr ""
+msgstr "Disponibilidade"
 
 msgid "Operation canceled"
-msgstr ""
+msgstr "Operação cancelada"
 
 msgid "Owner died"
-msgstr ""
+msgstr "Proprietário morreu"
 
 msgid "State not recoverable"
-msgstr ""
+msgstr "Estado não recuperável"

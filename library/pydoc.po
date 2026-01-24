@@ -158,4 +158,4 @@ msgid "online"
 msgstr ""
 
 msgid "help"
-msgstr ""
+msgstr "ajuda"

@@ -114,7 +114,7 @@ msgid ""
 msgstr ""
 
 msgid "For example::"
-msgstr ""
+msgstr "Por exemplo::"
 
 msgid ""
 "def test():\n"
@@ -340,7 +340,7 @@ msgid ""
 msgstr ""
 
 msgid "..."
-msgstr ""
+msgstr "..."
 
 msgid "placeholder"
 msgstr ""

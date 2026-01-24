@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-05 14:19+0000\n"
+"POT-Creation-Date: 2026-01-09 14:19+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: André Moreira <afrmscb@gmail.com>, 2025\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
@@ -214,7 +214,7 @@ msgid "Activation of rlcompleter and history was made automatic."
 msgstr ""
 
 msgid "Module contents"
-msgstr ""
+msgstr "Conteúdos do módulo"
 
 msgid "A list of prefixes for site-packages directories."
 msgstr ""
@@ -279,7 +279,7 @@ msgid ""
 msgstr ""
 
 msgid "Command-line interface"
-msgstr ""
+msgstr "Interface de linha de comandos"
 
 msgid ""
 "The :mod:`site` module also provides a way to get the user directories from "
@@ -317,43 +317,43 @@ msgid ""
 msgstr ""
 
 msgid ":pep:`370` -- Per user site-packages directory"
-msgstr ""
+msgstr ":pep:`370` — Diretório site-packages por utilizador"
 
 msgid ":ref:`sys-path-init` -- The initialization of :data:`sys.path`."
 msgstr ""
 
 msgid "module"
-msgstr ""
+msgstr "módulo"
 
 msgid "search"
-msgstr ""
+msgstr "pesquisar"
 
 msgid "path"
-msgstr ""
+msgstr "caminho"
 
 msgid "site-packages"
 msgstr ""
 
 msgid "directory"
-msgstr ""
+msgstr "diretório"
 
 msgid "# (hash)"
-msgstr ""
+msgstr "# (cerquilha)"
 
 msgid "comment"
-msgstr ""
+msgstr "comentário"
 
 msgid "statement"
-msgstr ""
+msgstr "instrução"
 
 msgid "import"
-msgstr ""
+msgstr "importar"
 
 msgid "package"
-msgstr ""
+msgstr "pacote"
 
 msgid "configuration"
-msgstr ""
+msgstr "configuração"
 
 msgid "file"
-msgstr ""
+msgstr "ficheiro"

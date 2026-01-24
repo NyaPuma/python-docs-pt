@@ -220,10 +220,10 @@ msgid ""
 msgstr ""
 
 msgid ":pep:`338` -- Executing modules as scripts"
-msgstr ""
+msgstr ":pep:`338` — Executar módulos como scripts"
 
 msgid "PEP written and implemented by Nick Coghlan."
-msgstr ""
+msgstr "PEP escrito e implementado por Nick Coghlan."
 
 msgid ":pep:`366` -- Main module explicit relative imports"
 msgstr ""
@@ -241,7 +241,7 @@ msgid "The :func:`importlib.import_module` function"
 msgstr ""
 
 msgid "module"
-msgstr ""
+msgstr "módulo"
 
 msgid "__main__"
-msgstr ""
+msgstr "__main__"

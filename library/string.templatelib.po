@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-07 14:19+0000\n"
+"POT-Creation-Date: 2026-01-09 14:19+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: André Moreira <afrmscb@gmail.com>, 2025\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
@@ -63,7 +63,7 @@ msgid ""
 msgstr ""
 
 msgid "Types"
-msgstr ""
+msgstr "Tipos"
 
 msgid ""
 "The :class:`!Template` class describes the contents of a template string. It "
@@ -95,7 +95,7 @@ msgid ""
 msgstr ""
 
 msgid "Attributes"
-msgstr ""
+msgstr "Atributos"
 
 msgid "A :class:`tuple` of the static strings in the template."
 msgstr ""
@@ -126,7 +126,7 @@ msgid ""
 msgstr ""
 
 msgid "Methods"
-msgstr ""
+msgstr "Métodos"
 
 msgid ""
 "While literal syntax is the most common way to create a :class:`!Template`, "
@@ -233,7 +233,7 @@ msgid "Create a new :class:`!Interpolation` object from component parts."
 msgstr ""
 
 msgid "Parameters"
-msgstr ""
+msgstr "Parâmetros"
 
 msgid "The evaluated, in-scope result of the interpolation."
 msgstr ""
@@ -252,7 +252,7 @@ msgid ""
 msgstr ""
 
 msgid "Helper functions"
-msgstr ""
+msgstr "Funções auxiliares"
 
 msgid ""
 "Applies formatted string literal :ref:`conversion <formatstrings-"

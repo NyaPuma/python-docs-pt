@@ -185,6 +185,8 @@ msgstr ""
 msgid ""
 "Has two optional arguments which must be specified as keyword arguments."
 msgstr ""
+"Tem dois argumentos opcionais que devem ser especificados como argumentos "
+"nomeados."
 
 msgid ""
 "*key* specifies a :term:`key function` of one argument that is used to "
@@ -302,7 +304,7 @@ msgid ""
 msgstr ""
 
 msgid "For example::"
-msgstr ""
+msgstr "Por exemplo::"
 
 msgid ""
 ">>> list(running_median([5.0, 9.0, 4.0, 12.0, 8.0, 9.0]))\n"
@@ -500,7 +502,7 @@ msgid ""
 msgstr ""
 
 msgid "Footnotes"
-msgstr ""
+msgstr "Notas de rodapé"
 
 msgid ""
 "The disk balancing algorithms which are current, nowadays, are more annoying "
