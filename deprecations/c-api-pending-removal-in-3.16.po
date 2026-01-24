@@ -24,7 +24,7 @@ msgstr ""
 "1000000 == 0 ? 1 : 2;\n"
 
 msgid "Pending removal in Python 3.16"
-msgstr ""
+msgstr "Remoção pendente no Python 3.16"
 
 msgid "The bundled copy of ``libmpdec``."
-msgstr ""
+msgstr "A cópia incluída de ``libmpdec``."

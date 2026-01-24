@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-05 14:19+0000\n"
+"POT-Creation-Date: 2026-01-09 14:19+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: André Moreira <afrmscb@gmail.com>, 2025\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
@@ -114,16 +114,16 @@ msgid "program"
 msgstr ""
 
 msgid "module"
-msgstr ""
+msgstr "módulo"
 
 msgid "sys"
-msgstr ""
+msgstr "sys"
 
 msgid "__main__"
-msgstr ""
+msgstr "__main__"
 
 msgid "builtins"
-msgstr ""
+msgstr "integrados"
 
 msgid "interactive mode"
 msgstr ""
@@ -132,7 +132,7 @@ msgid "UNIX"
 msgstr ""
 
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 msgid "command line"
 msgstr ""
@@ -144,7 +144,7 @@ msgid "input"
 msgstr ""
 
 msgid "built-in function"
-msgstr ""
+msgstr "função incorporada"
 
 msgid "eval"
-msgstr ""
+msgstr "eval"

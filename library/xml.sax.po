@@ -40,6 +40,8 @@ msgid ""
 "If you need to parse untrusted or unauthenticated data, see :ref:`xml-"
 "security`."
 msgstr ""
+"Se precisar de analisar dados não confiáveis ou não autenticados, consulte :"
+"ref:`xml-security`."
 
 msgid ""
 "The SAX parser no longer processes general external entities by default to "

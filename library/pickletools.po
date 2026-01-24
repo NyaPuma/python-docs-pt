@@ -39,7 +39,7 @@ msgid ""
 msgstr ""
 
 msgid "Command-line usage"
-msgstr ""
+msgstr "Utilização na linha de comandos"
 
 msgid ""
 "When invoked from the command line, ``python -m pickletools`` will "
@@ -68,7 +68,7 @@ msgid ""
 msgstr ""
 
 msgid "Command-line options"
-msgstr ""
+msgstr "Opções de linha de comandos"
 
 msgid "Annotate each line with a short opcode description."
 msgstr ""
@@ -91,6 +91,8 @@ msgstr ""
 msgid ""
 "A pickle file to read, or ``-`` to indicate reading from standard input."
 msgstr ""
+"Um ficheiro *pickle* para ler, ou ``-`` para indicar leitura a partir da "
+"entrada padrão."
 
 msgid "Programmatic interface"
 msgstr ""

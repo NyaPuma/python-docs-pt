@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-05 14:19+0000\n"
+"POT-Creation-Date: 2026-01-21 14:24+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: André Moreira <afrmscb@gmail.com>, 2025\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
@@ -126,10 +126,10 @@ msgid ""
 msgstr ""
 
 msgid "Field"
-msgstr ""
+msgstr "Campo"
 
 msgid "Meaning"
-msgstr ""
+msgstr "Significado"
 
 msgid "The first 32 bits of the UUID. Only relevant to version 1."
 msgstr ""
@@ -347,10 +347,10 @@ msgid ""
 msgstr ""
 
 msgid "The following options are accepted:"
-msgstr ""
+msgstr "As seguintes opções são aceites:"
 
 msgid "Show the help message and exit."
-msgstr ""
+msgstr "Mostra a mensagem de ajuda e sai."
 
 msgid ""
 "Specify the function name to use to generate the uuid. By default :func:"
@@ -376,7 +376,7 @@ msgid "Generate *num* fresh UUIDs."
 msgstr ""
 
 msgid "Example"
-msgstr ""
+msgstr "Exemplo"
 
 msgid "Here are some examples of typical usage of the :mod:`uuid` module::"
 msgstr ""

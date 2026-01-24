@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-05 14:19+0000\n"
+"POT-Creation-Date: 2026-01-19 14:21+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: André Moreira <afrmscb@gmail.com>, 2025\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
@@ -37,31 +37,31 @@ msgid ""
 msgstr ""
 
 msgid "Pattern"
-msgstr ""
+msgstr "Padrão"
 
 msgid "Meaning"
-msgstr ""
+msgstr "Significado"
 
 msgid "``*``"
-msgstr ""
+msgstr "``*``"
 
 msgid "matches everything"
 msgstr ""
 
 msgid "``?``"
-msgstr ""
+msgstr "``?``"
 
 msgid "matches any single character"
 msgstr ""
 
 msgid "``[seq]``"
-msgstr ""
+msgstr "``[seq]``"
 
 msgid "matches any character in *seq*"
 msgstr ""
 
 msgid "``[!seq]``"
-msgstr ""
+msgstr "``[!seq]``"
 
 msgid "matches any character not in *seq*"
 msgstr ""
@@ -140,7 +140,7 @@ msgid ""
 msgstr ""
 
 msgid "Example:"
-msgstr ""
+msgstr "Exemplo:"
 
 msgid "Module :mod:`glob`"
 msgstr ""
@@ -155,28 +155,28 @@ msgid "wildcard expansion"
 msgstr ""
 
 msgid "module"
-msgstr ""
+msgstr "módulo"
 
 msgid "re"
-msgstr ""
+msgstr "re"
 
 msgid "* (asterisk)"
-msgstr ""
+msgstr "* (asterisco)"
 
 msgid "in glob-style wildcards"
 msgstr ""
 
 msgid "? (question mark)"
-msgstr ""
+msgstr "? (ponto de interrogação)"
 
 msgid "[] (square brackets)"
-msgstr ""
+msgstr "[] (parênteses retos)"
 
 msgid "! (exclamation)"
-msgstr ""
+msgstr "! (ponto de exclamação)"
 
 msgid "- (minus)"
-msgstr ""
+msgstr "- (menos)"
 
 msgid "glob"
-msgstr ""
+msgstr "glob"

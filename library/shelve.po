@@ -74,6 +74,8 @@ msgstr ""
 
 msgid "Accepts :term:`path-like object` for filename."
 msgstr ""
+"Aceita um objeto do tipo :term:`caminho` (*path-like*) para o nome do "
+"ficheiro."
 
 msgid ""
 "Do not rely on the shelf being closed automatically; always call :meth:"
@@ -182,7 +184,7 @@ msgid ""
 msgstr ""
 
 msgid "Added context manager support."
-msgstr ""
+msgstr "Suporte para gestor de contexto adicionado."
 
 msgid ""
 "A subclass of :class:`Shelf` which exposes :meth:`!first`, :meth:`!next`, :"
@@ -206,7 +208,7 @@ msgid ""
 msgstr ""
 
 msgid "Example"
-msgstr ""
+msgstr "Exemplo"
 
 msgid ""
 "To summarize the interface (``key`` is a string, ``data`` is an arbitrary "
@@ -252,19 +254,19 @@ msgid "Generic interface to ``dbm``-style databases."
 msgstr ""
 
 msgid "Module :mod:`pickle`"
-msgstr ""
+msgstr "Módulo :mod:`pickle`"
 
 msgid "Object serialization used by :mod:`shelve`."
 msgstr ""
 
 msgid "module"
-msgstr ""
+msgstr "módulo"
 
 msgid "pickle"
-msgstr ""
+msgstr "pickle"
 
 msgid "dbm.ndbm"
-msgstr ""
+msgstr "dbm.ndbm"
 
 msgid "dbm.gnu"
-msgstr ""
+msgstr "dbm.gnu"

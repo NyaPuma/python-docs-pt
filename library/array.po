@@ -40,37 +40,37 @@ msgid "Type code"
 msgstr ""
 
 msgid "C Type"
-msgstr ""
+msgstr "Tipo C"
 
 msgid "Python Type"
-msgstr ""
+msgstr "Tipo Python"
 
 msgid "Minimum size in bytes"
 msgstr ""
 
 msgid "Notes"
-msgstr ""
+msgstr "Notas"
 
 msgid "``'b'``"
-msgstr ""
+msgstr "``'b'``"
 
 msgid "signed char"
 msgstr ""
 
 msgid "int"
-msgstr ""
+msgstr "int"
 
 msgid "1"
-msgstr ""
+msgstr "1"
 
 msgid "``'B'``"
 msgstr ""
 
 msgid "unsigned char"
-msgstr ""
+msgstr "unsigned char"
 
 msgid "``'u'``"
-msgstr ""
+msgstr "``'u'``"
 
 msgid "wchar_t"
 msgstr ""
@@ -79,22 +79,22 @@ msgid "Unicode character"
 msgstr ""
 
 msgid "2"
-msgstr ""
+msgstr "2"
 
 msgid "\\(1)"
-msgstr ""
+msgstr "(1)"
 
 msgid "``'w'``"
-msgstr ""
+msgstr "``'w'``"
 
 msgid "Py_UCS4"
 msgstr ""
 
 msgid "4"
-msgstr ""
+msgstr "4"
 
 msgid "\\(2)"
-msgstr ""
+msgstr "(2)"
 
 msgid "``'h'``"
 msgstr ""
@@ -103,13 +103,13 @@ msgid "signed short"
 msgstr ""
 
 msgid "``'H'``"
-msgstr ""
+msgstr "``'H'``"
 
 msgid "unsigned short"
 msgstr ""
 
 msgid "``'i'``"
-msgstr ""
+msgstr "``'i'``"
 
 msgid "signed int"
 msgstr ""
@@ -118,7 +118,7 @@ msgid "``'I'``"
 msgstr ""
 
 msgid "unsigned int"
-msgstr ""
+msgstr "unsigned int"
 
 msgid "``'l'``"
 msgstr ""
@@ -130,7 +130,7 @@ msgid "``'L'``"
 msgstr ""
 
 msgid "unsigned long"
-msgstr ""
+msgstr "unsigned long"
 
 msgid "``'q'``"
 msgstr ""
@@ -139,7 +139,7 @@ msgid "signed long long"
 msgstr ""
 
 msgid "8"
-msgstr ""
+msgstr "8"
 
 msgid "``'Q'``"
 msgstr ""
@@ -148,19 +148,19 @@ msgid "unsigned long long"
 msgstr ""
 
 msgid "``'f'``"
-msgstr ""
+msgstr "``'f'``"
 
 msgid "float"
-msgstr ""
+msgstr "float"
 
 msgid "``'d'``"
-msgstr ""
+msgstr "``'d'``"
 
 msgid "double"
 msgstr ""
 
 msgid "Notes:"
-msgstr ""
+msgstr "Notas:"
 
 msgid "It can be 16 bits or 32 bits depending on the platform."
 msgstr ""

@@ -96,7 +96,7 @@ msgid ""
 msgstr ""
 
 msgid "Added the *short_empty_elements* parameter."
-msgstr ""
+msgstr "Adicionado o parâmetro *short_empty_elements*."
 
 msgid ""
 "This class is designed to sit between an :class:`~xml.sax.xmlreader."

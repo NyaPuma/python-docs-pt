@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-11 14:14+0000\n"
+"POT-Creation-Date: 2026-01-17 14:14+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: André Moreira <afrmscb@gmail.com>, 2025\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
@@ -27,13 +27,13 @@ msgid "Instrumenting CPython with DTrace and SystemTap"
 msgstr ""
 
 msgid "author"
-msgstr ""
+msgstr "autor"
 
 msgid "David Malcolm"
 msgstr ""
 
 msgid "Łukasz Langa"
-msgstr ""
+msgstr "Łukasz Langa"
 
 msgid ""
 "DTrace and SystemTap are monitoring tools, each providing a way to inspect "
@@ -79,7 +79,7 @@ msgid "$ yum install systemtap-sdt-devel"
 msgstr ""
 
 msgid "or::"
-msgstr ""
+msgstr "ou:"
 
 msgid "$ sudo apt-get install systemtap-sdt-dev"
 msgstr ""
@@ -249,7 +249,7 @@ msgid "$ sudo dtrace -q -s call_stack.d -c \"python3.6 script.py\""
 msgstr ""
 
 msgid "The output looks like this:"
-msgstr ""
+msgstr "A saída parece-se com isto:"
 
 msgid ""
 "156641360502280  function-entry:call_stack.py:start:23\n"
@@ -480,7 +480,7 @@ msgid ""
 msgstr ""
 
 msgid "Examples"
-msgstr ""
+msgstr "Exemplos"
 
 msgid ""
 "This SystemTap script uses the tapset above to more cleanly implement the "
