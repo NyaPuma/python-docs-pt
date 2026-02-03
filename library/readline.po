@@ -5,16 +5,16 @@
 #
 # Translators:
 # python-doc bot, 2025
-# André Moreira <afrmscb@gmail.com>, 2025
+# André Moreira <afrmscb@gmail.com>, 2026
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-15 14:20+0000\n"
+"POT-Creation-Date: 2026-02-01 14:20+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
-"Last-Translator: André Moreira <afrmscb@gmail.com>, 2025\n"
+"Last-Translator: André Moreira <afrmscb@gmail.com>, 2026\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
 "teams/5390/pt_PT/)\n"
 "MIME-Version: 1.0\n"
@@ -25,7 +25,7 @@ msgstr ""
 "1000000 == 0 ? 1 : 2;\n"
 
 msgid ":mod:`!readline` --- GNU readline interface"
-msgstr ""
+msgstr ":mod:`!readline` --- Interface GNU readline"
 
 msgid ""
 "The :mod:`readline` module defines a number of functions to facilitate "
@@ -101,9 +101,11 @@ msgid ""
 "The name of the underlying Readline library being used, either "
 "``\"readline\"`` or ``\"editline\"``."
 msgstr ""
+"O nome da biblioteca Readline subjacente que está a ser utilizada, quer seja "
+"``\"readline\"`` ou ``\"editline\"``."
 
 msgid "Init file"
-msgstr ""
+msgstr "Ficheiro de inicialização"
 
 msgid "The following functions relate to the init file and user configuration:"
 msgstr ""
@@ -125,7 +127,7 @@ msgid "The auditing event was added."
 msgstr ""
 
 msgid "Line buffer"
-msgstr ""
+msgstr "Buffer de linha"
 
 msgid "The following functions operate on the line buffer:"
 msgstr ""
@@ -146,7 +148,7 @@ msgid ""
 msgstr ""
 
 msgid "History file"
-msgstr ""
+msgstr "Ficheiro de histórico"
 
 msgid "The following functions operate on a history file:"
 msgstr ""
@@ -183,7 +185,7 @@ msgid ""
 msgstr ""
 
 msgid "History list"
-msgstr ""
+msgstr "Lista de histórico"
 
 msgid "The following functions operate on a global history list:"
 msgstr ""
@@ -255,7 +257,7 @@ msgid ""
 msgstr ""
 
 msgid "Completion"
-msgstr ""
+msgstr "Conclusão (Completion)"
 
 msgid ""
 "The following functions relate to implementing a custom word completion "

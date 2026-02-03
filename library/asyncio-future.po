@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# André Moreira <afrmscb@gmail.com>, 2025
+# André Moreira <afrmscb@gmail.com>, 2026
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-25 14:14+0000\n"
+"POT-Creation-Date: 2026-02-01 14:20+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
-"Last-Translator: André Moreira <afrmscb@gmail.com>, 2025\n"
+"Last-Translator: André Moreira <afrmscb@gmail.com>, 2026\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
 "teams/5390/pt_PT/)\n"
 "MIME-Version: 1.0\n"
@@ -35,6 +35,8 @@ msgid ""
 "*Future* objects are used to bridge **low-level callback-based code** with "
 "high-level async/await code."
 msgstr ""
+"Os objetos *Future* são utilizados para ligar **código de baixo nível "
+"baseado em callbacks** com código de alto nível async/await."
 
 msgid "Future Functions"
 msgstr ""
@@ -103,18 +105,24 @@ msgid ""
 msgstr ""
 
 msgid "Future Object"
-msgstr ""
+msgstr "Objeto Future"
 
 msgid ""
 "A Future represents an eventual result of an asynchronous operation.  Not "
 "thread-safe."
 msgstr ""
+"Um Future representa um resultado eventual de uma operação assíncrona. Não é "
+"seguro para threads (*thread-safe*)."
 
 msgid ""
 "Future is an :term:`awaitable` object.  Coroutines can await on Future "
 "objects until they either have a result or an exception set, or until they "
 "are cancelled. A Future can be awaited multiple times and the result is same."
 msgstr ""
+"Um Future é um objeto :term:`awaitable`. As corrotinas podem aguardar "
+"(*await*) por objetos Future até que estes tenham um resultado ou uma "
+"exceção definida, ou até que sejam cancelados. Um Future pode ser aguardado "
+"várias vezes e o resultado é o mesmo."
 
 msgid ""
 "Typically Futures are used to enable low-level callback-based code (e.g. in "
@@ -140,7 +148,7 @@ msgstr ""
 "houver um loop de eventos em execução."
 
 msgid "Return the result of the Future."
-msgstr ""
+msgstr "Devolve o resultado do Future."
 
 msgid ""
 "If the Future is *done* and has a result set by the :meth:`set_result` "
@@ -163,7 +171,7 @@ msgid ""
 msgstr ""
 
 msgid "Mark the Future as *done* and set its result."
-msgstr ""
+msgstr "Marca o Future como concluído (*done*) e define o seu resultado."
 
 msgid ""
 "Raises an :exc:`InvalidStateError` error if the Future is already *done*."
@@ -173,7 +181,7 @@ msgid "Mark the Future as *done* and set an exception."
 msgstr ""
 
 msgid "Return ``True`` if the Future is *done*."
-msgstr ""
+msgstr "Devolve ``True`` se o Future estiver concluído (*done*)."
 
 msgid ""
 "A Future is *done* if it was *cancelled* or if it has a result or an "
@@ -195,6 +203,8 @@ msgstr ""
 
 msgid "Add a callback to be run when the Future is *done*."
 msgstr ""
+"Adiciona uma callback para ser executada quando o Future estiver concluído "
+"(*done*)."
 
 msgid "The *callback* is called with the Future object as its only argument."
 msgstr ""
@@ -240,7 +250,7 @@ msgid ""
 msgstr ""
 
 msgid "Cancel the Future and schedule callbacks."
-msgstr ""
+msgstr "Cancela o Future e agenda as callbacks."
 
 msgid ""
 "If the Future is already *done* or *cancelled*, return ``False``. Otherwise, "
@@ -265,7 +275,7 @@ msgid ""
 msgstr ""
 
 msgid "Return the event loop the Future object is bound to."
-msgstr ""
+msgstr "Devolve o loop de eventos ao qual o objeto Future está vinculado."
 
 msgid ""
 "This example creates a Future object, creates and schedules an asynchronous "
