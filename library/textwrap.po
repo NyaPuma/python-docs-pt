@@ -5,16 +5,16 @@
 #
 # Translators:
 # python-doc bot, 2025
-# André Moreira <afrmscb@gmail.com>, 2025
+# André Moreira <afrmscb@gmail.com>, 2026
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-21 14:24+0000\n"
+"POT-Creation-Date: 2026-02-01 14:20+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
-"Last-Translator: André Moreira <afrmscb@gmail.com>, 2025\n"
+"Last-Translator: André Moreira <afrmscb@gmail.com>, 2026\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
 "teams/5390/pt_PT/)\n"
 "MIME-Version: 1.0\n"
@@ -25,7 +25,7 @@ msgstr ""
 "1000000 == 0 ? 1 : 2;\n"
 
 msgid ":mod:`!textwrap` --- Text wrapping and filling"
-msgstr ""
+msgstr ":mod:`!textwrap` --- Ajuste e preenchimento de texto"
 
 msgid "**Source code:** :source:`Lib/textwrap.py`"
 msgstr ""
@@ -37,12 +37,20 @@ msgid ""
 "should be good enough; otherwise, you should use an instance of :class:"
 "`TextWrapper` for efficiency."
 msgstr ""
+"O módulo :mod:`textwrap` fornece algumas funções de conveniência, bem como a "
+"classe :class:`TextWrapper`, que realiza todo o trabalho. Se estiver apenas "
+"a ajustar ou a preencher uma ou duas strings de texto, as funções de "
+"conveniência devem ser suficientes; caso contrário, deve utilizar uma "
+"instância de :class:`TextWrapper` por questões de eficiência."
 
 msgid ""
 "Wraps the single paragraph in *text* (a string) so every line is at most "
 "*width* characters long.  Returns a list of output lines, without final "
 "newlines."
 msgstr ""
+"Ajusta (*wraps*) o parágrafo único em *text* (uma string) de modo a que cada "
+"linha tenha, no máximo, *width* caracteres de comprimento. Devolve uma lista "
+"de linhas de saída, sem as quebras de linha finais."
 
 msgid ""
 "Optional keyword arguments correspond to the instance attributes of :class:"
@@ -69,6 +77,7 @@ msgstr ""
 
 msgid "Collapse and truncate the given *text* to fit in the given *width*."
 msgstr ""
+"Colapsa e trunca o *text* fornecido para caber na largura (*width*) dada."
 
 msgid ""
 "First the whitespace in *text* is collapsed (all whitespace is replaced by "
@@ -96,6 +105,7 @@ msgstr ""
 
 msgid "Remove any common leading whitespace from every line in *text*."
 msgstr ""
+"Remove qualquer espaço em branco inicial comum de todas as linhas em *text*."
 
 msgid ""
 "This can be used to make triple-quoted strings line up with the left edge of "
@@ -134,7 +144,7 @@ msgid ""
 msgstr ""
 
 msgid "Add *prefix* to the beginning of selected lines in *text*."
-msgstr ""
+msgstr "Adiciona um *prefix* ao início das linhas selecionadas em *text*."
 
 msgid "Lines are separated by calling ``text.splitlines(True)``."
 msgstr ""
@@ -212,6 +222,10 @@ msgid ""
 "`TextWrapper` guarantees that no output line will be longer than :attr:"
 "`width` characters."
 msgstr ""
+"(predefinição: ``70``) O comprimento máximo das linhas ajustadas. Desde que "
+"não existam palavras individuais no texto de entrada mais longas que :attr:"
+"`width`, a classe :class:`TextWrapper` garante que nenhuma linha de saída "
+"será mais longa que :attr:`width` caracteres."
 
 msgid ""
 "(default: ``True``) If true, then all tab characters in *text* will be "
