@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# André Moreira <afrmscb@gmail.com>, 2026
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-23 14:20+0000\n"
+"POT-Creation-Date: 2026-02-05 14:39+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
+"Last-Translator: André Moreira <afrmscb@gmail.com>, 2026\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
 "teams/5390/pt_PT/)\n"
 "MIME-Version: 1.0\n"
@@ -20,18 +24,22 @@ msgstr ""
 "1000000 == 0 ? 1 : 2;\n"
 
 msgid "Program frameworks"
-msgstr ""
+msgstr "Frameworks de programas"
 
 msgid ""
 "This chapter is no longer maintained, and the modules it contained have been "
 "moved to their respective topical documentation."
 msgstr ""
+"Este capítulo já não é mantido, e os módulos que continha foram movidos para "
+"a sua respetiva documentação temática."
 
 msgid ":mod:`cmd` — :doc:`Command Line Interface Libraries <./cmdlinelibs>`"
 msgstr ""
+":mod:`cmd` — :doc:`Bibliotecas de Interface de Linha de Comando <./"
+"cmdlinelibs>`"
 
 msgid ":mod:`shlex` — :doc:`Unix Specific Services <./unix>`"
-msgstr ""
+msgstr ":mod:`shlex` — :doc:`Serviços Específicos de Unix <./unix>`"
 
 msgid ":mod:`turtle` — :doc:`Graphical User Interfaces with Tk <./tk>`"
-msgstr ""
+msgstr ":mod:`turtle` — :doc:`Interfaces Gráficas de Utilizador com Tk <./tk>`"
