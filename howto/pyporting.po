@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# André Moreira <afrmscb@gmail.com>, 2025
+# André Moreira <afrmscb@gmail.com>, 2026
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-17 14:14+0000\n"
+"POT-Creation-Date: 2026-02-05 14:39+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
-"Last-Translator: André Moreira <afrmscb@gmail.com>, 2025\n"
+"Last-Translator: André Moreira <afrmscb@gmail.com>, 2026\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/python-doc/"
 "teams/5390/pt_PT/)\n"
 "MIME-Version: 1.0\n"
@@ -24,13 +24,13 @@ msgstr ""
 "1000000 == 0 ? 1 : 2;\n"
 
 msgid "How to port Python 2 Code to Python 3"
-msgstr ""
+msgstr "Como portar código Python 2 para Python 3"
 
 msgid "author"
 msgstr "autor"
 
 msgid "Brett Cannon"
-msgstr ""
+msgstr "Brett Cannon"
 
 msgid ""
 "Python 2 reached its official end-of-life at the start of 2020. This means "
@@ -38,40 +38,55 @@ msgid ""
 "no longer supported: see :pep:`373` and `status of Python versions <https://"
 "devguide.python.org/versions>`_."
 msgstr ""
+"O Python 2 atingiu o fim da sua vida útil oficial no início de 2020. Isso "
+"significa que não serão feitos novos relatórios de erros, correções ou "
+"alterações no Python 2 - ele não é mais suportado: consulte :pep:`373` e "
+"`status das versões do Python <https://devguide.python.org/versions>`_."
 
 msgid ""
 "If you are looking to port an extension module instead of pure Python code, "
 "please see :ref:`cporting-howto`."
 msgstr ""
+"Se pretende portar um módulo de extensão em vez de código Python puro, "
+"consulte :ref:`cporting-howto`."
 
 msgid ""
 "The archived python-porting_ mailing list may contain some useful guidance."
 msgstr ""
+"A lista de correio python-porting_ arquivada pode conter algumas orientações "
+"úteis."
 
 msgid ""
 "Since Python 3.11 the original porting guide was discontinued. You can find "
 "the old guide in the `archive <https://docs.python.org/3.10/howto/pyporting."
 "html>`_."
 msgstr ""
+"Desde o Python 3.11, o guia de portabilidade original foi descontinuado. "
+"Pode encontrar o guia antigo no `arquivo <https://docs.python.org/3.10/howto/"
+"pyporting.html>`_."
 
 msgid "Third-party guides"
-msgstr ""
+msgstr "Guias de terceiros"
 
 msgid "There are also multiple third-party guides that might be useful:"
-msgstr ""
+msgstr "Existem também vários guias de terceiros que podem ser úteis:"
 
 msgid "`Guide by Fedora <https://portingguide.readthedocs.io>`_"
-msgstr ""
+msgstr "`Guia do Fedora <https://portingguide.readthedocs.io>`_"
 
 msgid "`PyCon 2020 tutorial <https://www.youtube.com/watch?v=JgIgEjASOlk>`_"
-msgstr ""
+msgstr "`Tutorial PyCon 2020 <https://www.youtube.com/watch?v=JgIgEjASOlk>`_"
 
 msgid ""
 "`Guide by DigitalOcean <https://www.digitalocean.com/community/tutorials/how-"
 "to-port-python-2-code-to-python-3>`_"
 msgstr ""
+"`Guia da DigitalOcean <https://www.digitalocean.com/community/tutorials/how-"
+"to-port-python-2-code-to-python-3>`_"
 
 msgid ""
 "`Guide by ActiveState <https://www.activestate.com/blog/how-to-migrate-"
 "python-2-applications-to-python-3>`_"
 msgstr ""
+"`Guia da ActiveState <https://www.activestate.com/blog/how-to-migrate-"
+"python-2-applications-to-python-3>`_"
