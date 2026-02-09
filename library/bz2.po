@@ -37,7 +37,7 @@ msgstr ""
 "dados utilizando o algoritmo de compressão bzip2."
 
 msgid "The :mod:`!bz2` module contains:"
-msgstr ""
+msgstr "O módulo :mod:`!bz2` contém:"
 
 msgid ""
 "The :func:`.open` function and :class:`BZ2File` class for reading and "
@@ -463,6 +463,7 @@ msgstr "Exemplos de utilização"
 
 msgid "Below are some examples of typical usage of the :mod:`!bz2` module."
 msgstr ""
+"Abaixo estão alguns exemplos de utilização típica do módulo :mod:`!bz2`."
 
 msgid ""
 "Using :func:`compress` and :func:`decompress` to demonstrate round-trip "
